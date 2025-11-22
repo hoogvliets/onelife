@@ -102,6 +102,9 @@ def main():
         # Or maybe deduplicate but limit to top 20?
         # Let's just save the fresh fetch for the sidebar to reflect current top news.
         
+        # Sort by date (newest first)
+        new_hn_posts.sort(key=lambda x: x['published'] if x.get('published') else '', reverse=True)
+        
         save_data(SIDEBAR_FILE, new_hn_posts)
         print(f"Saved {len(new_hn_posts)} HN posts.")
         
