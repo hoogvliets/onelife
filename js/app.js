@@ -421,8 +421,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderTicker() {
         if (state.ticker.length === 0) return;
 
-        // Duplicate items for seamless loop
-        const items = [...state.ticker, ...state.ticker];
+        // Duplicate items multiple times for seamless infinite loop
+        const items = [
+            ...state.ticker,
+            ...state.ticker,
+            ...state.ticker,
+            ...state.ticker,
+            ...state.ticker,
+            ...state.ticker
+        ];
 
         tickerContent.innerHTML = items.map(item => `
             <div class="ticker-item">
