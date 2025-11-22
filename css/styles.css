@@ -90,28 +90,27 @@ body.ticker-visible .main-layout {
 .news-ticker {
     position: fixed;
     top: var(--header-height);
-    left: 0;
-    right: 0;
-    max-width: var(--max-width);
-    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    width: calc(100% - 40px);
+    max-width: calc(var(--max-width) - 40px);
     padding: 0 20px;
-    box-sizing: border-box;
+    box-sizing: content-box;
     background-color: var(--card-bg);
     border-bottom: 1px solid var(--border-color);
     height: 40px;
     overflow: hidden;
     z-index: 90;
-    transform: translateY(-100%);
     transition: transform 0.3s ease-in-out;
     box-shadow: var(--shadow);
 }
 
 .news-ticker.visible {
-    transform: translateY(0);
+    transform: translateX(-50%) translateY(0);
 }
 
 .news-ticker.hidden {
-    transform: translateY(-100%);
+    transform: translateX(-50%) translateY(-100%);
 }
 
 .ticker-content {
