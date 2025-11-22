@@ -69,13 +69,13 @@
                 <div class="loading-indicator">Loading feed...</div>
             </section>
 
-            <!-- Sidebar (LinkedIn) -->
+            <!-- Sidebar (Hacker News) -->
             <aside class="sidebar-column">
                 <div class="sidebar-header">
-                    <h2>LinkedIn Updates</h2>
+                    <h2>Hacker News</h2>
                 </div>
-                <div id="linkedin-container" class="linkedin-feed">
-                    <!-- LinkedIn items injected here -->
+                <div id="sidebar-container" class="sidebar-feed">
+                    <!-- Sidebar items injected here -->
                     <div class="loading-indicator">Loading updates...</div>
                 </div>
             </aside>
@@ -129,14 +129,12 @@
         </article>
     </template>
 
-    <template id="linkedin-item-template">
-        <article class="linkedin-card">
-            <div class="linkedin-header">
-                <div class="linkedin-author"></div>
-                <span class="linkedin-date"></span>
+    <template id="sidebar-item-template">
+        <article class="sidebar-card">
+            <div class="sidebar-header">
+                <span class="sidebar-date"></span>
             </div>
-            <p class="linkedin-summary"></p>
-            <a href="#" target="_blank" rel="noopener noreferrer" class="linkedin-link">View on LinkedIn</a>
+            <h3 class="sidebar-title"><a href="#" target="_blank" rel="noopener noreferrer"></a></h3>
         </article>
     </template>
 

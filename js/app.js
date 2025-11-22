@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // State
     const state = {
         feed: [],
-        linkedin: [],
+        sidebar: [],
         filteredFeed: [],
         page: 1,
         itemsPerPage: 10,
@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // DOM Elements
     const feedContainer = document.getElementById('feed-container');
-    const linkedinContainer = document.getElementById('linkedin-container');
+    const sidebarContainer = document.getElementById('sidebar-container');
     const sourceFilter = document.getElementById('source-filter');
     const favoritesToggle = document.getElementById('favorites-toggle');
     const themeToggle = document.getElementById('theme-toggle');
     const feedTemplate = document.getElementById('feed-item-template');
-    const linkedinTemplate = document.getElementById('linkedin-item-template');
+    const sidebarTemplate = document.getElementById('sidebar-item-template');
 
     // Initialization
     init();
@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchData() {
         try {
-            const [feedRes, linkedinRes] = await Promise.allSettled([
+            const [feedRes, sidebarRes] = await Promise.allSettled([
                 fetch('data/feed.json'),
-                fetch('data/linkedin.json')
+                fetch('data/sidebar.json')
             ]);
 
             if (feedRes.status === 'fulfilled') {
@@ -56,11 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 feedContainer.innerHTML = '<div class="loading-indicator">Failed to load feed.</div>';
             }
 
-            if (linkedinRes.status === 'fulfilled') {
-                state.linkedin = await linkedinRes.value.json();
-                renderLinkedin();
+            if (sidebarRes.status === 'fulfilled') {
+                state.sidebar = await sidebarRes.value.json();
+                renderSidebar();
             } else {
-                linkedinContainer.innerHTML = '<div class="loading-indicator">Failed to load updates.</div>';
+                sidebarContainer.innerHTML = '<div class="loading-indicator">Failed to load updates.</div>';
             }
 
         } catch (error) {
@@ -150,25 +150,25 @@ document.addEventListener('DOMContentLoaded', () => {
         setupInfiniteScroll();
     }
 
-    function renderLinkedin() {
-        linkedinContainer.innerHTML = '';
-        if (state.linkedin.length === 0) {
-            linkedinContainer.innerHTML = '<div class="loading-indicator">No updates.</div>';
+    function renderSidebar() {
+        sidebarContainer.innerHTML = '';
+        if (state.sidebar.length === 0) {
+            sidebarContainer.innerHTML = '<div class="loading-indicator">No updates.</div>';
             return;
         }
 
         const fragment = document.createDocumentFragment();
-        state.linkedin.forEach(item => {
-            const clone = linkedinTemplate.content.cloneNode(true);
+        state.sidebar.forEach(item => {
+            const clone = sidebarTemplate.content.cloneNode(true);
 
-            clone.querySelector('.linkedin-author').textContent = item.author;
-            clone.querySelector('.linkedin-date').textContent = formatDate(item.published);
-            clone.querySelector('.linkedin-summary').textContent = item.summary;
-            clone.querySelector('.linkedin-link').href = item.link;
+            clone.querySelector('.sidebar-date').textContent = formatDate(item.published);
+            const titleLink = clone.querySelector('.sidebar-title a');
+            titleLink.textContent = item.title;
+            titleLink.href = item.link;
 
             fragment.appendChild(clone);
         });
-        linkedinContainer.appendChild(fragment);
+        sidebarContainer.appendChild(fragment);
     }
 
     function setupInfiniteScroll() {

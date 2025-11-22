@@ -8,11 +8,11 @@ from dateutil import parser
 # Add current directory to path to allow imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from fetch_feeds import main as fetch_feeds_main, fetch_feed, load_config as load_rss_config
-from fetch_linkedin import main as fetch_linkedin_main, fetch_profile_posts, load_config as load_linkedin_config
+from fetch_hackernews import fetch_hackernews
 
 DATA_DIR = 'data'
 FEED_FILE = os.path.join(DATA_DIR, 'feed.json')
-LINKEDIN_FILE = os.path.join(DATA_DIR, 'linkedin.json')
+SIDEBAR_FILE = os.path.join(DATA_DIR, 'sidebar.json')
 ERROR_LOG = os.path.join(DATA_DIR, 'errors.log')
 
 def load_existing_data(filepath):
@@ -91,27 +91,23 @@ def main():
         log_error(f"RSS Processing Error: {str(e)}")
         print(f"RSS Error: {str(e)}")
 
-    # --- Process LinkedIn ---
-    print("Processing LinkedIn profiles...")
+    # --- Process Hacker News (Sidebar) ---
+    print("Processing Hacker News...")
     try:
-        linkedin_config = load_linkedin_config()
-        new_li_posts = []
-        for profile in linkedin_config.get('profiles', []):
-            new_li_posts.extend(fetch_profile_posts(profile))
+        new_hn_posts = fetch_hackernews()
             
-        existing_li = load_existing_data(LINKEDIN_FILE)
-        merged_li = deduplicate(new_li_posts, existing_li)
-        cleaned_li = clean_old_posts(merged_li)
+        # For sidebar, we might not need strict deduplication/history if we just want "Top Stories"
+        # But let's keep some history to be consistent, or just overwrite?
+        # Usually HN top stories change fast. Let's overwrite for now to keep it fresh "Top" list.
+        # Or maybe deduplicate but limit to top 20?
+        # Let's just save the fresh fetch for the sidebar to reflect current top news.
         
-        # Sort
-        cleaned_li.sort(key=lambda x: x['published'] if x['published'] else '', reverse=True)
-        
-        save_data(LINKEDIN_FILE, cleaned_li)
-        print(f"Saved {len(cleaned_li)} LinkedIn posts.")
+        save_data(SIDEBAR_FILE, new_hn_posts)
+        print(f"Saved {len(new_hn_posts)} HN posts.")
         
     except Exception as e:
-        log_error(f"LinkedIn Processing Error: {str(e)}")
-        print(f"LinkedIn Error: {str(e)}")
+        log_error(f"HN Processing Error: {str(e)}")
+        print(f"HN Error: {str(e)}")
 
 if __name__ == "__main__":
     main()
