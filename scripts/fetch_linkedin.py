@@ -46,33 +46,31 @@ def fetch_profile_posts(username):
         # Let's try to find feed updates
         articles = soup.find_all('li', class_='profile-creator-shared-feed-update__container')
         
-        if not articles:
-             # Fallback selectors
-            articles = soup.find_all('div', {'data-urn': True})
-
-        for article in articles[:2]: # Limit to top 2
-            # Extract data - this is highly dependent on current markup
-            # Simplified extraction:
-            text_div = article.find('span', class_='break-words')
-            text = text_div.get_text(strip=True) if text_div else "No text content"
-            
-            # Link
-            link_tag = article.find('a', class_='app-aware-link')
-            link = link_tag['href'] if link_tag else f"https://www.linkedin.com/in/{username}"
-            
+        if not posts:
+            # Fallback if no posts found or blocked
+            print(f"No posts found for {username}, adding fallback.")
             posts.append({
                 'author': username,
-                'summary': text[:200] + '...' if len(text) > 200 else text,
-                'link': link,
+                'summary': f"Unable to fetch recent updates. Click to view {username}'s profile on LinkedIn.",
+                'link': f"https://www.linkedin.com/in/{username}",
                 'source': 'LinkedIn',
-                'published': datetime.now().isoformat() # Hard to parse relative dates reliably without JS
+                'published': datetime.now().isoformat(),
+                'is_fallback': True
             })
             
         return posts
 
     except Exception as e:
         print(f"Error scraping {username}: {str(e)}")
-        return []
+        # Return fallback on error too
+        return [{
+            'author': username,
+            'summary': f"Unable to fetch recent updates. Click to view {username}'s profile on LinkedIn.",
+            'link': f"https://www.linkedin.com/in/{username}",
+            'source': 'LinkedIn',
+            'published': datetime.now().isoformat(),
+            'is_fallback': True
+        }]
 
 def main():
     config = load_config()
