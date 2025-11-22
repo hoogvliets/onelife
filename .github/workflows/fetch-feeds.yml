@@ -22,15 +22,15 @@ jobs:
         python-version: '3.9'
 
     - name: Install uv
-      run: curl -LsSf https://astral.sh/uv/install.sh | sh
+      uses: astral-sh/setup-uv@v3
 
     - name: Install dependencies
       run: |
-        $HOME/.cargo/bin/uv pip install --system .
+        uv pip install --system .
 
     - name: Run Tests
       run: |
-        $HOME/.cargo/bin/uv pip install --system ".[dev]"
+        uv pip install --system ".[dev]"
         pytest
 
     - name: Fetch and Process Data
