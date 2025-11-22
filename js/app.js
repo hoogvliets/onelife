@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const state = {
         feed: [],
         sidebar: [],
+        ticker: [],
         filteredFeed: [],
         page: 1,
         itemsPerPage: 10,
@@ -16,15 +17,19 @@ document.addEventListener('DOMContentLoaded', () => {
             read: [],
             favorites: [],
             hidden: [],
-            theme: 'light'
+            theme: 'light',
+            tickerVisible: false
         }
     };
 
     // DOM Elements
     const feedContainer = document.getElementById('feed-container');
     const sidebarContainer = document.getElementById('sidebar-container');
+    const tickerContainer = document.getElementById('news-ticker');
+    const tickerContent = tickerContainer.querySelector('.ticker-content');
     const sourceFilter = document.getElementById('source-filter');
     const favoritesToggle = document.getElementById('favorites-toggle');
+    const tickerToggle = document.getElementById('ticker-toggle');
     const themeToggle = document.getElementById('theme-toggle');
     const feedTemplate = document.getElementById('feed-item-template');
     const sidebarTemplate = document.getElementById('sidebar-item-template');
@@ -35,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function init() {
         loadSettings();
         applyTheme();
+        applyTickerState();
         setupEventListeners();
         fetchData();
     }
@@ -73,6 +79,17 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 console.warn('Sidebar fetch failed or not found');
                 sidebarContainer.innerHTML = '<div class="loading-indicator">No updates.</div>';
+            }
+
+            // Fetch ticker data
+            const tickerRes = await fetch('data/ticker.json');
+            if (tickerRes.ok) {
+                try {
+                    state.ticker = await tickerRes.json();
+                    renderTicker();
+                } catch (e) {
+                    console.error('Error parsing ticker:', e);
+                }
             }
 
         } catch (error) {
@@ -395,5 +412,38 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         themeToggle.addEventListener('click', toggleTheme);
+
+        tickerToggle.addEventListener('click', toggleTicker);
+    }
+
+    // --- Ticker Functions ---
+
+    function renderTicker() {
+        if (state.ticker.length === 0) return;
+
+        // Duplicate items for seamless loop
+        const items = [...state.ticker, ...state.ticker];
+
+        tickerContent.innerHTML = items.map(item => `
+            <div class="ticker-item">
+                <a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>
+            </div>
+        `).join('');
+    }
+
+    function toggleTicker() {
+        state.userSettings.tickerVisible = !state.userSettings.tickerVisible;
+        applyTickerState();
+        saveSettings();
+    }
+
+    function applyTickerState() {
+        if (state.userSettings.tickerVisible) {
+            tickerContainer.classList.remove('hidden');
+            tickerContainer.classList.add('visible');
+        } else {
+            tickerContainer.classList.remove('visible');
+            tickerContainer.classList.add('hidden');
+        }
     }
 });
