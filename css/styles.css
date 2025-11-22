@@ -88,6 +88,7 @@ body {
     right: 0;
     max-width: var(--max-width);
     margin: 0 auto;
+    padding: 0 20px;
     background-color: var(--card-bg);
     border-bottom: 1px solid var(--border-color);
     height: 40px;
@@ -110,7 +111,7 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-    animation: scroll-ticker 30s linear infinite;
+    animation: scroll-ticker 15s linear infinite;
     white-space: nowrap;
 }
 
@@ -120,7 +121,7 @@ body {
 
 .ticker-item {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 0.9rem;
 }
 
@@ -136,7 +137,7 @@ body {
 
 .ticker-item::after {
     content: '•';
-    margin-left: 20px;
+    margin-left: 10px;
     color: var(--text-secondary);
 }
 
