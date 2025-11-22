@@ -1,11 +1,27 @@
 [
   {
+    "title": "Windows ARM64 Internals: Deconstructing Pointer Authentication",
+    "link": "https://www.preludesecurity.com/blog/windows-arm64-internals-deconstructing-pointer-authentication",
+    "source": "Hacker News",
+    "published": "2025-11-22T22:03:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018664\">Comments</a>"
+  },
+  {
     "title": "WorldGen \u2013 Text to Immersive 3D Worlds",
     "link": "https://www.meta.com/en-gb/blog/worldgen-3d-world-generation-reality-labs-generative-ai-research/",
     "source": "Hacker News",
     "published": "2025-11-22T21:20:24+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46018380\">Comments</a>"
+  },
+  {
+    "title": "Kids who own smartphones before age 13 have worse mental health outcomes: Study",
+    "link": "https://abcnews.go.com/GMA/Family/kids-smartphones-age-13-worse-mental-health-outcomes/story?id=123961082",
+    "source": "Hacker News",
+    "published": "2025-11-22T21:11:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018292\">Comments</a>"
   },
   {
     "title": "Show HN: Build the habit of writing meaningful commit messages",
@@ -16,28 +32,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46018165\">Comments</a>"
   },
   {
-    "title": "The Go-Between",
-    "link": "https://theamericanscholar.org/the-go-between/",
-    "source": "Hacker News",
-    "published": "2025-11-22T20:24:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017934\">Comments</a>"
-  },
-  {
     "title": "The Mozilla Cycle, Part III: Mozilla Dies in Ignominy",
     "link": "https://taggart-tech.com/mozilla-cycle-pt3/",
     "source": "Hacker News",
     "published": "2025-11-22T20:21:56+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46017910\">Comments</a>"
-  },
-  {
-    "title": "Markdown Is Holding You Back",
-    "link": "https://newsletter.bphogan.com/archive/issue-45-markdown-is-holding-you-back/",
-    "source": "Hacker News",
-    "published": "2025-11-22T20:03:14+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017782\">Comments</a>"
   },
   {
     "title": "Show HN: Forty.News \u2013 Daily news, but on a 40-year delay",
@@ -64,12 +64,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46016639\">Comments</a>"
   },
   {
-    "title": "Gwern's \"Stem Humor\" Directory",
-    "link": "https://gwern.net/doc/math/humor/index",
+    "title": "The realities of being a pop star",
+    "link": "https://itscharlibb.substack.com/p/the-realities-of-being-a-pop-star",
     "source": "Hacker News",
-    "published": "2025-11-22T17:49:05+00:00",
+    "published": "2025-11-22T17:47:23+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016630\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016613\">Comments</a>"
   },
   {
     "title": "The privacy nightmare of browser fingerprinting",
@@ -112,20 +112,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46006616\">Comments</a>"
   },
   {
+    "title": "Pixel Art Tips for Programmers",
+    "link": "https://jslegenddev.substack.com/p/5-pixel-art-tips-for-programmers-3d6",
+    "source": "Hacker News",
+    "published": "2025-11-21T13:25:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46004326\">Comments</a>"
+  },
+  {
     "title": "TIL: `satisfies` is my favorite TypeScript keyword",
     "link": "https://sjer.red/blog/2024-12-21/",
     "source": "Hacker News",
     "published": "2025-11-18T16:23:57+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45968310\">Comments</a>"
-  },
-  {
-    "title": "How to see the dead",
-    "link": "https://www.asimov.press/p/see-the-dead",
-    "source": "Hacker News",
-    "published": "2025-11-17T16:17:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45954973\">Comments</a>"
   },
   {
     "title": "Tektronix equipment has been used in many movies and shows",
@@ -144,19 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
   },
   {
+    "title": "Anukari on the CPU (part 2: CPU optimization)",
+    "link": "https://anukari.com/blog/devlog/anukari-on-the-cpu-part-2-cpu-optimization",
+    "source": "Hacker News",
+    "published": "2025-11-15T13:15:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45937230\">Comments</a>"
+  },
+  {
     "title": "Samsung's 60% DRAM price hike signals a new phase of global memory tightening",
     "link": "https://www.buysellram.com/blog/samsungs-memory-price-surge-sends-shockwaves-through-the-global-dram-market/",
     "source": "Hacker News",
     "published": "2025-11-15T02:45:44+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45934619\">Comments</a>"
-  },
-  {
-    "title": "As 'Dorian Gray' ages, its relevance only grows",
-    "link": "https://www.washingtonpost.com/books/2025/11/08/dorian-gray-oscar-wilde-history/",
-    "source": "Hacker News",
-    "published": "2025-11-12T19:21:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45904873\">Comments</a>"
   }
 ]

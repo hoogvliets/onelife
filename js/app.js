@@ -1,8 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     // State
     const state = {
-        feed: [],
+        tech: [],
+        news: [],
         sidebar: [],
+
+        // Active context
+        get activeFeed() {
+            return this.currentView === 'news' ? this.news : this.tech;
+        },
 
         filteredFeed: [],
         page: 1,
@@ -26,10 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements
     const feedContainer = document.getElementById('feed-container');
     const sidebarContainer = document.getElementById('sidebar-container');
+    const newsFeedContainer = document.getElementById('news-feed-container');
+    const newsSidebarContainer = document.getElementById('news-sidebar-container');
+
     const navHome = document.getElementById('nav-home');
     const navTech = document.getElementById('nav-tech');
+    const navNews = document.getElementById('nav-news');
     const viewHome = document.getElementById('view-home');
     const viewTech = document.getElementById('view-tech');
+    const viewNews = document.getElementById('view-news');
 
     const sourceFilter = document.getElementById('source-filter');
     const favoritesToggle = document.getElementById('favorites-toggle');
@@ -57,14 +68,17 @@ document.addEventListener('DOMContentLoaded', () => {
             state.filters.source = e.target.value;
             applyFilters();
         });
-        favoritesToggle.addEventListener('change', applyFilters);
+        favoritesToggle.addEventListener('click', () => {
+            state.filters.favoritesOnly = !state.filters.favoritesOnly;
+            favoritesToggle.classList.toggle('active', state.filters.favoritesOnly);
+            applyFilters();
+        });
         themeToggle.addEventListener('click', toggleTheme);
 
         // Navigation event listeners
         navHome.addEventListener('click', () => switchView('home'));
-        navTech.addEventListener('click', () => {
-            switchView('tech');
-        });
+        navTech.addEventListener('click', () => switchView('tech'));
+        navNews.addEventListener('click', () => switchView('news'));
 
         // Global scroll listener for side scrolling
         window.addEventListener('wheel', (e) => {
@@ -88,24 +102,25 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update active navigation link
         navHome.classList.toggle('active', viewName === 'home');
         navTech.classList.toggle('active', viewName === 'tech');
+        navNews.classList.toggle('active', viewName === 'news');
 
         // Show/hide views
         viewHome.classList.toggle('hidden', viewName !== 'home');
         viewTech.classList.toggle('hidden', viewName !== 'tech');
+        viewNews.classList.toggle('hidden', viewName !== 'news');
 
         // Toggle source filter visibility
-        // User requested to hide the dropdown on non-Tech pages
         if (sourceFilter) {
-            if (viewName === 'tech') {
+            if (viewName === 'tech' || viewName === 'news') {
                 sourceFilter.style.display = 'inline-block';
+                // Reset and populate filter for the new view
+                state.filters.source = 'all';
+                sourceFilter.value = 'all';
+                populateSourceFilter();
+                applyFilters();
             } else {
                 sourceFilter.style.display = 'none';
             }
-        }
-
-        // If switching to home, re-apply filters to ensure feed is rendered
-        if (viewName === 'home') {
-            applyFilters();
         }
     }
 
@@ -113,23 +128,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchData() {
         try {
-            const [feedRes, sidebarRes] = await Promise.allSettled([
+            const [techRes, newsRes, sidebarRes] = await Promise.allSettled([
                 fetch('data/feed.json'),
+                fetch('data/news.json'),
                 fetch('data/sidebar.json')
             ]);
 
-            if (feedRes.status === 'fulfilled' && feedRes.value.ok) {
+            if (techRes.status === 'fulfilled' && techRes.value.ok) {
                 try {
-                    state.feed = await feedRes.value.json();
-                    applyFilters(); // This will trigger render
-                    populateSourceFilter();
+                    state.tech = await techRes.value.json();
                 } catch (e) {
-                    console.error('Error parsing feed:', e);
-                    feedContainer.innerHTML = '<div class="loading-indicator">Failed to parse feed.</div>';
+                    console.error('Error parsing tech feed:', e);
                 }
-            } else {
-                console.error('Feed fetch failed or not found');
-                feedContainer.innerHTML = '<div class="loading-indicator">Failed to load feed.</div>';
+            }
+
+            if (newsRes.status === 'fulfilled' && newsRes.value.ok) {
+                try {
+                    state.news = await newsRes.value.json();
+                } catch (e) {
+                    console.error('Error parsing news feed:', e);
+                }
+            }
+
+            // Initial render if we are on a feed view (though init starts at home)
+            if (state.currentView !== 'home') {
+                applyFilters();
+                populateSourceFilter();
             }
 
             if (sidebarRes.status === 'fulfilled' && sidebarRes.value.ok) {
@@ -138,29 +162,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     renderSidebar();
                 } catch (e) {
                     console.error('Error parsing sidebar:', e);
-                    sidebarContainer.innerHTML = '<div class="loading-indicator">Failed to parse updates.</div>';
                 }
-            } else {
-                console.warn('Sidebar fetch failed or not found');
-                sidebarContainer.innerHTML = '<div class="loading-indicator">No updates.</div>';
             }
-
-
-
         } catch (error) {
             console.error('Critical error fetching data:', error);
-            // Only wipe feed if we haven't successfully loaded it yet
-            if (state.feed.length === 0) {
-                feedContainer.innerHTML = '<div class="loading-indicator">Error loading data.</div>';
-            }
         }
     }
 
     // --- Rendering ---
 
     function renderFeed(append = false) {
+        const container = state.currentView === 'news' ? newsFeedContainer : feedContainer;
+        if (!container) return;
+
         if (!append) {
-            feedContainer.innerHTML = '';
+            container.innerHTML = '';
             state.page = 1;
             state.hasMore = true;
         }
@@ -170,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemsToRender = state.filteredFeed.slice(start, end);
 
         if (itemsToRender.length === 0 && !append) {
-            feedContainer.innerHTML = '<div class="loading-indicator">No posts found.</div>';
+            container.innerHTML = '<div class="loading-indicator">No posts found.</div>';
             return;
         }
 
@@ -231,59 +247,72 @@ document.addEventListener('DOMContentLoaded', () => {
             fragment.appendChild(clone);
         });
 
-        feedContainer.appendChild(fragment);
+        container.appendChild(fragment);
 
         // Setup intersection observer for infinite scroll on the last item
         setupInfiniteScroll();
     }
 
     function renderSidebar() {
-        sidebarContainer.innerHTML = '';
-        if (state.sidebar.length === 0) {
-            sidebarContainer.innerHTML = '<div class="loading-indicator">No updates.</div>';
-            return;
-        }
-
-        const fragment = document.createDocumentFragment();
-        state.sidebar.forEach(item => {
-            const id = item.link; // Use link as ID for HN items
-
-            // Skip hidden items
-            if (state.userSettings.hidden.includes(id)) return;
-
-            const clone = sidebarTemplate.content.cloneNode(true);
-            const card = clone.querySelector('.sidebar-card');
-
-            // Mark as read
-            if (state.userSettings.read.includes(id)) {
-                card.classList.add('read');
+        [sidebarContainer, newsSidebarContainer].forEach(container => {
+            if (!container) return;
+            container.innerHTML = '';
+            if (state.sidebar.length === 0) {
+                container.innerHTML = '<div class="loading-indicator">No updates.</div>';
+                return;
             }
-
-            clone.querySelector('.sidebar-date').textContent = formatDate(item.published);
-            const titleLink = clone.querySelector('.sidebar-title a');
-            titleLink.textContent = item.title;
-            titleLink.href = item.link;
-            titleLink.onclick = (e) => handleLinkClick(e, id, card);
-
-            // Extract and display source domain
-            clone.querySelector('.sidebar-source').textContent = extractDomain(item.link);
-
-            // Actions
-            const favBtn = clone.querySelector('.favorite-btn');
-            if (state.userSettings.favorites.includes(id)) {
-                favBtn.classList.add('active');
-            }
-            favBtn.onclick = () => toggleFavorite(id, favBtn);
-
-            const hideBtn = clone.querySelector('.hide-btn');
-            hideBtn.onclick = () => hidePost(id, card);
-
-            const readBtn = clone.querySelector('.read-toggle-btn');
-            readBtn.onclick = () => toggleRead(id, card);
-
-            fragment.appendChild(clone);
         });
-        sidebarContainer.appendChild(fragment);
+
+        if (state.sidebar.length === 0) return;
+
+        // Create fragments for each container
+        const fragment1 = document.createDocumentFragment();
+        const fragment2 = document.createDocumentFragment();
+
+        state.sidebar.forEach(item => {
+            // ... item creation logic ...
+            // We need to clone for each sidebar
+            // This is getting complex to duplicate logic inside the loop.
+            // Better to create the item once and clone it?
+            // Or just run the loop twice?
+            // Running loop twice is safer.
+        });
+
+        // Actually, let's just call a helper or loop over containers.
+        [sidebarContainer, newsSidebarContainer].forEach(container => {
+            if (!container) return;
+            const fragment = document.createDocumentFragment();
+            state.sidebar.forEach(item => {
+                const id = item.link;
+                if (state.userSettings.hidden.includes(id)) return;
+
+                const clone = sidebarTemplate.content.cloneNode(true);
+                const card = clone.querySelector('.sidebar-card');
+
+                if (state.userSettings.read.includes(id)) card.classList.add('read');
+
+                clone.querySelector('.sidebar-date').textContent = formatDate(item.published);
+                const titleLink = clone.querySelector('.sidebar-title a');
+                titleLink.textContent = item.title;
+                titleLink.href = item.link;
+                titleLink.onclick = (e) => handleLinkClick(e, id, card);
+
+                clone.querySelector('.sidebar-source').textContent = extractDomain(item.link);
+
+                const favBtn = clone.querySelector('.favorite-btn');
+                if (state.userSettings.favorites.includes(id)) favBtn.classList.add('active');
+                favBtn.onclick = () => toggleFavorite(id, favBtn);
+
+                const hideBtn = clone.querySelector('.hide-btn');
+                hideBtn.onclick = () => hidePost(id, card);
+
+                const readBtn = clone.querySelector('.read-toggle-btn');
+                readBtn.onclick = () => toggleRead(id, card);
+
+                fragment.appendChild(clone);
+            });
+            container.appendChild(fragment);
+        });
     }
 
     function setupInfiniteScroll() {
@@ -297,7 +326,8 @@ document.addEventListener('DOMContentLoaded', () => {
         sentinel.id = 'scroll-sentinel';
         sentinel.className = 'loading-indicator';
         sentinel.textContent = 'Loading more...';
-        feedContainer.appendChild(sentinel);
+        const container = state.currentView === 'news' ? newsFeedContainer : feedContainer;
+        container.appendChild(sentinel);
 
         const observer = new IntersectionObserver((entries) => {
             if (entries[0].isIntersecting && !state.loading) {
@@ -312,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Logic & Helpers ---
 
     function applyFilters() {
-        state.filteredFeed = state.feed.filter(item => {
+        state.filteredFeed = state.activeFeed.filter(item => {
             const id = item.id || item.link;
 
             // Filter by Source
@@ -337,7 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function populateSourceFilter() {
-        const sources = [...new Set(state.feed.map(item => item.source))];
+        const sources = [...new Set(state.activeFeed.map(item => item.source))];
         // Clear existing options except 'All'
         while (sourceFilter.options.length > 1) {
             sourceFilter.remove(1);

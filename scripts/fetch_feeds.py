@@ -6,8 +6,8 @@ from datetime import datetime
 from dateutil import parser
 import time
 
-def load_config():
-    with open('config/substack-feeds.yaml', 'r') as file:
+def load_config(config_path='config/tech-feed.yaml'):
+    with open(config_path, 'r') as file:
         return yaml.safe_load(file)
 
 def fetch_feed(url):

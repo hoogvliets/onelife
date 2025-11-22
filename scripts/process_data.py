@@ -67,30 +67,38 @@ def deduplicate(new_posts, existing_posts):
         
     return list(posts_map.values())
 
-def main():
-    os.makedirs(DATA_DIR, exist_ok=True)
-    
-    # --- Process RSS Feeds ---
-    print("Processing RSS feeds...")
+NEWS_FEED_FILE = os.path.join(DATA_DIR, 'news.json')
+
+def process_rss_feed(config_file, output_file, feed_name="RSS"):
+    print(f"Processing {feed_name} feeds...")
     try:
-        rss_config = load_rss_config()
+        rss_config = load_rss_config(config_file)
         new_rss_posts = []
         for url in rss_config.get('feeds', []):
             new_rss_posts.extend(fetch_feed(url))
             
-        existing_rss = load_existing_data(FEED_FILE)
+        existing_rss = load_existing_data(output_file)
         merged_rss = deduplicate(new_rss_posts, existing_rss)
         cleaned_rss = clean_old_posts(merged_rss)
         
         # Sort
         cleaned_rss.sort(key=lambda x: x['published'] if x['published'] else '', reverse=True)
         
-        save_data(FEED_FILE, cleaned_rss)
-        print(f"Saved {len(cleaned_rss)} RSS posts.")
+        save_data(output_file, cleaned_rss)
+        print(f"Saved {len(cleaned_rss)} {feed_name} posts.")
         
     except Exception as e:
-        log_error(f"RSS Processing Error: {str(e)}")
-        print(f"RSS Error: {str(e)}")
+        log_error(f"{feed_name} Processing Error: {str(e)}")
+        print(f"{feed_name} Error: {str(e)}")
+
+def main():
+    os.makedirs(DATA_DIR, exist_ok=True)
+    
+    # --- Process Tech Feeds ---
+    process_rss_feed('config/tech-feed.yaml', FEED_FILE, "Tech")
+
+    # --- Process News Feeds ---
+    process_rss_feed('config/news-feed.yaml', NEWS_FEED_FILE, "News")
 
     # --- Process Hacker News (Sidebar) ---
     print("Processing Hacker News...")

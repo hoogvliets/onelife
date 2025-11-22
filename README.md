@@ -79,7 +79,7 @@ The project is configured to deploy automatically using GitHub Actions.
 To change the content sources, edit the configuration files in the `config/` directory.
 
 1.  **Substack Feeds**:
-    Edit `config/substack-feeds.yaml`. Add or remove RSS feed URLs under the `feeds` key.
+    Edit `config/tech-feed.yaml`. Add or remove RSS feed URLs under the `feeds` key.
     ```yaml
     feeds:
       - https://practicaldatamodeling.substack.com/feed

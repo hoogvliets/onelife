@@ -21,6 +21,7 @@
                     <h1><a href="#" id="nav-home" class="brand-link">STRT</a></h1>
                     <nav class="main-nav">
                         <button id="nav-tech" class="nav-item">Tech</button>
+                        <button id="nav-news" class="nav-item">News</button>
                     </nav>
                 </div>
                 <div class="header-controls">
@@ -93,6 +94,28 @@
                         <h2>Hacker News</h2>
                     </div>
                     <div id="sidebar-container" class="sidebar-feed">
+                        <!-- Sidebar items injected here -->
+                        <div class="loading-indicator">Loading updates...</div>
+                    </div>
+                </aside>
+            </main>
+        </div>
+
+        <div id="view-news" class="view-section hidden">
+            <!-- Main Content -->
+            <main class="main-layout">
+                <!-- Feed Column -->
+                <section class="feed-column" id="news-feed-container">
+                    <!-- Feed items injected here -->
+                    <div class="loading-indicator">Loading feed...</div>
+                </section>
+
+                <!-- Sidebar (Hacker News) -->
+                <aside class="sidebar-column">
+                    <div class="sidebar-header">
+                        <h2>Hacker News</h2>
+                    </div>
+                    <div id="news-sidebar-container" class="sidebar-feed">
                         <!-- Sidebar items injected here -->
                         <div class="loading-indicator">Loading updates...</div>
                     </div>
