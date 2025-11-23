@@ -1,5 +1,61 @@
 [
   {
+    "title": "Unusual circuits in the Intel 386's standard cell logic",
+    "link": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
+    "source": "Hacker News",
+    "published": "2025-11-23T03:33:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020543\">Comments</a>"
+  },
+  {
+    "title": "GCC SC approves inclusion of Algol 68 Front End",
+    "link": "https://gcc.gnu.org/pipermail/gcc/2025-November/247020.html",
+    "source": "Hacker News",
+    "published": "2025-11-23T02:18:03+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020151\">Comments</a>"
+  },
+  {
+    "title": "An Economy of AI Agents",
+    "link": "https://arxiv.org/abs/2509.01063",
+    "source": "Hacker News",
+    "published": "2025-11-23T02:08:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020096\">Comments</a>"
+  },
+  {
+    "title": "Meta buried 'causal' evidence of social media harm, US court filings allege",
+    "link": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/",
+    "source": "Hacker News",
+    "published": "2025-11-23T01:09:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019817\">Comments</a>"
+  },
+  {
+    "title": "A Year Without Caffeine (2013)",
+    "link": "https://bryanalexander.org/personal/a-year-without-caffeine/",
+    "source": "Hacker News",
+    "published": "2025-11-23T00:50:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019714\">Comments</a>"
+  },
+  {
+    "title": "A monopoly ISP refuses to fix upstream infrastructure",
+    "link": "https://sacbear.com/xfinity-wont-fix-internet/",
+    "source": "Hacker News",
+    "published": "2025-11-23T00:46:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019685\">Comments</a>"
+  },
+  {
+    "title": "NTSB report: Decryption of images from the Titan submersible camera [pdf]",
+    "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18741602&FileExtension=pdf&FileName=Underwater%20Camera%20-%20Specialist%27s%20Factual%20Report-Rel.pdf",
+    "source": "Hacker News",
+    "published": "2025-11-23T00:35:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019636\">Comments</a>"
+  },
+  {
     "title": "How to Spot a Counterfeit Lithium-Ion Battery",
     "link": "https://spectrum.ieee.org/counterfeit-lithium-ion-batteries",
     "source": "Hacker News",
@@ -24,36 +80,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46018380\">Comments</a>"
   },
   {
-    "title": "Kids who own smartphones before age 13 have worse mental health outcomes: Study",
-    "link": "https://abcnews.go.com/GMA/Family/kids-smartphones-age-13-worse-mental-health-outcomes/story?id=123961082",
-    "source": "Hacker News",
-    "published": "2025-11-22T21:11:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018292\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Build the habit of writing meaningful commit messages",
-    "link": "https://github.com/arpxspace/smartcommit",
-    "source": "Hacker News",
-    "published": "2025-11-22T20:54:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018165\">Comments</a>"
-  },
-  {
     "title": "A Reverse Engineer's Anatomy of the macOS Boot Chain and Security Architecture",
     "link": "https://stack.int.mov/a-reverse-engineers-anatomy-of-the-macos-boot-chain-security-architecture/",
     "source": "Hacker News",
     "published": "2025-11-22T20:54:02+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46018158\">Comments</a>"
-  },
-  {
-    "title": "The Mozilla Cycle, Part III: Mozilla Dies in Ignominy",
-    "link": "https://taggart-tech.com/mozilla-cycle-pt3/",
-    "source": "Hacker News",
-    "published": "2025-11-22T20:21:56+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017910\">Comments</a>"
   },
   {
     "title": "Show HN: Forty.News \u2013 Daily news, but on a 40-year delay",
@@ -64,60 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46017175\">Comments</a>"
   },
   {
-    "title": "Depot (YC W23) Is Hiring a Staff Infrastructure Engineer",
-    "link": "https://www.ycombinator.com/companies/depot/jobs/O2iB56E-staff-infrastructure-engineer",
-    "source": "Hacker News",
-    "published": "2025-11-22T18:05:47+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016799\">Comments</a>"
-  },
-  {
-    "title": "China reaches energy milestone by \"breeding\" uranium from thorium",
-    "link": "https://www.scmp.com/news/china/science/article/3331312/china-reaches-energy-independence-milestone-breeding-uranium-thorium",
-    "source": "Hacker News",
-    "published": "2025-11-22T17:49:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016639\">Comments</a>"
-  },
-  {
-    "title": "Gwern's \"Stem Humor\" Directory",
-    "link": "https://gwern.net/doc/math/humor/index",
-    "source": "Hacker News",
-    "published": "2025-11-22T17:49:05+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016630\">Comments</a>"
-  },
-  {
-    "title": "The realities of being a pop star",
-    "link": "https://itscharlibb.substack.com/p/the-realities-of-being-a-pop-star",
-    "source": "Hacker News",
-    "published": "2025-11-22T17:47:23+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016613\">Comments</a>"
-  },
-  {
     "title": "The privacy nightmare of browser fingerprinting",
     "link": "https://kevinboone.me/fingerprinting.html",
     "source": "Hacker News",
     "published": "2025-11-22T17:08:36+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46016249\">Comments</a>"
-  },
-  {
-    "title": "Agent design is still hard",
-    "link": "https://lucumr.pocoo.org/2025/11/21/agents-are-hard/",
-    "source": "Hacker News",
-    "published": "2025-11-22T11:27:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46013935\">Comments</a>"
-  },
-  {
-    "title": "Personal blogs are back, should niche blogs be next?",
-    "link": "https://disassociated.com/personal-blogs-back-niche-blogs-next/",
-    "source": "Hacker News",
-    "published": "2025-11-21T22:40:28+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46009894\">Comments</a>"
   },
   {
     "title": "We Induced Smells With Ultrasound",
@@ -136,6 +120,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46004326\">Comments</a>"
   },
   {
+    "title": "The Boring Part of Bell Labs",
+    "link": "https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs",
+    "source": "Hacker News",
+    "published": "2025-11-19T19:47:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45984173\">Comments</a>"
+  },
+  {
     "title": "TIL: `satisfies` is my favorite TypeScript keyword",
     "link": "https://sjer.red/blog/2024-12-21/",
     "source": "Hacker News",
@@ -150,6 +142,14 @@
     "published": "2025-11-17T03:20:53+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45950594\">Comments</a>"
+  },
+  {
+    "title": "Garibaldi, History's Sexiest Revolutionary?",
+    "link": "https://www.historyextra.com/period/victorian/historys-sexiest-revolutionary-meet-the-mesmerising-general-whose-charms-helped-win-a-war/",
+    "source": "Hacker News",
+    "published": "2025-11-16T00:38:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45941775\">Comments</a>"
   },
   {
     "title": "$1900 Bug Bounty to Fix the Lenovo Legion Pro 7 16IAX10H's Speakers on Linux",
