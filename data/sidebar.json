@@ -1,11 +1,11 @@
 [
   {
-    "title": "Cryptographers Held an Election. They Can't Decrypt the Results",
-    "link": "https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html",
+    "title": "Google Revisits JPEG XL in Chromium After Earlier Removal",
+    "link": "https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/",
     "source": "Hacker News",
-    "published": "2025-11-23T03:47:17+00:00",
+    "published": "2025-11-23T06:05:51+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020596\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46021179\">Comments</a>"
   },
   {
     "title": "Unusual circuits in the Intel 386's standard cell logic",
@@ -56,28 +56,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019636\">Comments</a>"
   },
   {
-    "title": "Windows ARM64 Internals: Deconstructing Pointer Authentication",
-    "link": "https://www.preludesecurity.com/blog/windows-arm64-internals-deconstructing-pointer-authentication",
-    "source": "Hacker News",
-    "published": "2025-11-22T22:03:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018664\">Comments</a>"
-  },
-  {
     "title": "WorldGen \u2013 Text to Immersive 3D Worlds",
     "link": "https://www.meta.com/en-gb/blog/worldgen-3d-world-generation-reality-labs-generative-ai-research/",
     "source": "Hacker News",
     "published": "2025-11-22T21:20:24+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46018380\">Comments</a>"
-  },
-  {
-    "title": "A Reverse Engineer's Anatomy of the macOS Boot Chain and Security Architecture",
-    "link": "https://stack.int.mov/a-reverse-engineers-anatomy-of-the-macos-boot-chain-security-architecture/",
-    "source": "Hacker News",
-    "published": "2025-11-22T20:54:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018158\">Comments</a>"
   },
   {
     "title": "Show HN: Forty.News \u2013 Daily news, but on a 40-year delay",
@@ -136,6 +120,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45968310\">Comments</a>"
   },
   {
+    "title": "Simplifying Cluster-Wide PostgreSQL Execution with Exec_node() and Spock OSS",
+    "link": "https://www.pgedge.com/blog/simplifying-cluster-wide-sql-execution-in-pgedge-with-exec_node",
+    "source": "Hacker News",
+    "published": "2025-11-17T09:35:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45952137\">Comments</a>"
+  },
+  {
     "title": "Garibaldi, History's Sexiest Revolutionary?",
     "link": "https://www.historyextra.com/period/victorian/historys-sexiest-revolutionary-meet-the-mesmerising-general-whose-charms-helped-win-a-war/",
     "source": "Hacker News",
@@ -150,6 +142,14 @@
     "published": "2025-11-15T22:08:28+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
+  },
+  {
+    "title": "Unicode Binary Input Terminal",
+    "link": "https://hackaday.io/project/192644-unicode-binary-input-terminal",
+    "source": "Hacker News",
+    "published": "2025-11-13T18:18:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45918442\">Comments</a>"
   },
   {
     "title": "The 1957 \u201cSpaghetti-Grows-on-Trees\u201d Hoax",
