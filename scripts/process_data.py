@@ -100,6 +100,9 @@ def main():
     # --- Process News Feeds ---
     process_rss_feed('config/news-feed.yaml', NEWS_FEED_FILE, "News")
 
+    # --- Process Ball Feeds ---
+    process_rss_feed('config/ball-feed.yaml', os.path.join(DATA_DIR, 'ball.json'), "Ball")
+
     # --- Process Hacker News (Sidebar) ---
     print("Processing Hacker News...")
     try:

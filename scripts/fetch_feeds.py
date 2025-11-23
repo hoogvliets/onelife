@@ -23,6 +23,8 @@ def fetch_feed(url):
             image_url = None
             if 'media_content' in entry:
                 image_url = entry.media_content[0]['url']
+            elif 'media_thumbnail' in entry:
+                image_url = entry.media_thumbnail[0]['url']
             elif 'links' in entry:
                 for link in entry.links:
                     if link.rel == 'enclosure' and link.type.startswith('image/'):

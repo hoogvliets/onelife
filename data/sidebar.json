@@ -32,6 +32,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46018165\">Comments</a>"
   },
   {
+    "title": "A Reverse Engineer's Anatomy of the macOS Boot Chain and Security Architecture",
+    "link": "https://stack.int.mov/a-reverse-engineers-anatomy-of-the-macos-boot-chain-security-architecture/",
+    "source": "Hacker News",
+    "published": "2025-11-22T20:54:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018158\">Comments</a>"
+  },
+  {
     "title": "The Mozilla Cycle, Part III: Mozilla Dies in Ignominy",
     "link": "https://taggart-tech.com/mozilla-cycle-pt3/",
     "source": "Hacker News",
@@ -150,13 +158,5 @@
     "published": "2025-11-15T13:15:56+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45937230\">Comments</a>"
-  },
-  {
-    "title": "Samsung's 60% DRAM price hike signals a new phase of global memory tightening",
-    "link": "https://www.buysellram.com/blog/samsungs-memory-price-surge-sends-shockwaves-through-the-global-dram-market/",
-    "source": "Hacker News",
-    "published": "2025-11-15T02:45:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45934619\">Comments</a>"
   }
 ]

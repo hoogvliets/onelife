@@ -3,11 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const state = {
         tech: [],
         news: [],
+        ball: [],
         sidebar: [],
 
         // Active context
         get activeFeed() {
-            return this.currentView === 'news' ? this.news : this.tech;
+            if (this.currentView === 'news') return this.news;
+            if (this.currentView === 'ball') return this.ball;
+            return this.tech;
         },
 
         filteredFeed: [],
@@ -34,13 +37,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const sidebarContainer = document.getElementById('sidebar-container');
     const newsFeedContainer = document.getElementById('news-feed-container');
     const newsSidebarContainer = document.getElementById('news-sidebar-container');
+    const ballFeedContainer = document.getElementById('ball-feed-container');
+    const ballSidebarContainer = document.getElementById('ball-sidebar-container');
 
     const navHome = document.getElementById('nav-home');
     const navTech = document.getElementById('nav-tech');
     const navNews = document.getElementById('nav-news');
+    const navBall = document.getElementById('nav-ball');
     const viewHome = document.getElementById('view-home');
     const viewTech = document.getElementById('view-tech');
     const viewNews = document.getElementById('view-news');
+    const viewBall = document.getElementById('view-ball');
 
     const sourceFilter = document.getElementById('source-filter');
     const favoritesToggle = document.getElementById('favorites-toggle');
@@ -79,6 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navHome.addEventListener('click', () => switchView('home'));
         navTech.addEventListener('click', () => switchView('tech'));
         navNews.addEventListener('click', () => switchView('news'));
+        navBall.addEventListener('click', () => switchView('ball'));
 
         // Global scroll listener for side scrolling
         window.addEventListener('wheel', (e) => {
@@ -103,15 +111,17 @@ document.addEventListener('DOMContentLoaded', () => {
         navHome.classList.toggle('active', viewName === 'home');
         navTech.classList.toggle('active', viewName === 'tech');
         navNews.classList.toggle('active', viewName === 'news');
+        navBall.classList.toggle('active', viewName === 'ball');
 
         // Show/hide views
         viewHome.classList.toggle('hidden', viewName !== 'home');
         viewTech.classList.toggle('hidden', viewName !== 'tech');
         viewNews.classList.toggle('hidden', viewName !== 'news');
+        viewBall.classList.toggle('hidden', viewName !== 'ball');
 
         // Toggle source filter visibility
         if (sourceFilter) {
-            if (viewName === 'tech' || viewName === 'news') {
+            if (viewName === 'tech' || viewName === 'news' || viewName === 'ball') {
                 sourceFilter.style.display = 'inline-block';
                 // Reset and populate filter for the new view
                 state.filters.source = 'all';
@@ -128,9 +138,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchData() {
         try {
-            const [techRes, newsRes, sidebarRes] = await Promise.allSettled([
+            const [techRes, newsRes, ballRes, sidebarRes] = await Promise.allSettled([
                 fetch('data/feed.json'),
                 fetch('data/news.json'),
+                fetch('data/ball.json'),
                 fetch('data/sidebar.json')
             ]);
 
@@ -147,6 +158,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     state.news = await newsRes.value.json();
                 } catch (e) {
                     console.error('Error parsing news feed:', e);
+                }
+            }
+
+            if (ballRes.status === 'fulfilled' && ballRes.value.ok) {
+                try {
+                    state.ball = await ballRes.value.json();
+                } catch (e) {
+                    console.error('Error parsing ball feed:', e);
                 }
             }
 
@@ -172,7 +191,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Rendering ---
 
     function renderFeed(append = false) {
-        const container = state.currentView === 'news' ? newsFeedContainer : feedContainer;
+        let container;
+        if (state.currentView === 'news') container = newsFeedContainer;
+        else if (state.currentView === 'ball') container = ballFeedContainer;
+        else container = feedContainer;
+
         if (!container) return;
 
         if (!append) {
@@ -254,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderSidebar() {
-        [sidebarContainer, newsSidebarContainer].forEach(container => {
+        [sidebarContainer, newsSidebarContainer, ballSidebarContainer].forEach(container => {
             if (!container) return;
             container.innerHTML = '';
             if (state.sidebar.length === 0) {
@@ -266,20 +289,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (state.sidebar.length === 0) return;
 
         // Create fragments for each container
-        const fragment1 = document.createDocumentFragment();
-        const fragment2 = document.createDocumentFragment();
+        // ... (omitted loop logic for brevity, same as before but applied to all containers)
 
-        state.sidebar.forEach(item => {
-            // ... item creation logic ...
-            // We need to clone for each sidebar
-            // This is getting complex to duplicate logic inside the loop.
-            // Better to create the item once and clone it?
-            // Or just run the loop twice?
-            // Running loop twice is safer.
-        });
-
-        // Actually, let's just call a helper or loop over containers.
-        [sidebarContainer, newsSidebarContainer].forEach(container => {
+        [sidebarContainer, newsSidebarContainer, ballSidebarContainer].forEach(container => {
             if (!container) return;
             const fragment = document.createDocumentFragment();
             state.sidebar.forEach(item => {
@@ -326,7 +338,11 @@ document.addEventListener('DOMContentLoaded', () => {
         sentinel.id = 'scroll-sentinel';
         sentinel.className = 'loading-indicator';
         sentinel.textContent = 'Loading more...';
-        const container = state.currentView === 'news' ? newsFeedContainer : feedContainer;
+        let container;
+        if (state.currentView === 'news') container = newsFeedContainer;
+        else if (state.currentView === 'ball') container = ballFeedContainer;
+        else container = feedContainer;
+
         container.appendChild(sentinel);
 
         const observer = new IntersectionObserver((entries) => {
