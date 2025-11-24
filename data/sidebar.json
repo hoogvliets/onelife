@@ -1,19 +1,51 @@
 [
   {
+    "title": "Hugo Static Site on Cloudflare",
+    "link": "https://techlife.blog/posts/hugo-static-site-on-cloudflare/",
+    "source": "Hacker News",
+    "published": "2025-11-24T14:08:39+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034281\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Cynthia \u2013 Reliably play MIDI music files \u2013 MIT / Portable / Windows",
+    "link": "https://www.blaizenterprises.com/cynthia.html",
+    "source": "Hacker News",
+    "published": "2025-11-24T13:58:05+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034145\">Comments</a>"
+  },
+  {
+    "title": "Fast Lua runtime written in Rust",
+    "link": "https://astra.arkforge.net/",
+    "source": "Hacker News",
+    "published": "2025-11-24T13:57:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034142\">Comments</a>"
+  },
+  {
+    "title": "Chrome Jpegxl Issue Reopened",
+    "link": "https://issues.chromium.org/issues/40168998",
+    "source": "Hacker News",
+    "published": "2025-11-24T12:23:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46033330\">Comments</a>"
+  },
+  {
+    "title": "NSA and IETF, part 3: Dodging the issues at hand",
+    "link": "https://blog.cr.yp.to/20251123-dodging.html",
+    "source": "Hacker News",
+    "published": "2025-11-24T12:00:55+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46033151\">Comments</a>"
+  },
+  {
     "title": "Shai-Hulud Returns: Over 300 NPM Packages Infected",
     "link": "https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24",
     "source": "Hacker News",
     "published": "2025-11-24T10:40:22+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46032539\">Comments</a>"
-  },
-  {
-    "title": "General principles for the use of AI at CERN",
-    "link": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern",
-    "source": "Hacker News",
-    "published": "2025-11-24T10:37:05+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46032513\">Comments</a>"
   },
   {
     "title": "Lambda Calculus \u2013 Animated Beta Reduction of Lambda Diagrams",
@@ -40,14 +72,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46029929\">Comments</a>"
   },
   {
-    "title": "Show HN: Stun LLMs with thousands of invisible Unicode characters",
-    "link": "https://gibberifier.com",
-    "source": "Hacker News",
-    "published": "2025-11-24T03:00:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46029889\">Comments</a>"
-  },
-  {
     "title": "Ask HN: Hearing aid wearers, what's hot?",
     "link": "https://news.ycombinator.com/item?id=46029699",
     "source": "Hacker News",
@@ -64,30 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46027216\">Comments</a>"
   },
   {
-    "title": "Fran Sans \u2013 font inspired by San Francisco light rail displays",
-    "link": "https://emilysneddon.com/fran-sans-essay",
-    "source": "Hacker News",
-    "published": "2025-11-23T18:20:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46025942\">Comments</a>"
-  },
-  {
-    "title": "Native Secure Enclave backed SSH keys on macOS",
-    "link": "https://gist.github.com/arianvp/5f59f1783e3eaf1a2d4cd8e952bb4acf",
-    "source": "Hacker News",
-    "published": "2025-11-23T17:55:11+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46025721\">Comments</a>"
-  },
-  {
-    "title": "Calculus for Mathematicians, Computer Scientists, and Physicists [pdf]",
-    "link": "https://mathcs.holycross.edu/~ahwang/print/calc.pdf",
-    "source": "Hacker News",
-    "published": "2025-11-23T16:31:50+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024773\">Comments</a>"
-  },
-  {
     "title": "We stopped roadmap work for a week and fixed bugs",
     "link": "https://lalitm.com/fixits-are-good-for-the-soul/",
     "source": "Hacker News",
@@ -96,20 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46024541\">Comments</a>"
   },
   {
-    "title": "Set theory with types",
-    "link": "https://lawrencecpaulson.github.io//2025/11/21/Typed_Set_Theory.html",
+    "title": "Serflings is a remake of The Settlers 1",
+    "link": "https://www.simpleguide.net/serflings.xhtml",
     "source": "Hacker News",
-    "published": "2025-11-22T07:22:55+00:00",
+    "published": "2025-11-22T08:26:13+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46012846\">Comments</a>"
-  },
-  {
-    "title": "A time-travelling door bug in Half Life 2",
-    "link": "https://mastodon.gamedev.place/@TomF/115589875974658415",
-    "source": "Hacker News",
-    "published": "2025-11-21T22:48:39+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46009962\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46013132\">Comments</a>"
   },
   {
     "title": "Building the largest known Kubernetes cluster, with 130k nodes",
@@ -120,12 +112,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46006891\">Comments</a>"
   },
   {
-    "title": "New magnetic component discovered in the Faraday effect after nearly 2 centuries",
-    "link": "https://phys.org/news/2025-11-magnetic-component-faraday-effect-centuries.html",
+    "title": "I built an faster Notion in Rust",
+    "link": "https://imedadel.com/outcrop/",
     "source": "Hacker News",
-    "published": "2025-11-19T20:53:42+00:00",
+    "published": "2025-11-19T21:15:45+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45985008\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45985306\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Virtual SLURM HPC cluster in a Docker Compose",
+    "link": "https://github.com/exactlab/vhpc",
+    "source": "Hacker News",
+    "published": "2025-11-19T17:33:45+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45982280\">Comments</a>"
   },
   {
     "title": "Slicing Is All You Need: Towards a Universal One-Sided Distributed MatMul",
@@ -136,7 +136,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45981441\">Comments</a>"
   },
   {
-    "title": "The Only GM EV1 Ever Publicly Sold, and Where It's Going Next",
+    "title": "The only GM EV1 ever publicly sold, and where it's going next",
     "link": "https://www.theautopian.com/how-the-only-gm-ev1-ever-sold-didnt-get-crushed-and-where-its-going-now/",
     "source": "Hacker News",
     "published": "2025-11-19T15:17:19+00:00",
