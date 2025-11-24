@@ -1,11 +1,35 @@
 [
   {
-    "title": "Hugo Static Site on Cloudflare",
-    "link": "https://techlife.blog/posts/hugo-static-site-on-cloudflare/",
+    "title": "Corvus Robotics (YC S18): Hiring Head of Mfg/Ops, Next Door to YC Mountain View",
+    "link": "https://news.ycombinator.com/item?id=46036222",
     "source": "Hacker News",
-    "published": "2025-11-24T14:08:39+00:00",
+    "published": "2025-11-24T17:00:33+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034281\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036222\">Comments</a>"
+  },
+  {
+    "title": "France threatens GrapheneOS with arrests / server seizure for refusing backdoors",
+    "link": "https://mamot.fr/@LaQuadrature/115581775965025042",
+    "source": "Hacker News",
+    "published": "2025-11-24T17:00:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036217\">Comments</a>"
+  },
+  {
+    "title": "A New Raspberry Pi Imager",
+    "link": "https://www.raspberrypi.com/news/a-new-raspberry-pi-imager/",
+    "source": "Hacker News",
+    "published": "2025-11-24T16:52:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036129\">Comments</a>"
+  },
+  {
+    "title": "SHA1-Hulud the Second Comming \u2013 Postman, Zapier, PostHog All Compromised via NPM",
+    "link": "https://www.aikido.dev/blog/shai-hulud-strikes-again-hitting-zapier-ensdomains",
+    "source": "Hacker News",
+    "published": "2025-11-24T16:03:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46035533\">Comments</a>"
   },
   {
     "title": "Show HN: Cynthia \u2013 Reliably play MIDI music files \u2013 MIT / Portable / Windows",
@@ -14,14 +38,6 @@
     "published": "2025-11-24T13:58:05+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46034145\">Comments</a>"
-  },
-  {
-    "title": "Fast Lua runtime written in Rust",
-    "link": "https://astra.arkforge.net/",
-    "source": "Hacker News",
-    "published": "2025-11-24T13:57:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034142\">Comments</a>"
   },
   {
     "title": "Chrome Jpegxl Issue Reopened",
@@ -104,28 +120,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46013132\">Comments</a>"
   },
   {
-    "title": "Building the largest known Kubernetes cluster, with 130k nodes",
-    "link": "https://cloud.google.com/blog/products/containers-kubernetes/how-we-built-a-130000-node-gke-cluster/",
+    "title": "Historically Accurate Airport Dioramas by AV Pro Designs",
+    "link": "https://www.core77.com/posts/138995/Historically-Accurate-Airport-Dioramas-by-AV-Pro-Designs",
     "source": "Hacker News",
-    "published": "2025-11-21T17:56:50+00:00",
+    "published": "2025-11-20T19:21:27+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006891\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45996527\">Comments</a>"
   },
   {
-    "title": "I built an faster Notion in Rust",
-    "link": "https://imedadel.com/outcrop/",
+    "title": "Inside Rust's std and parking_lot mutexes \u2013 who wins?",
+    "link": "https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win",
     "source": "Hacker News",
-    "published": "2025-11-19T21:15:45+00:00",
+    "published": "2025-11-20T05:32:13+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45985306\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Virtual SLURM HPC cluster in a Docker Compose",
-    "link": "https://github.com/exactlab/vhpc",
-    "source": "Hacker News",
-    "published": "2025-11-19T17:33:45+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45982280\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45989284\">Comments</a>"
   },
   {
     "title": "Slicing Is All You Need: Towards a Universal One-Sided Distributed MatMul",
@@ -136,20 +144,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45981441\">Comments</a>"
   },
   {
-    "title": "The only GM EV1 ever publicly sold, and where it's going next",
-    "link": "https://www.theautopian.com/how-the-only-gm-ev1-ever-sold-didnt-get-crushed-and-where-its-going-now/",
+    "title": "We're (now) moving from OpenBSD to FreeBSD for firewalls",
+    "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenBSDToFreeBSDMove",
     "source": "Hacker News",
-    "published": "2025-11-19T15:17:19+00:00",
+    "published": "2025-11-19T15:07:35+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45980608\">Comments</a>"
-  },
-  {
-    "title": "The Rust Performance Book (2020)",
-    "link": "https://nnethercote.github.io/perf-book/",
-    "source": "Hacker News",
-    "published": "2025-11-19T09:08:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45977386\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45980474\">Comments</a>"
   },
   {
     "title": "Disney Lost Roger Rabbit",
