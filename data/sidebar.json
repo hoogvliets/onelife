@@ -1,6 +1,54 @@
 [
   {
-    "title": "Launch HN: Onyx (YC W24) \u2013 The open-source chat UI",
+    "title": "Show HN: We built an open source, zero webhooks payment processor",
+    "link": "https://github.com/flowglad/flowglad",
+    "source": "Hacker News",
+    "published": "2025-11-25T17:33:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46048252\">Comments</a>"
+  },
+  {
+    "title": "It Is OK to Say \"CSS Variables\" Instead of \"Custom Properties\"",
+    "link": "https://blog.kizu.dev/css-variables/",
+    "source": "Hacker News",
+    "published": "2025-11-25T17:31:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46048229\">Comments</a>"
+  },
+  {
+    "title": "Python is not a great language for data science. Part 1: The experience",
+    "link": "https://blog.genesmindsmachines.com/p/python-is-not-a-great-language-for",
+    "source": "Hacker News",
+    "published": "2025-11-25T16:38:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047580\">Comments</a>"
+  },
+  {
+    "title": "Ozempic does not slow Alzheimer's, study finds",
+    "link": "https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds",
+    "source": "Hacker News",
+    "published": "2025-11-25T16:34:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047513\">Comments</a>"
+  },
+  {
+    "title": "Orion 1.0 \u2013 Browse Beyond",
+    "link": "https://blog.kagi.com/orion",
+    "source": "Hacker News",
+    "published": "2025-11-25T16:21:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047350\">Comments</a>"
+  },
+  {
+    "title": "FLUX.2: Frontier Visual Intelligence",
+    "link": "https://bfl.ai/blog/flux-2",
+    "source": "Hacker News",
+    "published": "2025-11-25T15:47:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46046916\">Comments</a>"
+  },
+  {
+    "title": "Launch HN: Onyx (YC W24) \u2013 Open-source chat UI",
     "link": "https://news.ycombinator.com/item?id=46045987",
     "source": "Hacker News",
     "published": "2025-11-25T14:20:30+00:00",
@@ -8,7 +56,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>"
   },
   {
-    "title": "Apt Rust requirement raises questions",
+    "title": "APT Rust requirement raises questions",
     "link": "https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/",
     "source": "Hacker News",
     "published": "2025-11-25T14:18:01+00:00",
@@ -64,54 +112,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46038047\">Comments</a>"
   },
   {
-    "title": "Pebble Watch software is now open source",
-    "link": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
-    "source": "Hacker News",
-    "published": "2025-11-24T18:52:12+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037626\">Comments</a>"
-  },
-  {
-    "title": "Show HN: I built an interactive HN Simulator",
-    "link": "https://news.ysimulator.run/news",
-    "source": "Hacker News",
-    "published": "2025-11-24T17:52:43+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036908\">Comments</a>"
-  },
-  {
-    "title": "Cool-retro-term: terminal emulator which mimics look and feel of CRTs",
-    "link": "https://github.com/Swordfish90/cool-retro-term",
-    "source": "Hacker News",
-    "published": "2025-11-24T17:52:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036895\">Comments</a>"
-  },
-  {
-    "title": "Three Years from GPT-3 to Gemini 3",
-    "link": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini",
-    "source": "Hacker News",
-    "published": "2025-11-23T01:25:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019898\">Comments</a>"
-  },
-  {
-    "title": "A million ways to die from a data race in Go",
-    "link": "https://gaultier.github.io/blog/a_million_ways_to_data_race_in_go.html",
-    "source": "Hacker News",
-    "published": "2025-11-22T14:33:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46015095\">Comments</a>"
-  },
-  {
-    "title": "How the Atomic Tests Looked Like from Los Angeles",
-    "link": "https://www.amusingplanet.com/2016/09/how-atomic-tests-looked-like-from-los.html",
-    "source": "Hacker News",
-    "published": "2025-11-21T22:45:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46009935\">Comments</a>"
-  },
-  {
     "title": "Using an Array of Needles to Create Solid Knitted Shapes",
     "link": "https://dl.acm.org/doi/10.1145/3746059.3747759",
     "source": "Hacker News",
@@ -128,12 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46003606\">Comments</a>"
   },
   {
-    "title": "Rethinking C++: Architecture, Concepts, and Responsibility",
-    "link": "https://blogs.embarcadero.com/rethinking-c-architecture-concepts-and-responsibility/",
+    "title": "The 101 of analog signal filtering (2024)",
+    "link": "https://lcamtuf.substack.com/p/the-101-of-analog-signal-filtering",
     "source": "Hacker News",
-    "published": "2025-11-19T20:58:50+00:00",
+    "published": "2025-11-21T10:54:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45985081\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46003271\">Comments</a>"
   },
   {
     "title": "Broccoli Man, Remastered",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45981514\">Comments</a>"
   },
   {
-    "title": "Mary Beard: Hollywood Lied to You About Ancient Rome. Here's the Truth",
-    "link": "https://kottke.org/25/11/mary-beard-hollywood-lied-to-you-about-ancient-rome-heres-the-truth",
+    "title": "LPLB: An early research stage MoE load balancer based on linear programming",
+    "link": "https://github.com/deepseek-ai/LPLB",
     "source": "Hacker News",
-    "published": "2025-11-19T15:59:33+00:00",
+    "published": "2025-11-19T13:14:38+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45981163\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45979180\">Comments</a>"
   }
 ]
