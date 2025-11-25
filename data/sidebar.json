@@ -40,20 +40,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037626\">Comments</a>"
   },
   {
+    "title": "Google's new 'Aluminium OS' project brings Android to PC",
+    "link": "https://www.androidauthority.com/aluminium-os-android-for-pcs-3619092/",
+    "source": "Hacker News",
+    "published": "2025-11-24T18:49:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037591\">Comments</a>"
+  },
+  {
     "title": "The Bitter Lesson of LLM Extensions",
     "link": "https://www.sawyerhood.com/blog/llm-extension",
     "source": "Hacker News",
     "published": "2025-11-24T18:32:27+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037343\">Comments</a>"
-  },
-  {
-    "title": "TSMC Arizona outage saw fab halt, Apple wafers scrapped",
-    "link": "https://www.culpium.com/p/tsmc-arizona-outage-saw-fab-halt",
-    "source": "Hacker News",
-    "published": "2025-11-24T18:30:48+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037324\">Comments</a>"
   },
   {
     "title": "Show HN: I built an interactive HN Simulator",
@@ -64,7 +64,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46036908\">Comments</a>"
   },
   {
-    "title": "Cool-retro-term: terminal emulator which mimics look and feel of the old CRTs",
+    "title": "Cool-retro-term: terminal emulator which mimics look and feel of CRTs",
     "link": "https://github.com/Swordfish90/cool-retro-term",
     "source": "Hacker News",
     "published": "2025-11-24T17:52:01+00:00",
@@ -88,20 +88,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46032539\">Comments</a>"
   },
   {
+    "title": "Build a Compiler in Five Projects",
+    "link": "https://kmicinski.com/functional-programming/2025/11/23/build-a-language/",
+    "source": "Hacker News",
+    "published": "2025-11-24T07:14:55+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46031220\">Comments</a>"
+  },
+  {
     "title": "What OpenAI did when ChatGPT users lost touch with reality",
     "link": "https://www.nytimes.com/2025/11/23/technology/openai-chatgpt-users-risks.html",
     "source": "Hacker News",
     "published": "2025-11-24T05:58:08+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46030799\">Comments</a>"
-  },
-  {
-    "title": "Bytes before FLOPS: your algorithm is (mostly) fine, your data isn't",
-    "link": "https://www.bitsdraumar.is/bytes-before-flops/",
-    "source": "Hacker News",
-    "published": "2025-11-23T15:47:50+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024402\">Comments</a>"
   },
   {
     "title": "Three Years from GPT-3 to Gemini 3",
@@ -112,12 +112,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019898\">Comments</a>"
   },
   {
-    "title": "You can see a working Quantum Computer in IBM's London office",
-    "link": "https://www.ianvisits.co.uk/articles/you-can-see-a-working-quantum-computer-in-ibms-london-office-85464/",
+    "title": "Using Antigravity for Statistical Physics in JavaScript",
+    "link": "https://christopherkrapu.com/blog/2025/antigravity-stat-mech/",
     "source": "Hacker News",
-    "published": "2025-11-22T13:36:02+00:00",
+    "published": "2025-11-21T23:53:42+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46014685\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46010540\">Comments</a>"
+  },
+  {
+    "title": "How sea turtles learn locations using Earth\u2019s magnetic field: research",
+    "link": "https://uncnews.unc.edu/2025/02/13/sea-turtles-secret-gps-researchers-uncover-how-sea-turtles-learn-locations-using-earths-magnetic-field/",
+    "source": "Hacker News",
+    "published": "2025-11-21T23:43:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46010466\">Comments</a>"
   },
   {
     "title": "Show HN: OCR Arena \u2013 A playground for OCR models",
@@ -126,14 +134,6 @@
     "published": "2025-11-21T16:44:45+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46006104\">Comments</a>"
-  },
-  {
-    "title": "Everything you need to know about hard drive vibration (2016)",
-    "link": "https://www.ept.ca/features/everything-need-know-hard-drive-vibration/",
-    "source": "Hacker News",
-    "published": "2025-11-20T16:07:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45994124\">Comments</a>"
   },
   {
     "title": "Random lasers from peanut kernel doped with birch leaf\u2013derived carbon dots",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45980474\">Comments</a>"
   },
   {
-    "title": "Neopets.com changed my life (2019)",
-    "link": "https://annastreetman.com/2019/05/19/how-neopets-com-changed-my-life/",
+    "title": "Show HN: Hypercamera \u2013 a browser-based 4D camera simulator",
+    "link": "https://dugas.ch/4d_creatures/4d_camera.html",
     "source": "Hacker News",
-    "published": "2025-11-19T01:24:12+00:00",
+    "published": "2025-11-19T13:54:04+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45974732\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45979520\">Comments</a>"
   }
 ]
