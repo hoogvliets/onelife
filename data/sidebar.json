@@ -1,38 +1,70 @@
 [
   {
-    "title": "How to repurpose your old phone's GPS modem into a web server",
-    "link": "https://blog.nns.ee/2021/04/01/modem-blog",
+    "title": "The Generative Burrito Test",
+    "link": "https://www.generativist.com/notes/2025/Nov/25/generative-burrito-test.html",
     "source": "Hacker News",
-    "published": "2025-11-25T19:58:10+00:00",
+    "published": "2025-11-25T23:28:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049981\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46052102\">Comments</a>"
   },
   {
-    "title": "Unison 1.0 Release",
-    "link": "https://www.unison-lang.org/unison-1-0/",
+    "title": "LLVM Adds Constant-Time Support for Protecting Cryptographic Code",
+    "link": "https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/",
     "source": "Hacker News",
-    "published": "2025-11-25T19:33:00+00:00",
+    "published": "2025-11-25T23:26:38+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049722\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46052090\">Comments</a>"
   },
   {
-    "title": "IQ differences of identical twins reared apart are influenced by education",
-    "link": "https://www.sciencedirect.com/science/article/pii/S0001691825003853",
+    "title": "Notes on the Troubleshooting and Repair of Computer and Video Monitors",
+    "link": "https://www.repairfaq.org/sam/monfaq.htm",
     "source": "Hacker News",
-    "published": "2025-11-25T19:23:04+00:00",
+    "published": "2025-11-25T22:40:52+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049624\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051724\">Comments</a>"
   },
   {
-    "title": "Bad UX World Cup 2025",
-    "link": "https://badux.lol/",
+    "title": "Reinventing how .NET builds and ships (again)",
+    "link": "https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/",
     "source": "Hacker News",
-    "published": "2025-11-25T18:36:10+00:00",
+    "published": "2025-11-25T22:37:48+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049066\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051691\">Comments</a>"
   },
   {
-    "title": "Google Antigravity exfiltrates data",
+    "title": "A DOOM vector engine for rendering in KiCad, and over an audio jack",
+    "link": "https://www.mikeayles.com/#kidoom",
+    "source": "Hacker News",
+    "published": "2025-11-25T22:13:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051449\">Comments</a>"
+  },
+  {
+    "title": "What They Don't Tell You About Maintaining an Open Source Project",
+    "link": "https://andrej.sh/blog/maintaining-open-source-project/",
+    "source": "Hacker News",
+    "published": "2025-11-25T22:08:25+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051393\">Comments</a>"
+  },
+  {
+    "title": "Someone at YouTube Needs Glasses: The Prophecy Has Been Fulfilled",
+    "link": "https://jayd.ml/2025/11/10/someone-at-youtube-needs-glasses-prophecy-fulfilled.html",
+    "source": "Hacker News",
+    "published": "2025-11-25T22:04:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051340\">Comments</a>"
+  },
+  {
+    "title": "A new bridge links the math of infinity to computer science",
+    "link": "https://www.quantamagazine.org/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science-20251121/",
+    "source": "Hacker News",
+    "published": "2025-11-25T19:53:20+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049932\">Comments</a>"
+  },
+  {
+    "title": "Google Antigravity exfiltrates data via indirect prompt injection attack",
     "link": "https://www.promptarmor.com/resources/google-antigravity-exfiltrates-data",
     "source": "Hacker News",
     "published": "2025-11-25T18:31:16+00:00",
@@ -48,20 +80,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46048252\">Comments</a>"
   },
   {
-    "title": "Ozempic does not slow Alzheimer's, study finds",
-    "link": "https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds",
+    "title": "Ilya Sutskever: We're moving from the age of scaling to the age of research",
+    "link": "https://www.dwarkesh.com/p/ilya-sutskever-2",
     "source": "Hacker News",
-    "published": "2025-11-25T16:34:08+00:00",
+    "published": "2025-11-25T17:21:52+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047513\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46048125\">Comments</a>"
   },
   {
-    "title": "Orion 1.0",
-    "link": "https://blog.kagi.com/orion",
+    "title": "Unifying our mobile and desktop domains",
+    "link": "https://techblog.wikimedia.org/2025/11/21/unifying-mobile-and-desktop-domains/",
     "source": "Hacker News",
-    "published": "2025-11-25T16:21:24+00:00",
+    "published": "2025-11-25T17:07:06+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047350\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047958\">Comments</a>"
   },
   {
     "title": "FLUX.2: Frontier Visual Intelligence",
@@ -80,36 +112,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>"
   },
   {
+    "title": "Constant-time support coming to LLVM: Protecting cryptographic code",
+    "link": "https://blog.trailofbits.com/2025/11/25/constant-time-support-coming-to-llvm-protecting-cryptographic-code-at-the-compiler-level/",
+    "source": "Hacker News",
+    "published": "2025-11-25T13:02:06+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045385\">Comments</a>"
+  },
+  {
     "title": "Trillions spent and big software projects are still failing",
     "link": "https://spectrum.ieee.org/it-management-software-failures",
     "source": "Hacker News",
     "published": "2025-11-25T12:14:11+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46045085\">Comments</a>"
-  },
-  {
-    "title": "Making Crash Bandicoot (2011)",
-    "link": "https://all-things-andy-gavin.com/video-games/making-crash/",
-    "source": "Hacker News",
-    "published": "2025-11-25T12:05:39+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045039\">Comments</a>"
-  },
-  {
-    "title": "Most Stable Raspberry Pi? Better NTP with Thermal Management",
-    "link": "https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/",
-    "source": "Hacker News",
-    "published": "2025-11-25T06:35:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042946\">Comments</a>"
-  },
-  {
-    "title": "Human brains are preconfigured with instructions for understanding the world",
-    "link": "https://news.ucsc.edu/2025/11/sharf-preconfigured-brain/",
-    "source": "Hacker News",
-    "published": "2025-11-25T06:31:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042928\">Comments</a>"
   },
   {
     "title": "Jakarta is now the biggest city in the world",
@@ -120,43 +136,27 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46042810\">Comments</a>"
   },
   {
-    "title": "Unpowered SSDs slowly lose data",
-    "link": "https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/",
+    "title": "1,700-year-old Roman sarcophagus is unearthed in Budapest",
+    "link": "https://apnews.com/article/hungary-roman-sarcophagus-discovery-budapest-77a41fe190bbcc167b43d05141536f54",
     "source": "Hacker News",
-    "published": "2025-11-24T19:25:25+00:00",
+    "published": "2025-11-24T22:17:40+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46038099\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46040053\">Comments</a>"
   },
   {
-    "title": "how to repurpose your old phone into a web server",
+    "title": "The fall of Labubus and the mush of modern internet trends",
+    "link": "https://www.michigandaily.com/arts/digital-culture/the-fall-of-labubus-and-the-mush-of-modern-internet-trends/",
+    "source": "Hacker News",
+    "published": "2025-11-23T23:42:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46028548\">Comments</a>"
+  },
+  {
+    "title": "How to repurpose your old phone into a web server",
     "link": "https://far.computer/how-to/",
     "source": "Hacker News",
     "published": "2025-11-22T18:16:59+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46016902\">Comments</a>"
-  },
-  {
-    "title": "Inflatable Space Stations",
-    "link": "https://worksinprogress.co/issue/inflatable-space-stations/",
-    "source": "Hacker News",
-    "published": "2025-11-21T13:42:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46004519\">Comments</a>"
-  },
-  {
-    "title": "The 101 of analog signal filtering (2024)",
-    "link": "https://lcamtuf.substack.com/p/the-101-of-analog-signal-filtering",
-    "source": "Hacker News",
-    "published": "2025-11-21T10:54:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46003271\">Comments</a>"
-  },
-  {
-    "title": "A rare GM EV1 saved from the crusher is going to be driveable again",
-    "link": "https://electrek.co/2025/11/19/gm-ev1-saved-from-crusher-going-driveable-again/",
-    "source": "Hacker News",
-    "published": "2025-11-20T02:08:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45988000\">Comments</a>"
   }
 ]
