@@ -1,27 +1,35 @@
 [
   {
-    "title": "The Generative Burrito Test",
-    "link": "https://www.generativist.com/notes/2025/Nov/25/generative-burrito-test.html",
+    "title": "Space Truckin' \u2013 The Nostromo (2012)",
+    "link": "https://alienseries.wordpress.com/2012/10/23/space-truckin-the-nostromo/",
     "source": "Hacker News",
-    "published": "2025-11-25T23:28:17+00:00",
+    "published": "2025-11-26T02:31:41+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46052102\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46053566\">Comments</a>"
   },
   {
-    "title": "LLVM Adds Constant-Time Support for Protecting Cryptographic Code",
-    "link": "https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/",
+    "title": "Show HN: A WordPress plugin that rewrites image URLs for near-zero-cost delivery",
+    "link": "https://wordpress.org/plugins/bandwidth-saver/",
     "source": "Hacker News",
-    "published": "2025-11-25T23:26:38+00:00",
+    "published": "2025-11-26T02:05:36+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46052090\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46053385\">Comments</a>"
   },
   {
-    "title": "Notes on the Troubleshooting and Repair of Computer and Video Monitors",
-    "link": "https://www.repairfaq.org/sam/monfaq.htm",
+    "title": "BebboSSH: SSH2 implementation for Amiga systems (68000, GPLv3)",
+    "link": "https://franke.ms/git/bebbo/bebbossh",
     "source": "Hacker News",
-    "published": "2025-11-25T22:40:52+00:00",
+    "published": "2025-11-26T01:51:26+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051724\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46053262\">Comments</a>"
+  },
+  {
+    "title": "Space: 1999 \u2013 Special Effects Techniques",
+    "link": "https://catacombs.space1999.net/main/pguide/upsfx.html",
+    "source": "Hacker News",
+    "published": "2025-11-26T01:19:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46053017\">Comments</a>"
   },
   {
     "title": "Reinventing how .NET builds and ships (again)",
@@ -32,20 +40,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46051691\">Comments</a>"
   },
   {
-    "title": "A DOOM vector engine for rendering in KiCad, and over an audio jack",
+    "title": "Show HN: KiDoom \u2013 Running DOOM on PCB Traces",
     "link": "https://www.mikeayles.com/#kidoom",
     "source": "Hacker News",
     "published": "2025-11-25T22:13:35+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46051449\">Comments</a>"
-  },
-  {
-    "title": "What They Don't Tell You About Maintaining an Open Source Project",
-    "link": "https://andrej.sh/blog/maintaining-open-source-project/",
-    "source": "Hacker News",
-    "published": "2025-11-25T22:08:25+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051393\">Comments</a>"
   },
   {
     "title": "Someone at YouTube Needs Glasses: The Prophecy Has Been Fulfilled",
@@ -64,6 +64,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46049932\">Comments</a>"
   },
   {
+    "title": "The Bughouse Effect",
+    "link": "https://tsvibt.blogspot.com/2025/11/the-bughouse-effect.html",
+    "source": "Hacker News",
+    "published": "2025-11-25T19:43:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049835\">Comments</a>"
+  },
+  {
     "title": "Google Antigravity exfiltrates data via indirect prompt injection attack",
     "link": "https://www.promptarmor.com/resources/google-antigravity-exfiltrates-data",
     "source": "Hacker News",
@@ -80,20 +88,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46048252\">Comments</a>"
   },
   {
-    "title": "Ilya Sutskever: We're moving from the age of scaling to the age of research",
-    "link": "https://www.dwarkesh.com/p/ilya-sutskever-2",
-    "source": "Hacker News",
-    "published": "2025-11-25T17:21:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46048125\">Comments</a>"
-  },
-  {
     "title": "Unifying our mobile and desktop domains",
     "link": "https://techblog.wikimedia.org/2025/11/21/unifying-mobile-and-desktop-domains/",
     "source": "Hacker News",
     "published": "2025-11-25T17:07:06+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46047958\">Comments</a>"
+  },
+  {
+    "title": "Brand New Layouts with CSS Subgrid",
+    "link": "https://www.joshwcomeau.com/css/subgrid/",
+    "source": "Hacker News",
+    "published": "2025-11-25T15:57:54+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047053\">Comments</a>"
   },
   {
     "title": "FLUX.2: Frontier Visual Intelligence",
@@ -112,14 +120,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>"
   },
   {
-    "title": "Constant-time support coming to LLVM: Protecting cryptographic code",
-    "link": "https://blog.trailofbits.com/2025/11/25/constant-time-support-coming-to-llvm-protecting-cryptographic-code-at-the-compiler-level/",
-    "source": "Hacker News",
-    "published": "2025-11-25T13:02:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045385\">Comments</a>"
-  },
-  {
     "title": "Trillions spent and big software projects are still failing",
     "link": "https://spectrum.ieee.org/it-management-software-failures",
     "source": "Hacker News",
@@ -136,20 +136,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46042810\">Comments</a>"
   },
   {
-    "title": "1,700-year-old Roman sarcophagus is unearthed in Budapest",
-    "link": "https://apnews.com/article/hungary-roman-sarcophagus-discovery-budapest-77a41fe190bbcc167b43d05141536f54",
-    "source": "Hacker News",
-    "published": "2025-11-24T22:17:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46040053\">Comments</a>"
-  },
-  {
     "title": "The fall of Labubus and the mush of modern internet trends",
     "link": "https://www.michigandaily.com/arts/digital-culture/the-fall-of-labubus-and-the-mush-of-modern-internet-trends/",
     "source": "Hacker News",
     "published": "2025-11-23T23:42:22+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46028548\">Comments</a>"
+  },
+  {
+    "title": "Surprisingly, Emacs on Android is pretty good",
+    "link": "https://kristofferbalintona.me/posts/202505291438/",
+    "source": "Hacker News",
+    "published": "2025-11-23T07:40:26+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46021577\">Comments</a>"
   },
   {
     "title": "How to repurpose your old phone into a web server",
