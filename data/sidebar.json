@@ -1,19 +1,27 @@
 [
   {
-    "title": "The Input Stack on Linux: An End-to-End Architecture Overview",
+    "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning [pdf]",
+    "link": "https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf",
+    "source": "Hacker News",
+    "published": "2025-11-27T20:03:25+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072786\">Comments</a>"
+  },
+  {
+    "title": "AI CEO \u2013 Replace your boss before they replace you",
+    "link": "https://replaceyourboss.ai/",
+    "source": "Hacker News",
+    "published": "2025-11-27T18:37:41+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072002\">Comments</a>"
+  },
+  {
+    "title": "The input stack on Linux: An end-to-end architecture overview",
     "link": "https://venam.net/blog/unix/2025/11/27/input_devices_linux.html",
     "source": "Hacker News",
     "published": "2025-11-27T16:55:30+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46071030\">Comments</a>"
-  },
-  {
-    "title": "Seagate achieves 6.9TB storage capacity per platter",
-    "link": "https://www.tomshardware.com/pc-components/hdds/seagate-achieves-a-whopping-6-9tb-storage-capacity-per-platter-in-its-laboratory-55tb-to-69tb-hard-drives-now-physically-possible",
-    "source": "Hacker News",
-    "published": "2025-11-27T16:48:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070982\">Comments</a>"
   },
   {
     "title": "Pakistan says rooftop solar output to exceed grid demand in some hubs next year",
@@ -40,22 +48,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46070668\">Comments</a>"
   },
   {
-    "title": "We're Losing Our Voice to LLMs",
-    "link": "https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/",
-    "source": "Hacker News",
-    "published": "2025-11-27T14:51:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46069771\">Comments</a>"
-  },
-  {
-    "title": "Show HN: SyncKit \u2013 Offline-first sync engine (Rust/WASM and TypeScript)",
-    "link": "https://github.com/Dancode-188/synckit",
-    "source": "Hacker News",
-    "published": "2025-11-27T14:31:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46069598\">Comments</a>"
-  },
-  {
     "title": "Show HN: Runprompt \u2013 run .prompt files from the command line",
     "link": "https://github.com/chr15m/runprompt",
     "source": "Hacker News",
@@ -64,28 +56,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46069556\">Comments</a>"
   },
   {
-    "title": "Show HN: MkSlides \u2013 Markdown to slides with a similar workflow to MkDocs",
-    "link": "https://github.com/MartenBE/mkslides",
+    "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
+    "link": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
     "source": "Hacker News",
-    "published": "2025-11-27T13:00:17+00:00",
+    "published": "2025-11-27T13:28:34+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46068847\">Comments</a>"
-  },
-  {
-    "title": "Arthur Conan Doyle explored men\u2019s mental health through Sherlock Holmes",
-    "link": "https://scienceclock.com/arthur-conan-doyle-delved-into-mens-mental-health-through-his-sherlock-holmes-stories/",
-    "source": "Hacker News",
-    "published": "2025-11-27T10:54:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46068015\">Comments</a>"
-  },
-  {
-    "title": "Ray Marching Soft Shadows in 2D (2020)",
-    "link": "https://www.rykap.com/2020/09/23/distance-fields/",
-    "source": "Hacker News",
-    "published": "2025-11-27T07:31:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46066695\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46069048\">Comments</a>"
   },
   {
     "title": "Mixpanel Security Breach",
@@ -104,12 +80,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46066280\">Comments</a>"
   },
   {
-    "title": "Music eases surgery and speeds recovery, study finds",
-    "link": "https://www.bbc.com/news/articles/c231dv9zpz3o",
+    "title": "Tell HN: Happy Thanksgiving",
+    "link": "https://news.ycombinator.com/item?id=46065955",
     "source": "Hacker News",
-    "published": "2025-11-27T04:55:57+00:00",
+    "published": "2025-11-27T05:21:16+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065817\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065955\">Comments</a>"
+  },
+  {
+    "title": "Coq: The World's Best Macro Assembler? (2013) [pdf]",
+    "link": "https://nickbenton.name/coqasm.pdf",
+    "source": "Hacker News",
+    "published": "2025-11-27T04:34:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065698\">Comments</a>"
   },
   {
     "title": "DIY NAS: 2026 Edition",
@@ -128,12 +112,36 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46064757\">Comments</a>"
   },
   {
-    "title": "Interactive \u03bb-Reduction",
-    "link": "https://deltanets.org/",
+    "title": "Why Strong Consistency?",
+    "link": "https://brooker.co.za/blog/2025/11/18/consistency.html",
     "source": "Hacker News",
-    "published": "2025-11-24T20:48:18+00:00",
+    "published": "2025-11-26T22:00:48+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46039106\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46062855\">Comments</a>"
+  },
+  {
+    "title": "Inspired by Spider-Man, scientists recreate web-slinging technology",
+    "link": "https://scienceclock.com/inspired-by-spider-man-scientists-recreate-web-slinging-technology/",
+    "source": "Hacker News",
+    "published": "2025-11-26T20:17:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061871\">Comments</a>"
+  },
+  {
+    "title": "Feedback doesn't scale",
+    "link": "https://another.rodeo/feedback/",
+    "source": "Hacker News",
+    "published": "2025-11-26T15:40:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46058471\">Comments</a>"
+  },
+  {
+    "title": "Memories of .us",
+    "link": "https://computer.rip/2025-11-11-dot-us.html",
+    "source": "Hacker News",
+    "published": "2025-11-26T13:36:19+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46057266\">Comments</a>"
   },
   {
     "title": "Quake Engine Indicators",
@@ -144,19 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46031552\">Comments</a>"
   },
   {
-    "title": "The Concrete Pontoons of Bristol",
-    "link": "https://thecretefleet.com/blog/f/the-concrete-pontoons-of-bristol",
+    "title": "Physicists drive antihydrogen breakthrough at CERN",
+    "link": "https://phys.org/news/2025-11-physicists-antihydrogen-breakthrough-cern-technique.html",
     "source": "Hacker News",
-    "published": "2025-11-21T15:04:13+00:00",
+    "published": "2025-11-22T20:54:06+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46005239\">Comments</a>"
-  },
-  {
-    "title": "Abuse of the nullish coalescing operator in JS/TS",
-    "link": "https://fredrikmalmo.com/blog/js-ts-nullish-empty-string-coalescing",
-    "source": "Hacker News",
-    "published": "2025-11-21T12:28:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46003887\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018159\">Comments</a>"
   }
 ]
