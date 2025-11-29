@@ -1,5 +1,21 @@
 [
   {
+    "title": "System 7 natively boots on the Mac mini G4",
+    "link": "https://macos9lives.com/smforum/index.php?topic=7711.0",
+    "source": "Hacker News",
+    "published": "2025-11-29T03:26:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46084956\">Comments</a>"
+  },
+  {
+    "title": "Every mathematician has only a few tricks (2020)",
+    "link": "https://mathoverflow.net/questions/363119/every-mathematician-has-only-a-few-tricks",
+    "source": "Hacker News",
+    "published": "2025-11-29T01:37:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46084535\">Comments</a>"
+  },
+  {
     "title": "A triangle whose interior angles sum to zero",
     "link": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
     "source": "Hacker News",
@@ -22,14 +38,6 @@
     "published": "2025-11-28T22:21:25+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46083303\">Comments</a>"
-  },
-  {
-    "title": "How to Short the Bubbliest Firms",
-    "link": "https://www.economist.com/finance-and-economics/2025/11/26/how-to-short-the-bubbliest-firms",
-    "source": "Hacker News",
-    "published": "2025-11-28T21:56:58+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46083137\">Comments</a>"
   },
   {
     "title": "A first look at Django's new background tasks",
@@ -128,20 +136,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46079785\">Comments</a>"
   },
   {
-    "title": "Can Dutch universities do without Microsoft?",
-    "link": "https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft",
+    "title": "WinApps: Run Windows apps as if they were a part of the native Linux OS",
+    "link": "https://github.com/winapps-org/winapps",
     "source": "Hacker News",
-    "published": "2025-11-28T15:53:39+00:00",
+    "published": "2025-11-25T12:34:25+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46079721\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045207\">Comments</a>"
   },
   {
-    "title": "How to get Pandoc to respect custom table styles in Word templates",
-    "link": "https://johnathandos.com/posts/2025-11-24-custom-tables-with-pandoc/",
+    "title": "Show HN: Mu \u2013 The Micro Network",
+    "link": "https://github.com/asim/mu",
     "source": "Hacker News",
-    "published": "2025-11-25T03:33:03+00:00",
+    "published": "2025-11-24T14:06:40+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042074\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034255\">Comments</a>"
   },
   {
     "title": "I mathematically proved the best \"Guess Who?\" strategy [video]",
@@ -150,13 +158,5 @@
     "published": "2025-11-22T17:49:17+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46016634\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Choose your own adventure style Presentation",
-    "link": "https://github.com/Skarlso/adventure-voter",
-    "source": "Hacker News",
-    "published": "2025-11-21T14:24:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46004895\">Comments</a>"
   }
 ]
