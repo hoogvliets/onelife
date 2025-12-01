@@ -1,5 +1,45 @@
 [
   {
+    "title": "It's Been a Hard Year",
+    "link": "https://bell.bz/its-been-a-very-hard-year/",
+    "source": "Hacker News",
+    "published": "2025-12-01T05:36:48+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103858\">Comments</a>"
+  },
+  {
+    "title": "Google Antigravity Deletes D Drive",
+    "link": "https://mastodon.gamedev.place/@bastardsheep@aus.social/115641546248437052",
+    "source": "Hacker News",
+    "published": "2025-12-01T05:29:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103811\">Comments</a>"
+  },
+  {
+    "title": "SmartTube Compromised",
+    "link": "https://www.aftvnews.com/smarttubes-official-apk-was-compromised-with-malware-what-you-should-do-if-you-use-it/",
+    "source": "Hacker News",
+    "published": "2025-12-01T05:01:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103657\">Comments</a>"
+  },
+  {
+    "title": "Search tool that only returns content created before ChatGPT's public release",
+    "link": "https://tegabrain.com/Slop-Evader",
+    "source": "Hacker News",
+    "published": "2025-12-01T04:06:06+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103376\">Comments</a>"
+  },
+  {
+    "title": "X210Ai is a new motherboard to upgrade ThinkPad X201/200",
+    "link": "https://www.tpart.net/about-x210ai/",
+    "source": "Hacker News",
+    "published": "2025-12-01T03:12:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103097\">Comments</a>"
+  },
+  {
     "title": "Advent of Sysadmin 2025",
     "link": "https://sadservers.com/advent",
     "source": "Hacker News",
@@ -64,22 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46098838\">Comments</a>"
   },
   {
-    "title": "ETH-Zurich: Digital Design and Computer Architecture; 227-0003-10L, Spring, 2025",
-    "link": "https://safari.ethz.ch/ddca/spring2025/doku.php?id=start",
-    "source": "Hacker News",
-    "published": "2025-11-30T17:45:51+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098747\">Comments</a>"
-  },
-  {
-    "title": "ESA Sentinel-1D delivers first high-resolution images",
-    "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_delivers_first_images_from_Antarctica_to_Bremen",
-    "source": "Hacker News",
-    "published": "2025-11-30T17:37:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098673\">Comments</a>"
-  },
-  {
     "title": "LLVM-MOS \u2013 Clang LLVM fork targeting the 6502",
     "link": "https://llvm-mos.org/wiki/Welcome",
     "source": "Hacker News",
@@ -120,22 +144,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46096337\">Comments</a>"
   },
   {
-    "title": "CachyOS: Fast and Customizable Linux Distribution",
-    "link": "https://cachyos.org/",
-    "source": "Hacker News",
-    "published": "2025-11-30T10:47:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095585\">Comments</a>"
-  },
-  {
-    "title": "AI just proved Erdos Problem #124",
-    "link": "https://www.erdosproblems.com/forum/thread/124#post-1892",
-    "source": "Hacker News",
-    "published": "2025-11-30T05:19:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46094037\">Comments</a>"
-  },
-  {
     "title": "Replacing My Window Manager with Google Chrome",
     "link": "https://foxmoss.com/blog/dote/",
     "source": "Hacker News",
@@ -144,19 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46072521\">Comments</a>"
   },
   {
-    "title": "Stereo Images of Giant Galaxies",
-    "link": "https://www.bbc.com/future/article/20251121-sir-brian-mays-stereo-vision-of-galaxies",
+    "title": "NVMe driver for Windows 2000, targeting both x86 and Alpha AXP platforms",
+    "link": "https://github.com/techomancer/nvme2k",
     "source": "Hacker News",
-    "published": "2025-11-25T03:42:05+00:00",
+    "published": "2025-11-25T21:35:29+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042145\">Comments</a>"
-  },
-  {
-    "title": "Seeing a Molecule's Quantum Shadow",
-    "link": "https://physics.aps.org/articles/v18/s149",
-    "source": "Hacker News",
-    "published": "2025-11-25T01:04:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46041253\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051077\">Comments</a>"
   }
 ]
