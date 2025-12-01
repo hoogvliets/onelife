@@ -1,19 +1,27 @@
 [
   {
-    "title": "1GB Raspberry Pi 5, and memory-driven price rises",
-    "link": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+    "title": "Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland's Maps",
+    "link": "https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/",
     "source": "Hacker News",
-    "published": "2025-12-01T11:37:18+00:00",
+    "published": "2025-12-01T13:41:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46106186\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46107282\">Comments</a>"
   },
   {
-    "title": "UK Government plans new powers to label dissenting movements as 'subversion'",
-    "link": "https://netpol.org/2025/11/28/government-plans-new-powers-to-label-dissenting-movements-as-subversion/",
+    "title": "A vector graphics workstation from the 70s",
+    "link": "https://justanotherelectronicsblog.com/?p=1429",
     "source": "Hacker News",
-    "published": "2025-12-01T11:35:34+00:00",
+    "published": "2025-12-01T13:31:58+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46106181\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46107177\">Comments</a>"
+  },
+  {
+    "title": "Why xor eax, eax?",
+    "link": "https://xania.org/202512/01-xor-eax-eax",
+    "source": "Hacker News",
+    "published": "2025-12-01T12:22:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46106556\">Comments</a>"
   },
   {
     "title": "Self-hosting a Matrix server for 5 years",
@@ -22,22 +30,6 @@
     "published": "2025-12-01T11:26:39+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46106132\">Comments</a>"
-  },
-  {
-    "title": "Xlibre is a fork of the Xorg Xserver with lots of code cleanups",
-    "link": "https://x11libre.net/",
-    "source": "Hacker News",
-    "published": "2025-12-01T10:51:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46105897\">Comments</a>"
-  },
-  {
-    "title": "Why Is ChatGPT for Mac So Good?",
-    "link": "https://allenpike.com/2025/why-is-chatgpt-so-good-claude",
-    "source": "Hacker News",
-    "published": "2025-12-01T10:51:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46105896\">Comments</a>"
   },
   {
     "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
@@ -54,6 +46,22 @@
     "published": "2025-12-01T07:05:57+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46104396\">Comments</a>"
+  },
+  {
+    "title": "It\u2019s been a very hard year",
+    "link": "https://bell.bz/its-been-a-very-hard-year/",
+    "source": "Hacker News",
+    "published": "2025-12-01T05:36:48+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103858\">Comments</a>"
+  },
+  {
+    "title": "SmartTube Compromised",
+    "link": "https://www.aftvnews.com/smarttubes-official-apk-was-compromised-with-malware-what-you-should-do-if-you-use-it/",
+    "source": "Hacker News",
+    "published": "2025-12-01T05:01:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103657\">Comments</a>"
   },
   {
     "title": "Search tool that only returns content created before ChatGPT's public release",
@@ -104,28 +112,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46098838\">Comments</a>"
   },
   {
-    "title": "Windows drive letters are not limited to A-Z",
-    "link": "https://www.ryanliptak.com/blog/windows-drive-letters-are-not-limited-to-a-z/",
-    "source": "Hacker News",
-    "published": "2025-11-30T13:40:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46096556\">Comments</a>"
-  },
-  {
     "title": "Advent of Code 2025",
     "link": "https://adventofcode.com/2025/about",
     "source": "Hacker News",
     "published": "2025-11-30T13:07:15+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46096337\">Comments</a>"
-  },
-  {
-    "title": "Engineers repurpose a mosquito proboscis to create a 3D printing nozzle",
-    "link": "https://techxplore.com/news/2025-11-repurpose-mosquito-proboscis-3d-nozzle.html",
-    "source": "Hacker News",
-    "published": "2025-11-26T22:38:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46063145\">Comments</a>"
   },
   {
     "title": "Detection of triboelectric discharges during dust events on Mars",
@@ -136,6 +128,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46061390\">Comments</a>"
   },
   {
+    "title": "Historic Engineering Wonders: Photos That Reveal How They Pulled It Off",
+    "link": "https://rarehistoricalphotos.com/engineering-methods-from-the-past/",
+    "source": "Hacker News",
+    "published": "2025-11-25T14:04:37+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045876\">Comments</a>"
+  },
+  {
     "title": "N-Body Simulator \u2013 Interactive 3 Body Problem and Gravitational Physics",
     "link": "https://trisolarchaos.com/?pr=lagrange&n=3&s=5.0&so=0.01&im=verlet&dt=5.00e-4&rt=1.0e-6&at=1.0e-8&bs=0.50&sf=0&sv=0&cm=free&kt=1&st=1&ag=0&tl=1500&cp=0.0000,0.0000,10.0000&ct=0.0000,0.0000,0.0000",
     "source": "Hacker News",
@@ -144,12 +144,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46045643\">Comments</a>"
   },
   {
-    "title": "Whole-body Learning in Creating Mathematical/Architectural Structures [pdf]",
-    "link": "https://archive.bridgesmathart.org/2017/bridges2017-523.pdf",
+    "title": "Victorian-style lines for the web: Elements of identical width",
+    "link": "https://jacobfilipp.com/victorian-line/",
     "source": "Hacker News",
-    "published": "2025-11-24T18:19:09+00:00",
+    "published": "2025-11-24T16:00:26+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037185\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46035507\">Comments</a>"
   },
   {
     "title": "Trifold is a tool to quickly and cheaply host static websites using a CDN",
