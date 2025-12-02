@@ -1,6 +1,38 @@
 [
   {
-    "title": "Anthropic: AI agents find $4.6M in blockchain smart contract exploits",
+    "title": "What Will Enter the Public Domain in 2026?",
+    "link": "https://publicdomainreview.org/features/entering-the-public-domain/2026/",
+    "source": "Hacker News",
+    "published": "2025-12-02T03:23:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46117112\">Comments</a>"
+  },
+  {
+    "title": "Reverse math shows why hard problems are hard",
+    "link": "https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/",
+    "source": "Hacker News",
+    "published": "2025-12-02T02:35:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46116724\">Comments</a>"
+  },
+  {
+    "title": "Around The World, Part 27: Planting trees",
+    "link": "https://frozenfractal.com/blog/2025/11/28/around-the-world-27-planting-trees/",
+    "source": "Hacker News",
+    "published": "2025-12-02T00:36:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46115729\">Comments</a>"
+  },
+  {
+    "title": "Arcee Trinity Mini: US-Trained Moe Model",
+    "link": "https://www.arcee.ai/blog/the-trinity-manifesto?src=hn",
+    "source": "Hacker News",
+    "published": "2025-12-02T00:31:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46115682\">Comments</a>"
+  },
+  {
+    "title": "AI agents find $4.6M in blockchain smart contract exploits",
     "link": "https://red.anthropic.com/2025/smart-contracts/",
     "source": "Hacker News",
     "published": "2025-12-01T23:44:51+00:00",
@@ -8,7 +40,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46115214\">Comments</a>"
   },
   {
-    "title": "Losing Confidence",
+    "title": "Last Week on My Mac: Losing confidence",
     "link": "https://eclecticlight.co/2025/11/30/last-week-on-my-mac-losing-confidence/",
     "source": "Hacker News",
     "published": "2025-12-01T22:56:16+00:00",
@@ -16,52 +48,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46114599\">Comments</a>"
   },
   {
-    "title": "Apple AI Chief Retiring After Siri Failure",
-    "link": "https://www.macrumors.com/2025/12/01/apple-ai-chief-retiring-after-siri-failure/",
+    "title": "John Giannandrea to retire from Apple",
+    "link": "https://www.apple.com/newsroom/2025/12/john-giannandrea-to-retire-from-apple/",
     "source": "Hacker News",
-    "published": "2025-12-01T22:22:56+00:00",
+    "published": "2025-12-01T22:20:33+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46114144\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46114122\">Comments</a>"
   },
   {
-    "title": "Mozilla's latest quagmire",
-    "link": "https://rubenerd.com/mozillas-latest-quagmire/",
+    "title": "Instagram chief orders staff back to the office five days a week in 2026",
+    "link": "https://www.businessinsider.com/instagram-chief-adam-mosseri-announces-five-day-office-return-2025-12",
     "source": "Hacker News",
-    "published": "2025-12-01T21:44:07+00:00",
+    "published": "2025-12-01T20:55:56+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46113682\">Comments</a>"
-  },
-  {
-    "title": "How to Attend Meetings \u2013 Internal guidelines from the New York Times",
-    "link": "https://docs.google.com/presentation/d/1l7s1aAsNPlNhSye8OsMqmH6pMR32OYGGdLT6VKyFaQE/edit#slide=id.p",
-    "source": "Hacker News",
-    "published": "2025-12-01T20:40:58+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46112906\">Comments</a>"
-  },
-  {
-    "title": "Sycophancy is the first LLM \"dark pattern\"",
-    "link": "https://www.seangoedecke.com/ai-sycophancy/",
-    "source": "Hacker News",
-    "published": "2025-12-01T20:20:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46112640\">Comments</a>"
-  },
-  {
-    "title": "Why I stopped using JSON for my APIs",
-    "link": "https://aloisdeniel.com/blog/better-than-json",
-    "source": "Hacker News",
-    "published": "2025-12-01T18:58:50+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46111469\">Comments</a>"
-  },
-  {
-    "title": "Durin is a library for reading and writing the Dwarf debugging format",
-    "link": "https://github.com/tmcgilchrist/durin",
-    "source": "Hacker News",
-    "published": "2025-12-01T18:35:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46111120\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46113092\">Comments</a>"
   },
   {
     "title": "Ghostty compiled to WASM with xterm.js API compatibility",
@@ -80,14 +80,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46108941\">Comments</a>"
   },
   {
-    "title": "Ask HN: Who wants to be hired? (December 2025)",
-    "link": "https://news.ycombinator.com/item?id=46108940",
-    "source": "Hacker News",
-    "published": "2025-12-01T16:01:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108940\">Comments</a>"
-  },
-  {
     "title": "DeepSeek-v3.2: Pushing the frontier of open large language models [pdf]",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf",
     "source": "Hacker News",
@@ -104,12 +96,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46108563\">Comments</a>"
   },
   {
-    "title": "Ask HN: Quality of recent gens of Dell/Lenovo laptops worse than 10 years ago?",
-    "link": "https://news.ycombinator.com/item?id=46108071",
+    "title": "Google, Nvidia, and OpenAI",
+    "link": "https://stratechery.com/2025/google-nvidia-and-openai/",
     "source": "Hacker News",
-    "published": "2025-12-01T14:47:48+00:00",
+    "published": "2025-12-01T15:18:42+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108071\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108437\">Comments</a>"
+  },
+  {
+    "title": "The Penicillin Myth",
+    "link": "https://www.asimov.press/p/penicillin-myth",
+    "source": "Hacker News",
+    "published": "2025-12-01T14:13:06+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46107658\">Comments</a>"
   },
   {
     "title": "Cartographers have been hiding illustrations inside Switzerland\u2019s maps (2020)",
@@ -136,6 +136,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46104193\">Comments</a>"
   },
   {
+    "title": "Tested: 1981 Datsun 280ZX Turbo (1981)",
+    "link": "https://www.caranddriver.com/reviews/a69529696/1981-datsun-280-zx-turbo-archive-test/",
+    "source": "Hacker News",
+    "published": "2025-11-29T19:43:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46090184\">Comments</a>"
+  },
+  {
     "title": "Codex, Opus, Gemini try to build Counter Strike",
     "link": "https://www.instantdb.com/essays/agents_building_counterstrike",
     "source": "Hacker News",
@@ -144,19 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46080835\">Comments</a>"
   },
   {
-    "title": "10 years of writing a blog nobody reads",
-    "link": "https://flowtwo.io/post/on-10-years-of-writing-a-blog-nobody-reads",
+    "title": "Cloud-Init on Raspberry Pi OS",
+    "link": "https://www.raspberrypi.com/news/cloud-init-on-raspberry-pi-os/",
     "source": "Hacker News",
-    "published": "2025-11-27T16:39:35+00:00",
+    "published": "2025-11-27T18:39:11+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070883\">Comments</a>"
-  },
-  {
-    "title": "Amazon faces FAA probe after delivery drone snaps internet cable in Texas",
-    "link": "https://www.cnbc.com/2025/11/25/amazon-faa-probe-delivery-drone-incident-texas.html",
-    "source": "Hacker News",
-    "published": "2025-11-26T11:05:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056232\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072016\">Comments</a>"
   }
 ]
