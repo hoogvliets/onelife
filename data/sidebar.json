@@ -1,5 +1,29 @@
 [
   {
+    "title": "Zig quits GitHub, says Microsoft's AI obsession has ruined the service",
+    "link": "https://www.theregister.com/2025/12/02/zig_quits_github_microsoft_ai_obsession/",
+    "source": "Hacker News",
+    "published": "2025-12-03T07:52:37+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46131406\">Comments</a>"
+  },
+  {
+    "title": "Accepting US car standards would risk European lives",
+    "link": "https://etsc.eu/accepting-us-car-standards-would-risk-european-lives-warn-cities-and-civil-society/",
+    "source": "Hacker News",
+    "published": "2025-12-03T07:41:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46131330\">Comments</a>"
+  },
+  {
+    "title": "Quad9 DOH HTTP/1.1 Retirement, December 15, 2025",
+    "link": "https://quad9.net/news/blog/doh-http-1-1-retirement/",
+    "source": "Hacker News",
+    "published": "2025-12-03T06:07:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130784\">Comments</a>"
+  },
+  {
     "title": "Sending DMARC reports is somewhat hazardous",
     "link": "https://utcc.utoronto.ca/~cks/space/blog/spam/DMARCSendingReportsProblems",
     "source": "Hacker News",
@@ -40,14 +64,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46126217\">Comments</a>"
   },
   {
-    "title": "Free static site generator for small restaurants and cafes",
-    "link": "https://lite.localcafe.org/",
-    "source": "Hacker News",
-    "published": "2025-12-02T20:08:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46126141\">Comments</a>"
-  },
-  {
     "title": "Amazon launches Trainium3",
     "link": "https://techcrunch.com/2025/12/02/amazon-releases-an-impressive-new-ai-chip-and-teases-a-nvidia-friendly-roadmap/",
     "source": "Hacker News",
@@ -72,36 +88,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46124267\">Comments</a>"
   },
   {
-    "title": "School cell phone bans and student achievement",
-    "link": "https://www.nber.org/digest/202512/school-cell-phone-bans-and-student-achievement",
-    "source": "Hacker News",
-    "published": "2025-12-02T17:58:11+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46124179\">Comments</a>"
-  },
-  {
     "title": "OpenAI declares 'code red' as Google catches up in AI race",
     "link": "https://www.theverge.com/news/836212/openai-code-red-chatgpt",
     "source": "Hacker News",
     "published": "2025-12-02T15:00:16+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46121870\">Comments</a>"
-  },
-  {
-    "title": "Zig's new plan for asynchronous programs",
-    "link": "https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/",
-    "source": "Hacker News",
-    "published": "2025-12-02T14:31:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46121539\">Comments</a>"
-  },
-  {
-    "title": "All about automotive lidar",
-    "link": "https://mainstreetautonomy.com/blog/2025-08-29-all-about-automotive-lidar/",
-    "source": "Hacker News",
-    "published": "2025-12-01T17:43:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46110395\">Comments</a>"
   },
   {
     "title": "Qwen3-VL can scan two-hour videos and pinpoint nearly every detail",
@@ -120,7 +112,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46094460\">Comments</a>"
   },
   {
-    "title": "AI Agents Break Rules Under Everyday Pressure",
+    "title": "AI agents break rules under everyday pressure",
     "link": "https://spectrum.ieee.org/ai-agents-safety",
     "source": "Hacker News",
     "published": "2025-11-27T10:52:15+00:00",
@@ -128,20 +120,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46067995\">Comments</a>"
   },
   {
-    "title": "Load ZX Spectrum \u2013 first Museum dedicated to our first personal computer",
-    "link": "https://loadzx.com/en/",
+    "title": "The Writing Is on the Wall for Handwriting Recognition",
+    "link": "https://newsletter.dancohen.org/archive/the-writing-is-on-the-wall-for-handwriting-recognition/",
     "source": "Hacker News",
-    "published": "2025-11-26T19:02:31+00:00",
+    "published": "2025-11-26T15:14:42+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061133\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46058154\">Comments</a>"
   },
   {
-    "title": "All Sources of DirectX 12 Documentation",
-    "link": "https://asawicki.info/news_1794_all_sources_of_directx_12_documentation",
+    "title": "Super fast aggregations in PostgreSQL 19",
+    "link": "https://www.cybertec-postgresql.com/en/super-fast-aggregations-in-postgresql-19/",
     "source": "Hacker News",
-    "published": "2025-11-26T04:47:50+00:00",
+    "published": "2025-11-26T05:32:28+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46054295\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46054467\">Comments</a>"
   },
   {
     "title": "Learning music with Strudel",
@@ -150,6 +142,14 @@
     "published": "2025-11-26T00:09:19+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46052478\">Comments</a>"
+  },
+  {
+    "title": "What, if anything, is universal to music cognition? (2024)",
+    "link": "https://www.nature.com/articles/s41562-023-01800-9",
+    "source": "Hacker News",
+    "published": "2025-11-25T21:15:05+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46050884\">Comments</a>"
   },
   {
     "title": "Counter Galois Onion: Improved encryption for Tor circuit traffic",
