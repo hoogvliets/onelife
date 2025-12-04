@@ -1,27 +1,59 @@
 [
   {
-    "title": "Russia Bans Roblox",
-    "link": "https://www.bbc.com/news/articles/cn41q11gy58o",
+    "title": "Elites Could Shape Mass Preferences as AI Reduces Persuasion Costs",
+    "link": "https://arxiv.org/abs/2512.04047",
     "source": "Hacker News",
-    "published": "2025-12-04T04:34:14+00:00",
+    "published": "2025-12-04T08:38:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46143841\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46145180\">Comments</a>"
   },
   {
-    "title": "New homes in London were delayed by 'energy-hungry' data centres",
-    "link": "https://www.bbc.com/news/articles/c0mpr1mvwj3o",
+    "title": "The Mysterious Realm of JavaScriptCore (2021)",
+    "link": "https://www.cyberark.com/resources/threat-research-blog/the-mysterious-realm-of-javascriptcore",
     "source": "Hacker News",
-    "published": "2025-12-04T03:51:09+00:00",
+    "published": "2025-12-04T08:33:33+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46143622\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46145154\">Comments</a>"
   },
   {
-    "title": "Euler Conjecture and CDC 6600",
-    "link": "https://fortran-lang.discourse.group/t/euler-conjecture-and-cdc-6600/10501",
+    "title": "How AI is transforming work at Anthropic",
+    "link": "https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic",
     "source": "Hacker News",
-    "published": "2025-12-04T03:50:36+00:00",
+    "published": "2025-12-04T07:26:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46143618\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144752\">Comments</a>"
+  },
+  {
+    "title": "Saturn (YC S24) Is Hiring Senior AI Engineer",
+    "link": "https://www.ycombinator.com/companies/saturn/jobs/R9s9o5f-senior-ai-engineer",
+    "source": "Hacker News",
+    "published": "2025-12-04T07:00:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144613\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Mirror_bridge \u2013 C++ Reflection powered Python binding generation",
+    "link": "https://github.com/FranciscoThiesen/mirror_bridge",
+    "source": "Hacker News",
+    "published": "2025-12-04T06:12:23+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144331\">Comments</a>"
+  },
+  {
+    "title": "Uncloud - Tool for deploying containerised apps across servers without k8s",
+    "link": "https://uncloud.run/",
+    "source": "Hacker News",
+    "published": "2025-12-04T06:02:23+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144275\">Comments</a>"
+  },
+  {
+    "title": "Why WinQuake exists and how it works",
+    "link": "https://fabiensanglard.net/winquake/index.html",
+    "source": "Hacker News",
+    "published": "2025-12-04T01:58:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46142866\">Comments</a>"
   },
   {
     "title": "Average DRAM price in USD over last 18 months",
@@ -64,14 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46139761\">Comments</a>"
   },
   {
-    "title": "Lie groups are crucial to some of the most fundamental theories in physics",
-    "link": "https://www.quantamagazine.org/what-are-lie-groups-20251203/",
-    "source": "Hacker News",
-    "published": "2025-12-03T19:12:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46138632\">Comments</a>"
-  },
-  {
     "title": "Ghostty is now non-profit",
     "link": "https://mitchellh.com/writing/ghostty-non-profit",
     "source": "Hacker News",
@@ -86,14 +110,6 @@
     "published": "2025-12-03T18:04:32+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46137783\">Comments</a>"
-  },
-  {
-    "title": "Launch HN: Phind 3 (YC S22) \u2013 Every answer is a mini-app",
-    "link": "https://news.ycombinator.com/item?id=46137548",
-    "source": "Hacker News",
-    "published": "2025-12-03T17:47:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46137548\">Comments</a>"
   },
   {
     "title": "Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files",
@@ -136,27 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46101816\">Comments</a>"
   },
   {
-    "title": "Show HN: Identifiy test coverage gaps in your Go projects",
-    "link": "https://github.com/LeanerCloud/testvet",
+    "title": "In Northern Scotland, the Neolithic Age Never Ended",
+    "link": "https://www.newyorker.com/magazine/2025/12/01/in-northern-scotland-the-neolithic-age-never-ended",
     "source": "Hacker News",
-    "published": "2025-11-30T22:07:08+00:00",
+    "published": "2025-11-29T18:14:31+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46100913\">Comments</a>"
-  },
-  {
-    "title": "Ethiopian Volcano Erupts for First Time in Nearly 12K Years of Records",
-    "link": "https://www.smithsonianmag.com/smart-news/ethiopian-volcano-erupts-for-the-first-time-in-nearly-12000-years-of-scientific-records-180987764/",
-    "source": "Hacker News",
-    "published": "2025-11-30T15:46:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46097563\">Comments</a>"
-  },
-  {
-    "title": "Preserving Snow Crystals",
-    "link": "https://www.its.caltech.edu/~atomic/snowcrystals/preserve/preserve.htm",
-    "source": "Hacker News",
-    "published": "2025-11-29T08:32:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46085982\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089548\">Comments</a>"
   }
 ]
