@@ -1288,7 +1288,292 @@ document.addEventListener('DOMContentLoaded', () => {
         saveSettings();
     }
 
+    // --- Config Export/Import ---
 
+    function objectToYaml(obj, indent = 0) {
+        const spaces = '  '.repeat(indent);
+        let yaml = '';
+
+        for (const [key, value] of Object.entries(obj)) {
+            if (value === null || value === undefined) {
+                yaml += `${spaces}${key}: null\n`;
+            } else if (Array.isArray(value)) {
+                if (value.length === 0) {
+                    yaml += `${spaces}${key}: []\n`;
+                } else if (typeof value[0] === 'object') {
+                    yaml += `${spaces}${key}:\n`;
+                    value.forEach(item => {
+                        yaml += `${spaces}- `;
+                        const itemYaml = objectToYaml(item, indent + 1);
+                        const lines = itemYaml.split('\n').filter(l => l.trim());
+                        if (lines.length > 0) {
+                            // First property on same line as dash
+                            const firstLine = lines[0].trim();
+                            yaml += `${firstLine}\n`;
+                            // Rest indented
+                            lines.slice(1).forEach(line => {
+                                yaml += `${spaces}  ${line.trim()}\n`;
+                            });
+                        }
+                    });
+                } else {
+                    yaml += `${spaces}${key}:\n`;
+                    value.forEach(item => {
+                        yaml += `${spaces}- ${item}\n`;
+                    });
+                }
+            } else if (typeof value === 'object') {
+                yaml += `${spaces}${key}:\n`;
+                yaml += objectToYaml(value, indent + 1);
+            } else if (typeof value === 'string') {
+                // Escape special characters and use quotes if needed
+                const needsQuotes = value.includes(':') || value.includes('#') || value.includes('\n');
+                yaml += `${spaces}${key}: ${needsQuotes ? `"${value.replace(/"/g, '\\"')}"` : value}\n`;
+            } else {
+                yaml += `${spaces}${key}: ${value}\n`;
+            }
+        }
+
+        return yaml;
+    }
+
+    function yamlToObject(yaml) {
+        // Simple YAML parser for our config format
+        const lines = yaml.split('\n');
+        const result = {};
+        const stack = [{ container: result, indent: -1 }];
+
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (!line.trim() || line.trim().startsWith('#')) continue;
+
+            const indent = line.search(/\S/);
+            const trimmed = line.trim();
+
+            // Pop stack to correct level
+            while (stack.length > 1 && indent <= stack[stack.length - 1].indent) {
+                stack.pop();
+            }
+
+            const parent = stack[stack.length - 1].container;
+
+            // Handle array item
+            if (trimmed.startsWith('-')) {
+                const afterDash = trimmed.startsWith('- ') ? trimmed.substring(2) : trimmed.substring(1).trim();
+
+                // Ensure parent is an array
+                if (!Array.isArray(parent)) {
+                    console.error('Parent is not an array for item:', trimmed);
+                    continue;
+                }
+
+                // Check if it's an inline key-value or object
+                if (afterDash.includes(':')) {
+                    const colonIdx = afterDash.indexOf(':');
+                    const key = afterDash.substring(0, colonIdx).trim();
+                    const value = afterDash.substring(colonIdx + 1).trim();
+
+                    const obj = {};
+                    obj[key] = parseValue(value);
+                    parent.push(obj);
+                    stack.push({ container: obj, indent: indent });
+                } else if (afterDash === '') {
+                    // Empty dash means object follows
+                    const obj = {};
+                    parent.push(obj);
+                    stack.push({ container: obj, indent: indent });
+                } else {
+                    // Simple value
+                    parent.push(parseValue(afterDash));
+                }
+            }
+            // Handle key-value pair
+            else if (trimmed.includes(':')) {
+                const colonIdx = trimmed.indexOf(':');
+                const key = trimmed.substring(0, colonIdx).trim();
+                const value = trimmed.substring(colonIdx + 1).trim();
+
+                if (value === '' || value === '[]') {
+                    // Look ahead to determine if it's array or object
+                    const nextLine = i + 1 < lines.length ? lines[i + 1] : '';
+                    const nextIndent = nextLine.search(/\S/);
+                    const nextTrimmed = nextLine.trim();
+
+                    if (value === '[]' || (nextTrimmed.startsWith('-') && nextIndent > indent)) {
+                        // It's an array
+                        parent[key] = [];
+                        stack.push({ container: parent[key], indent: indent });
+                    } else if (nextIndent > indent) {
+                        // It's an object
+                        parent[key] = {};
+                        stack.push({ container: parent[key], indent: indent });
+                    } else {
+                        parent[key] = null;
+                    }
+                } else {
+                    // Direct value
+                    parent[key] = parseValue(value);
+                }
+            }
+        }
+
+        return result;
+
+        function parseValue(val) {
+            if (val === 'null' || val === '') return null;
+            if (val === 'true') return true;
+            if (val === 'false') return false;
+            if (!isNaN(val) && val !== '') return Number(val);
+            // Remove quotes
+            return val.replace(/^["']|["']$/g, '').replace(/\\"/g, '"');
+        }
+    }
+
+    function exportConfig() {
+        // Clone widgets but remove weather data (keep only location)
+        const widgetsToExport = state.widgets.map(widget => {
+            if (widget.type === 'weather') {
+                const { weather, ...widgetWithoutWeather } = widget;
+                return widgetWithoutWeather;
+            }
+            return widget;
+        });
+
+        const config = {
+            version: '1.0',
+            exported: new Date().toISOString(),
+            widgets: widgetsToExport,
+            settings: state.userSettings
+        };
+
+        const yaml = objectToYaml(config);
+        const blob = new Blob([yaml], { type: 'text/yaml' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `strt-config-${new Date().toISOString().split('T')[0]}.yaml`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function importConfig(yamlText) {
+        try {
+            const config = yamlToObject(yamlText);
+            console.log('Parsed YAML config:', config);
+            console.log('Widgets array:', config.widgets);
+
+            if (!config.widgets) {
+                alert('Invalid config file: missing widgets data');
+                return;
+            }
+
+            if (!Array.isArray(config.widgets)) {
+                alert('Invalid config file: widgets must be an array');
+                return;
+            }
+
+            console.log('Number of widgets to import:', config.widgets.length);
+
+            if (confirm(`This will replace your current configuration with ${config.widgets.length} widget(s). Continue?`)) {
+                state.widgets = config.widgets;
+                if (config.settings) {
+                    state.userSettings = { ...state.userSettings, ...config.settings };
+                    applyTheme();
+                }
+                saveWidgets();
+                saveSettings();
+                renderWidgets();
+
+                // Fetch weather data for any weather widgets
+                state.widgets.forEach(widget => {
+                    if (widget.type === 'weather' && widget.location) {
+                        fetchWeather(widget.id, widget.location);
+                    }
+                });
+
+                alert(`Configuration imported successfully! Loaded ${config.widgets.length} widget(s).`);
+            }
+        } catch (error) {
+            console.error('Error importing config:', error);
+            alert('Error importing configuration. Please check the file format.');
+        }
+    }
+
+    function copyConfigToClipboard() {
+        // Clone widgets but remove weather data (keep only location)
+        const widgetsToExport = state.widgets.map(widget => {
+            if (widget.type === 'weather') {
+                const { weather, ...widgetWithoutWeather } = widget;
+                return widgetWithoutWeather;
+            }
+            return widget;
+        });
+
+        const config = {
+            version: '1.0',
+            widgets: widgetsToExport,
+            settings: state.userSettings
+        };
+
+        const yaml = objectToYaml(config);
+        navigator.clipboard.writeText(yaml).then(() => {
+            alert('Configuration copied to clipboard!');
+        }).catch(err => {
+            console.error('Error copying to clipboard:', err);
+            alert('Error copying to clipboard. Please try export to file instead.');
+        });
+    }
+
+    function pasteConfigFromClipboard() {
+        navigator.clipboard.readText().then(text => {
+            importConfig(text);
+        }).catch(err => {
+            console.error('Error reading from clipboard:', err);
+            alert('Error reading from clipboard. Please try import from file instead.');
+        });
+    }
+
+    // Setup export/import listeners
+    const exportBtn = document.getElementById('export-config-btn');
+    const importBtn = document.getElementById('import-config-btn');
+    const importFileInput = document.getElementById('import-file-input');
+
+    if (exportBtn) {
+        exportBtn.addEventListener('click', exportConfig);
+        // Right-click to copy to clipboard
+        exportBtn.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            copyConfigToClipboard();
+        });
+    }
+
+    if (importBtn) {
+        importBtn.addEventListener('click', () => {
+            importFileInput.click();
+        });
+        // Right-click to paste from clipboard
+        importBtn.addEventListener('contextmenu', (e) => {
+            e.preventDefault();
+            pasteConfigFromClipboard();
+        });
+    }
+
+    if (importFileInput) {
+        importFileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    importConfig(event.target.result);
+                };
+                reader.readAsText(file);
+            }
+            // Reset input so same file can be selected again
+            e.target.value = '';
+        });
+    }
 
 
 });
