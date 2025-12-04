@@ -73,6 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const saveLinkBtn = document.getElementById('save-link-btn');
     const cancelLinkBtn = document.getElementById('cancel-link-btn');
 
+    // Initially hide weather config
+    if (weatherConfig) {
+        weatherConfig.classList.add('hidden');
+    }
+
     // Widget templates
     const bookmarksTemplate = document.getElementById('widget-bookmarks-template');
     const launchpadTemplate = document.getElementById('widget-launchpad-template');
@@ -563,7 +568,9 @@ document.addEventListener('DOMContentLoaded', () => {
         widgetTitleInput.value = '';
         widgetLocationInput.value = '';
         widgetTypeSelect.value = 'bookmarks';
-        weatherConfig.classList.add('hidden');
+        if (weatherConfig) {
+            weatherConfig.classList.add('hidden');
+        }
     }
 
     function closeWidgetModal() {
@@ -577,6 +584,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!title) {
             alert('Please enter a widget title');
+            return;
+        }
+
+        // Validate location for weather widget
+        if (type === 'weather' && !location) {
+            alert('Please enter a location for the weather widget');
             return;
         }
 
