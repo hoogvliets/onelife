@@ -1,19 +1,83 @@
 [
   {
-    "title": "Emerge Career (YC S22) Is Hiring",
-    "link": "https://www.ycombinator.com/companies/emerge-career/jobs/qQhLEmC-founding-design-engineer",
+    "title": "Shingles vaccination prevented or delayed dementia",
+    "link": "https://www.cell.com/cell/fulltext/S0092-8674(25)01256-5",
     "source": "Hacker News",
-    "published": "2025-12-05T14:06:53+00:00",
+    "published": "2025-12-05T17:47:16+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46161460\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46164646\">Comments</a>"
   },
   {
-    "title": "Influential study on glyphosate safety retracted 25 years after publication",
-    "link": "https://www.lemonde.fr/en/environment/article/2025/12/03/influential-study-on-glyphosate-safety-retracted-25-years-after-publication_6748114_114.html",
+    "title": "The AI Backlash Is Here: Why Public Patience with Tech Giants Is Running Out",
+    "link": "https://www.newsweek.com/ai-backlash-openai-meta-friend-10807425",
     "source": "Hacker News",
-    "published": "2025-12-05T13:39:04+00:00",
+    "published": "2025-12-05T17:29:47+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46161125\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46164419\">Comments</a>"
+  },
+  {
+    "title": "Onlook (YC W25) the Cursor for Designers Is Hiring a Founding Fullstack Engineer",
+    "link": "https://news.ycombinator.com/item?id=46163977",
+    "source": "Hacker News",
+    "published": "2025-12-05T17:00:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163977\">Comments</a>"
+  },
+  {
+    "title": "Jony Ive's OpenAI Device Barred from Using 'Io' Name",
+    "link": "https://www.macrumors.com/2025/12/05/openai-device-barred-from-io-name/",
+    "source": "Hacker News",
+    "published": "2025-12-05T16:48:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163804\">Comments</a>"
+  },
+  {
+    "title": "Synadia and TigerBeetle Pledge $512,000 to the Zig Software Foundation",
+    "link": "https://tigerbeetle.com/blog/2025-10-25-synadia-and-tigerbeetle-pledge-512k-to-the-zig-software-foundation/",
+    "source": "Hacker News",
+    "published": "2025-12-05T16:38:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163671\">Comments</a>"
+  },
+  {
+    "title": "Patterns for Defensive Programming in Rust",
+    "link": "https://corrode.dev/blog/defensive-programming/",
+    "source": "Hacker News",
+    "published": "2025-12-05T16:34:25+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163609\">Comments</a>"
+  },
+  {
+    "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+    "link": "https://news.ycombinator.com/item?id=46163121",
+    "source": "Hacker News",
+    "published": "2025-12-05T16:04:20+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163121\">Comments</a>"
+  },
+  {
+    "title": "Framework Laptop 13 gets ARM processor with 12 cores via upgrade kit",
+    "link": "https://www.notebookcheck.net/Framework-Laptop-13-gets-ARM-processor-with-12-cores-via-upgrade-kit.1177930.0.html",
+    "source": "Hacker News",
+    "published": "2025-12-05T15:49:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46162872\">Comments</a>"
+  },
+  {
+    "title": "Cloudflare outage on December 5, 2025",
+    "link": "https://blog.cloudflare.com/5-december-2025-outage/",
+    "source": "Hacker News",
+    "published": "2025-12-05T15:35:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46162656\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Pbnj \u2013 A minimal, self-hosted pastebin you can deploy in 60 seconds",
+    "link": "https://pbnj.sh/",
+    "source": "Hacker News",
+    "published": "2025-12-05T13:13:03+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46160824\">Comments</a>"
   },
   {
     "title": "Most technical problems are people problems",
@@ -40,22 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46160315\">Comments</a>"
   },
   {
-    "title": "Sugars, Gum, Stardust Found in NASA's Asteroid Bennu Samples",
-    "link": "https://www.nasa.gov/missions/osiris-rex/sugars-gum-stardust-found-in-nasas-asteroid-bennu-samples/",
-    "source": "Hacker News",
-    "published": "2025-12-05T12:12:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46160239\">Comments</a>"
-  },
-  {
-    "title": "Kenyan court declares law banning seed sharing unconstitutional",
-    "link": "https://apnews.com/article/kenya-seed-sharing-law-ruling-ad4df5a364299b3a9f8515c0f52d5f80",
-    "source": "Hacker News",
-    "published": "2025-12-05T09:09:25+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46158578\">Comments</a>"
-  },
-  {
     "title": "UniFi 5G",
     "link": "https://blog.ui.com/article/introducing-unifi-5g",
     "source": "Hacker News",
@@ -78,14 +126,6 @@
     "published": "2025-12-05T00:09:57+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46155135\">Comments</a>"
-  },
-  {
-    "title": "Trick users and bypass warnings \u2013 Modern SVG Clickjacking attacks",
-    "link": "https://lyra.horse/blog/2025/12/svg-clickjacking/",
-    "source": "Hacker News",
-    "published": "2025-12-05T00:03:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46155085\">Comments</a>"
   },
   {
     "title": "I have been writing a niche history blog for 15 years",
@@ -112,51 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46115758\">Comments</a>"
   },
   {
-    "title": "After 40 years of adventure games, Ron Gilbert pivots to outrunning Death",
-    "link": "https://arstechnica.com/gaming/2025/12/after-40-years-of-adventure-games-ron-gilbert-pivots-to-outrunning-death/",
-    "source": "Hacker News",
-    "published": "2025-12-01T17:13:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46109978\">Comments</a>"
-  },
-  {
-    "title": "Stacked Diffs with git rebase \u2014onto",
-    "link": "https://dineshpandiyan.com/blog/stacked-diffs-with-rebase-onto/",
-    "source": "Hacker News",
-    "published": "2025-12-01T04:47:30+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103571\">Comments</a>"
-  },
-  {
     "title": "New 3D scan reveals a hidden network of moai carvers on Easter Island",
     "link": "https://www.sciencedaily.com/releases/2025/11/251130050717.htm",
     "source": "Hacker News",
     "published": "2025-11-30T19:45:59+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46099739\">Comments</a>"
-  },
-  {
-    "title": "Ephemeral Infrastructure: Why Short-Lived Is a Good Thing",
-    "link": "https://lukasniessen.medium.com/ephemeral-infrastructure-why-short-lived-is-a-good-thing-2cf26afd75ef",
-    "source": "Hacker News",
-    "published": "2025-11-30T10:50:32+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095602\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Tacopy \u2013 Tail Call Optimization for Python",
-    "link": "https://github.com/raaidrt/tacopy",
-    "source": "Hacker News",
-    "published": "2025-11-30T06:18:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46094330\">Comments</a>"
-  },
-  {
-    "title": "CSS now has an if() conditional function",
-    "link": "https://caniuse.com/?search=if",
-    "source": "Hacker News",
-    "published": "2025-11-30T00:21:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092198\">Comments</a>"
   }
 ]
