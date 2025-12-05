@@ -1,19 +1,27 @@
 [
   {
-    "title": "Cloudflare Is Down",
-    "link": "https://cloudflare.com/",
+    "title": "The US polluters that are rewriting the EU's human rights and climate law",
+    "link": "https://www.somo.nl/the-secretive-cabal-of-us-polluters-that-is-rewriting-the-eus-human-rights-and-climate-law/",
     "source": "Hacker News",
-    "published": "2025-12-05T08:59:00+00:00",
+    "published": "2025-12-05T09:58:01+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46158338\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46159193\">Comments</a>"
   },
   {
-    "title": "Cloudflare is down",
-    "link": "https://www.cloudflare.com/",
+    "title": "Kenyan court declares law banning seed sharing unconstitutional",
+    "link": "https://apnews.com/article/kenya-seed-sharing-law-ruling-ad4df5a364299b3a9f8515c0f52d5f80",
     "source": "Hacker News",
-    "published": "2025-12-05T08:50:16+00:00",
+    "published": "2025-12-05T09:09:25+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46158191\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46158578\">Comments</a>"
+  },
+  {
+    "title": "Cloudflare Down Again \u2013 and DownDetector Is Also Down",
+    "link": "https://news.ycombinator.com/item?id=46158200",
+    "source": "Hacker News",
+    "published": "2025-12-05T08:51:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46158200\">Comments</a>"
   },
   {
     "title": "UniFi 5G",
@@ -80,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46154344\">Comments</a>"
   },
   {
-    "title": "CUDA-l2: Surpassing cuBLAS performance for matrix multiplication through RL",
-    "link": "https://github.com/deepreinforce-ai/CUDA-L2",
-    "source": "Hacker News",
-    "published": "2025-12-04T21:04:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46153058\">Comments</a>"
-  },
-  {
     "title": "I have been writing a niche history blog for 15 years",
     "link": "https://resobscura.substack.com/p/why-i-have-been-writing-a-niche-history",
     "source": "Hacker News",
@@ -120,20 +120,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46145180\">Comments</a>"
   },
   {
-    "title": "Show HN: I was reintroduced to computers: Raspberry Pi",
-    "link": "https://airoboticist.blog/2025/12/01/i-was-reintroduced-to-computers-raspberry-pi/",
-    "source": "Hacker News",
-    "published": "2025-12-02T09:14:00+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46119234\">Comments</a>"
-  },
-  {
     "title": "After 40 years of adventure games, Ron Gilbert pivots to outrunning Death",
     "link": "https://arstechnica.com/gaming/2025/12/after-40-years-of-adventure-games-ron-gilbert-pivots-to-outrunning-death/",
     "source": "Hacker News",
     "published": "2025-12-01T17:13:29+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46109978\">Comments</a>"
+  },
+  {
+    "title": "Stacked Diffs with git rebase \u2014onto",
+    "link": "https://dineshpandiyan.com/blog/stacked-diffs-with-rebase-onto/",
+    "source": "Hacker News",
+    "published": "2025-12-01T04:47:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103571\">Comments</a>"
   },
   {
     "title": "Show HN: Tacopy \u2013 Tail Call Optimization for Python",
