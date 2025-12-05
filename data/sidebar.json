@@ -1,19 +1,43 @@
 [
   {
-    "title": "Shingles vaccination prevented or delayed dementia",
-    "link": "https://www.cell.com/cell/fulltext/S0092-8674(25)01256-5",
+    "title": "Judge Signals Win for Software Freedom Conservancy in Vizio GPL Case",
+    "link": "https://fossforce.com/2025/12/judge-signals-win-for-software-freedom-conservancy-in-vizio-gpl-case/",
     "source": "Hacker News",
-    "published": "2025-12-05T17:47:16+00:00",
+    "published": "2025-12-05T20:42:04+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46164646\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46166994\">Comments</a>"
   },
   {
-    "title": "The AI Backlash Is Here: Why Public Patience with Tech Giants Is Running Out",
-    "link": "https://www.newsweek.com/ai-backlash-openai-meta-friend-10807425",
+    "title": "Advertising as a major source of human dissatisfaction (2019) [pdf]",
+    "link": "https://www.andrewoswald.com/docs/AdvertisingMicheletal2019EasterlinVolume.pdf",
     "source": "Hacker News",
-    "published": "2025-12-05T17:29:47+00:00",
+    "published": "2025-12-05T20:18:34+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46164419\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46166709\">Comments</a>"
+  },
+  {
+    "title": "Framework Sponsors CachyOS",
+    "link": "https://discuss.cachyos.org/t/framework-sponsorship-for-cachyos/19376",
+    "source": "Hacker News",
+    "published": "2025-12-05T20:03:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46166536\">Comments</a>"
+  },
+  {
+    "title": "Show HN: SerpApi MCP Server",
+    "link": "https://github.com/serpapi/serpapi-mcp",
+    "source": "Hacker News",
+    "published": "2025-12-05T18:30:06+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46165251\">Comments</a>"
+  },
+  {
+    "title": "Why we built Lightpanda in Zig",
+    "link": "https://lightpanda.io/blog/posts/why-we-built-lightpanda-in-zig",
+    "source": "Hacker News",
+    "published": "2025-12-05T18:29:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46165249\">Comments</a>"
   },
   {
     "title": "Onlook (YC W25) the Cursor for Designers Is Hiring a Founding Fullstack Engineer",
@@ -24,28 +48,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46163977\">Comments</a>"
   },
   {
-    "title": "Jony Ive's OpenAI Device Barred from Using 'Io' Name",
-    "link": "https://www.macrumors.com/2025/12/05/openai-device-barred-from-io-name/",
-    "source": "Hacker News",
-    "published": "2025-12-05T16:48:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163804\">Comments</a>"
-  },
-  {
-    "title": "Synadia and TigerBeetle Pledge $512,000 to the Zig Software Foundation",
-    "link": "https://tigerbeetle.com/blog/2025-10-25-synadia-and-tigerbeetle-pledge-512k-to-the-zig-software-foundation/",
-    "source": "Hacker News",
-    "published": "2025-12-05T16:38:30+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163671\">Comments</a>"
-  },
-  {
     "title": "Patterns for Defensive Programming in Rust",
     "link": "https://corrode.dev/blog/defensive-programming/",
     "source": "Hacker News",
     "published": "2025-12-05T16:34:25+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46163609\">Comments</a>"
+  },
+  {
+    "title": "Zellij: A terminal workspace with batteries included",
+    "link": "https://zellij.dev",
+    "source": "Hacker News",
+    "published": "2025-12-05T16:18:58+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163377\">Comments</a>"
+  },
+  {
+    "title": "Gemini 3 Pro: the frontier of vision AI",
+    "link": "https://blog.google/technology/developers/gemini-3-pro-vision/",
+    "source": "Hacker News",
+    "published": "2025-12-05T16:15:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163308\">Comments</a>"
   },
   {
     "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
@@ -72,22 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46162656\">Comments</a>"
   },
   {
-    "title": "Show HN: Pbnj \u2013 A minimal, self-hosted pastebin you can deploy in 60 seconds",
-    "link": "https://pbnj.sh/",
-    "source": "Hacker News",
-    "published": "2025-12-05T13:13:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46160824\">Comments</a>"
-  },
-  {
-    "title": "Most technical problems are people problems",
-    "link": "https://blog.joeschrag.com/2023/11/most-technical-problems-are-really.html",
-    "source": "Hacker News",
-    "published": "2025-12-05T13:07:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46160773\">Comments</a>"
-  },
-  {
     "title": "Making RSS More Fun",
     "link": "https://matduggan.com/making-rss-more-fun/",
     "source": "Hacker News",
@@ -112,51 +120,43 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46157594\">Comments</a>"
   },
   {
-    "title": "BMW PHEV: Safety fuse replacement is extremely expensive",
-    "link": "https://evclinic.eu/2025/12/04/2021-phev-bmw-ibmucp-21f37e-post-crash-recovery-when-eu-engineering-becomes-a-synonym-for-unrepairable-generating-waste/",
+    "title": "Show HN: HCB Mobile \u2013\u00a0financial app built by 17 y/o, processing $6M/month",
+    "link": "https://hackclub.com/fiscal-sponsorship/mobile/",
     "source": "Hacker News",
-    "published": "2025-12-05T01:05:57+00:00",
+    "published": "2025-12-03T04:20:44+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46155619\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130260\">Comments</a>"
   },
   {
-    "title": "Netflix\u2019s AV1 Journey: From Android to TVs and Beyond",
-    "link": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
+    "title": "Compassionate Curmudgeon: Why we must root ourselves in the real world",
+    "link": "https://theamericanscholar.org/compassionate-curmudgeon/",
     "source": "Hacker News",
-    "published": "2025-12-05T00:09:57+00:00",
+    "published": "2025-12-02T08:33:52+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46155135\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46118986\">Comments</a>"
   },
   {
-    "title": "I have been writing a niche history blog for 15 years",
-    "link": "https://resobscura.substack.com/p/why-i-have-been-writing-a-niche-history",
+    "title": "Idempotency Keys for Exactly-Once Processing",
+    "link": "https://www.morling.dev/blog/on-idempotency-keys/",
     "source": "Hacker News",
-    "published": "2025-12-04T18:49:20+00:00",
+    "published": "2025-12-01T12:07:33+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46151299\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46106411\">Comments</a>"
   },
   {
-    "title": "Show HN: Kraa \u2013 Writing App for Everything",
-    "link": "https://kraa.io/about",
+    "title": "Building a Copying GC for the Plush Programming Language",
+    "link": "https://pointersgonewild.com/2025-11-29-building-a-copying-gc-for-the-plush-programming-language/",
     "source": "Hacker News",
-    "published": "2025-12-04T07:35:10+00:00",
+    "published": "2025-12-01T01:48:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144801\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46102546\">Comments</a>"
   },
   {
-    "title": "Nimony (Nim 3.0) Design Principles",
-    "link": "https://nim-lang.org/araq/nimony.html",
+    "title": "The Forgotten Roman Ruins of the \u2018Pompeii of the Middle East\u2019",
+    "link": "https://news.artnet.com/art-world/huge-jerash-jordan-pompeii-middle-easy-2708480",
     "source": "Hacker News",
-    "published": "2025-12-02T00:39:41+00:00",
+    "published": "2025-11-29T18:02:55+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46115758\">Comments</a>"
-  },
-  {
-    "title": "New 3D scan reveals a hidden network of moai carvers on Easter Island",
-    "link": "https://www.sciencedaily.com/releases/2025/11/251130050717.htm",
-    "source": "Hacker News",
-    "published": "2025-11-30T19:45:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46099739\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089444\">Comments</a>"
   }
 ]
