@@ -1,27 +1,91 @@
 [
   {
-    "title": "Plane crashed after 3D-printed part collapsed",
+    "title": "AV1 \u2013 Now Powering 30% of Netflix Streaming",
+    "link": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
+    "source": "Hacker News",
+    "published": "2025-12-05T00:09:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46155135\">Comments</a>"
+  },
+  {
+    "title": "Trick users and bypass warnings \u2013 Modern SVG Clickjacking attacks",
+    "link": "https://lyra.horse/blog/2025/12/svg-clickjacking/",
+    "source": "Hacker News",
+    "published": "2025-12-05T00:03:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46155085\">Comments</a>"
+  },
+  {
+    "title": "Coca Cola has an executive dedicated to McDonald's",
+    "link": "https://www.coca-colacompany.com/about-us/leadership/roberto-mercade",
+    "source": "Hacker News",
+    "published": "2025-12-04T23:12:33+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154539\">Comments</a>"
+  },
+  {
+    "title": "We gave 5 LLMs $100K to trade stocks for 8 months",
+    "link": "https://www.aitradearena.com/research/we-ran-llms-for-8-months",
+    "source": "Hacker News",
+    "published": "2025-12-04T23:08:25+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154491\">Comments</a>"
+  },
+  {
+    "title": "SMS phishers pivot to points, taxes, fake retailers",
+    "link": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "source": "Hacker News",
+    "published": "2025-12-04T23:08:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154484\">Comments</a>"
+  },
+  {
+    "title": "StardustOS: Library operating system for building light-weight Unikernels",
+    "link": "https://github.com/StardustOS",
+    "source": "Hacker News",
+    "published": "2025-12-04T22:56:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154344\">Comments</a>"
+  },
+  {
+    "title": "State of AI: An Empirical 100T Token Study with OpenRouter",
+    "link": "https://openrouter.ai/state-of-ai",
+    "source": "Hacker News",
+    "published": "2025-12-04T22:26:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154022\">Comments</a>"
+  },
+  {
+    "title": "Thoughts on Go vs. Rust vs. Zig",
+    "link": "https://sinclairtarget.com/blog/2025/08/thoughts-on-go-vs.-rust-vs.-zig/",
+    "source": "Hacker News",
+    "published": "2025-12-04T21:40:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46153466\">Comments</a>"
+  },
+  {
+    "title": "Django 6",
+    "link": "https://docs.djangoproject.com/en/6.0/releases/6.0/",
+    "source": "Hacker News",
+    "published": "2025-12-04T21:09:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46153116\">Comments</a>"
+  },
+  {
+    "title": "CUDA-l2: Surpassing cuBLAS performance for matrix multiplication through RL",
+    "link": "https://github.com/deepreinforce-ai/CUDA-L2",
+    "source": "Hacker News",
+    "published": "2025-12-04T21:04:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46153058\">Comments</a>"
+  },
+  {
+    "title": "A Cozy Mk IV light aircraft crashed after 3D-printed part was weakened by heat",
     "link": "https://www.bbc.com/news/articles/c1w932vqye0o",
     "source": "Hacker News",
     "published": "2025-12-04T20:56:08+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46152941\">Comments</a>"
-  },
-  {
-    "title": "The RAM shortage comes for us all",
-    "link": "https://www.jeffgeerling.com/blog/2025/ram-shortage-comes-us-all",
-    "source": "Hacker News",
-    "published": "2025-12-04T19:16:11+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46151578\">Comments</a>"
-  },
-  {
-    "title": "Hammersmith Bridge \u2013 Where did 25,000 vehicles go?",
-    "link": "https://nickmaini.substack.com/p/hammersmith-bridge",
-    "source": "Hacker News",
-    "published": "2025-12-04T18:52:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46151335\">Comments</a>"
   },
   {
     "title": "Why are 38 percent of Stanford students saying they're disabled?",
@@ -56,38 +120,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46149813\">Comments</a>"
   },
   {
-    "title": "Launch HN: Browser Buddy (YC W24) \u2013 A recommendation system for Internet writing",
-    "link": "https://www.browserbuddy.com/",
-    "source": "Hacker News",
-    "published": "2025-12-04T16:52:56+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46149727\">Comments</a>"
-  },
-  {
-    "title": "Autism should not be treated as a single condition",
-    "link": "https://www.economist.com/science-and-technology/2025/12/03/why-autism-should-not-be-treated-as-a-single-condition",
-    "source": "Hacker News",
-    "published": "2025-12-04T16:25:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46149375\">Comments</a>"
-  },
-  {
-    "title": "Feynman vs. Computer",
-    "link": "https://entropicthoughts.com/feynman-vs-computer",
-    "source": "Hacker News",
-    "published": "2025-12-04T16:03:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46149066\">Comments</a>"
-  },
-  {
-    "title": "Microsoft drops AI sales targets in half after salespeople miss their quotas",
-    "link": "https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/",
-    "source": "Hacker News",
-    "published": "2025-12-04T15:31:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46148748\">Comments</a>"
-  },
-  {
     "title": "Show HN: Onlyrecipe 2.0 \u2013 I added all features HN requested \u2013 4 years later",
     "link": "https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903",
     "source": "Hacker News",
@@ -102,38 +134,6 @@
     "published": "2025-12-04T13:40:00+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46147540\">Comments</a>"
-  },
-  {
-    "title": "Fighting the age-gated internet",
-    "link": "https://www.wired.com/story/age-verification-is-sweeping-the-us-activists-are-fighting-back/",
-    "source": "Hacker News",
-    "published": "2025-12-04T13:34:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147493\">Comments</a>"
-  },
-  {
-    "title": "Functional Quadtrees",
-    "link": "https://lbjgruppen.com/en/posts/functional-quadtree-clojure",
-    "source": "Hacker News",
-    "published": "2025-12-04T13:18:38+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147341\">Comments</a>"
-  },
-  {
-    "title": "I ignore the spotlight as a staff engineer",
-    "link": "https://lalitm.com/software-engineering-outside-the-spotlight/",
-    "source": "Hacker News",
-    "published": "2025-12-04T11:36:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146451\">Comments</a>"
-  },
-  {
-    "title": "PGlite \u2013 Embeddable Postgres",
-    "link": "https://pglite.dev/",
-    "source": "Hacker News",
-    "published": "2025-12-04T10:52:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146133\">Comments</a>"
   },
   {
     "title": "It\u2019s time to free JavaScript (2024)",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46145180\">Comments</a>"
   },
   {
-    "title": "Yawning abyss of the decimal labyrinth",
-    "link": "https://oh4.co/site/numogrammaticism.html",
+    "title": "Help, My Java Object Vanished (and the GC Is Not at Fault)",
+    "link": "https://arraying.de/posts/markword/",
     "source": "Hacker News",
-    "published": "2025-11-27T21:24:10+00:00",
+    "published": "2025-11-29T13:47:30+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073346\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087509\">Comments</a>"
   }
 ]
