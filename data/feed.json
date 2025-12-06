@@ -504,27 +504,5 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/db80769a-f3cf-4019-81a9-6e95151e106a_1460x1070.png",
     "tags": [],
     "id": "https://newsletter.pragmaticengineer.com/p/state-of-the-tech-market-in-2025-hiring-managers"
-  },
-  {
-    "title": "The Meaning of Meaning in Data Modeling",
-    "summary": "Intro Section in New Chapter on Meaning as a Building Block of Data Modeling",
-    "link": "https://practicaldatamodeling.substack.com/p/the-meaning-of-meaning",
-    "author": "Joe Reis",
-    "source": "Practical Data Modeling",
-    "published": "2025-10-07T07:43:17+00:00",
-    "image": "https://substackcdn.com/image/fetch/$s_!Q0I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eecf34a-ff04-4526-a4b3-4163469579cd_500x500.png",
-    "tags": [],
-    "id": "https://practicaldatamodeling.substack.com/p/the-meaning-of-meaning"
-  },
-  {
-    "title": "AI Workflows vs Agents: The Autonomy Slider",
-    "summary": "What only the top 10% AI engineers who ship think about",
-    "link": "https://www.decodingai.com/p/ai-workflows-vs-agents-the-autonomy",
-    "author": "Paul Iusztin",
-    "source": "Decoding AI Magazine",
-    "published": "2025-10-07T07:02:55+00:00",
-    "image": "https://substackcdn.com/image/fetch/$s_!gNtA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c96e813-225d-4fcb-a49f-964e38a7d8ca_1200x1200.png",
-    "tags": [],
-    "id": "https://www.decodingai.com/p/ai-workflows-vs-agents-the-autonomy"
   }
 ]

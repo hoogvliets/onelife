@@ -1,11 +1,27 @@
 [
   {
-    "title": "Nook Browser",
-    "link": "https://browsewithnook.com",
+    "title": "Schizophrenia sufferer mistakes smart fridge ad for psychotic episode",
+    "link": "https://old.reddit.com/r/LegalAdviceUK/comments/1pc7999/my_schizophrenic_sister_hospitalised_herself/",
     "source": "Hacker News",
-    "published": "2025-12-06T03:32:56+00:00",
+    "published": "2025-12-06T07:31:07+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170402\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171425\">Comments</a>"
+  },
+  {
+    "title": "Wolfram Compute Services",
+    "link": "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/",
+    "source": "Hacker News",
+    "published": "2025-12-06T07:21:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171394\">Comments</a>"
+  },
+  {
+    "title": "Infracost (YC W21) is hiring Sr Node Eng to make $600B/yr cloud spend proactive",
+    "link": "https://www.ycombinator.com/companies/infracost/jobs/Sr9rmHs-senior-product-engineer-node-js",
+    "source": "Hacker News",
+    "published": "2025-12-06T07:00:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171311\">Comments</a>"
   },
   {
     "title": "Albert Michelson's Harmonic Analyzer (2014) [pdf]",
@@ -32,14 +48,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46170302\">Comments</a>"
   },
   {
-    "title": "YouTube caught making AI-edits to videos and adding misleading AI summaries",
-    "link": "https://www.ynetnews.com/tech-and-digital/article/bj1qbwcklg",
-    "source": "Hacker News",
-    "published": "2025-12-06T01:15:48+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46169554\">Comments</a>"
-  },
-  {
     "title": "Extra Instructions Of The 65XX Series CPU (1996)",
     "link": "http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes",
     "source": "Hacker News",
@@ -64,36 +72,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46167552\">Comments</a>"
   },
   {
-    "title": "Perpetual futures, explained",
-    "link": "https://www.bitsaboutmoney.com/archive/perpetual-futures-explained/",
-    "source": "Hacker News",
-    "published": "2025-12-05T21:23:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46167500\">Comments</a>"
-  },
-  {
-    "title": "Patterns for Defensive Programming in Rust",
-    "link": "https://corrode.dev/blog/defensive-programming/",
-    "source": "Hacker News",
-    "published": "2025-12-05T16:34:25+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163609\">Comments</a>"
-  },
-  {
     "title": "Gemini 3 Pro: the frontier of vision AI",
     "link": "https://blog.google/technology/developers/gemini-3-pro-vision/",
     "source": "Hacker News",
     "published": "2025-12-05T16:15:10+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46163308\">Comments</a>"
-  },
-  {
-    "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
-    "link": "https://news.ycombinator.com/item?id=46163121",
-    "source": "Hacker News",
-    "published": "2025-12-05T16:04:20+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163121\">Comments</a>"
   },
   {
     "title": "Cloudflare outage on December 5, 2025",
@@ -104,20 +88,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46162656\">Comments</a>"
   },
   {
-    "title": "Most technical problems are people problems",
-    "link": "https://blog.joeschrag.com/2023/11/most-technical-problems-are-really.html",
-    "source": "Hacker News",
-    "published": "2025-12-05T13:07:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46160773\">Comments</a>"
-  },
-  {
     "title": "Netflix to Acquire Warner Bros",
     "link": "https://about.netflix.com/en/news/netflix-to-acquire-warner-bros",
     "source": "Hacker News",
     "published": "2025-12-05T12:21:19+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46160315\">Comments</a>"
+  },
+  {
+    "title": "Netflix\u2019s AV1 Journey: From Android to TVs and Beyond",
+    "link": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
+    "source": "Hacker News",
+    "published": "2025-12-05T00:09:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46155135\">Comments</a>"
+  },
+  {
+    "title": "Guy Built a Compact Camera Using an Optical Mouse",
+    "link": "https://petapixel.com/2025/11/13/this-guy-built-a-compact-camera-using-an-optical-mouse/",
+    "source": "Hacker News",
+    "published": "2025-12-03T16:02:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46136059\">Comments</a>"
   },
   {
     "title": "Ivan Sutherland Sketchpad Demo 1963 [video]",
@@ -134,6 +126,14 @@
     "published": "2025-12-02T20:28:18+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46126380\">Comments</a>"
+  },
+  {
+    "title": "PC-Man (IBM PC 1983) and the spark of childhood wonder",
+    "link": "https://intotheverticalblank.com/2025/12/02/interview-greg-kuperberg/",
+    "source": "Hacker News",
+    "published": "2025-12-02T17:09:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46123518\">Comments</a>"
   },
   {
     "title": "Idempotency keys for exactly-once processing",
