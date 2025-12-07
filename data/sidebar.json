@@ -1,5 +1,53 @@
 [
   {
+    "title": "Goodbye, Microsoft: Schleswig-Holstein Relies on Open Source and Saves Millions",
+    "link": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
+    "source": "Hacker News",
+    "published": "2025-12-07T13:21:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181491\">Comments</a>"
+  },
+  {
+    "title": "At least 50 hallucinated citations found in ICLR 2026 submissions",
+    "link": "https://gptzero.me/news/iclr-2026/",
+    "source": "Hacker News",
+    "published": "2025-12-07T13:16:26+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181466\">Comments</a>"
+  },
+  {
+    "title": "The Anatomy of a macOS App",
+    "link": "https://eclecticlight.co/2025/12/04/the-anatomy-of-a-macos-app/",
+    "source": "Hacker News",
+    "published": "2025-12-07T12:31:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181268\">Comments</a>"
+  },
+  {
+    "title": "How the Disappearance of Flight 19 Fueled the Legend of the Bermuda Triangle",
+    "link": "https://www.smithsonianmag.com/history/how-the-disappearance-of-flight-19-a-navy-squadron-lost-in-1945-fueled-the-legend-of-the-bermuda-triangle-180987759/",
+    "source": "Hacker News",
+    "published": "2025-12-07T12:25:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181237\">Comments</a>"
+  },
+  {
+    "title": "Google Titans architecture, helping AI have long-term memory",
+    "link": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
+    "source": "Hacker News",
+    "published": "2025-12-07T12:23:45+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181231\">Comments</a>"
+  },
+  {
+    "title": "Java Hello World, LLVM Edition",
+    "link": "https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html",
+    "source": "Hacker News",
+    "published": "2025-12-07T11:51:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181076\">Comments</a>"
+  },
+  {
     "title": "Discovering the indieweb with calm tech",
     "link": "https://alexsci.com/blog/calm-tech-discover/",
     "source": "Hacker News",
@@ -40,22 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46177645\">Comments</a>"
   },
   {
-    "title": "Saving Japan's exceptionally rare 'snow monsters'",
-    "link": "https://www.bbc.com/future/article/20251203-japans-disappearing-snow-monsters",
-    "source": "Hacker News",
-    "published": "2025-12-06T23:06:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46177418\">Comments</a>"
-  },
-  {
-    "title": "United States Antarctic Program Field Manual (2024) [pdf]",
-    "link": "https://www.usap.gov/usapgov/travelAndDeployment/documents/Continental-Field-Manual-2024.pdf",
-    "source": "Hacker News",
-    "published": "2025-12-06T22:26:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46177132\">Comments</a>"
-  },
-  {
     "title": "Screenshots from developers: 2002 vs. 2015 (2015)",
     "link": "https://anders.unix.se/2015/12/10/screenshots-from-developers--2002-vs.-2015/",
     "source": "Hacker News",
@@ -72,36 +104,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46176893\">Comments</a>"
   },
   {
-    "title": "Zebra-Llama \u2013 Towards efficient hybrid models",
-    "link": "https://arxiv.org/abs/2505.17272",
-    "source": "Hacker News",
-    "published": "2025-12-06T20:15:54+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46176289\">Comments</a>"
-  },
-  {
-    "title": "OMSCS Open Courseware",
-    "link": "https://sites.gatech.edu/omscsopencourseware/",
-    "source": "Hacker News",
-    "published": "2025-12-06T19:14:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46175826\">Comments</a>"
-  },
-  {
     "title": "Perl's decline was cultural",
     "link": "https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical",
     "source": "Hacker News",
     "published": "2025-12-06T17:42:07+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46175112\">Comments</a>"
-  },
-  {
-    "title": "HTML as an Accessible Format for Papers (2023)",
-    "link": "https://info.arxiv.org/about/accessible_HTML.html",
-    "source": "Hacker News",
-    "published": "2025-12-06T14:59:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46173825\">Comments</a>"
   },
   {
     "title": "Tiny Core Linux: a 23 MB Linux distro with graphical desktop",
@@ -120,12 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46173407\">Comments</a>"
   },
   {
-    "title": "What even is \"literate programming\"?",
+    "title": "What even is \"literate programming\"? (2024)",
     "link": "https://pqnelson.github.io/2024/05/29/literate-programming.html",
     "source": "Hacker News",
     "published": "2025-12-02T19:56:09+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46125963\">Comments</a>"
+  },
+  {
+    "title": "Duplication Isn't Always an Anti-Pattern",
+    "link": "https://medium.com/@HobokenDays/rethinking-duplication-c1f85f1c0102",
+    "source": "Hacker News",
+    "published": "2025-12-02T08:58:32+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46119117\">Comments</a>"
   },
   {
     "title": "Patching Pulse Oximeter Firmware",
@@ -136,27 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46107897\">Comments</a>"
   },
   {
-    "title": "Bikeshedding, or why I want to build a laptop",
-    "link": "https://geohot.github.io//blog/jekyll/update/2025/11/29/bikeshedding-or-laptop.html",
-    "source": "Hacker News",
-    "published": "2025-12-01T01:08:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46102276\">Comments</a>"
-  },
-  {
     "title": "Z-Image: Powerful and highly efficient image generation model with 6B parameters",
     "link": "https://github.com/Tongyi-MAI/Z-Image",
     "source": "Hacker News",
     "published": "2025-11-30T11:36:34+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46095817\">Comments</a>"
-  },
-  {
-    "title": "Principles of Slack Maximalism",
-    "link": "https://aelerinya.substack.com/p/the-10-principles-of-slack-maximalism",
-    "source": "Hacker News",
-    "published": "2025-11-28T18:36:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46081418\">Comments</a>"
   }
 ]
