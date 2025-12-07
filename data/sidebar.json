@@ -1,5 +1,45 @@
 [
   {
+    "title": "I Tried and Failed to Rebuild the 1996 Space Jam Website with Claude",
+    "link": "https://j0nah.com/i-failed-to-recreate-the-1996-space-jam-website-with-claude/",
+    "source": "Hacker News",
+    "published": "2025-12-07T17:18:54+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183294\">Comments</a>"
+  },
+  {
+    "title": "Semantic Compression (2014)",
+    "link": "https://caseymuratori.com/blog_0015",
+    "source": "Hacker News",
+    "published": "2025-12-07T16:55:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183091\">Comments</a>"
+  },
+  {
+    "title": "The AI Wildfire Is Coming. It's Going to Be Painful and Healthy",
+    "link": "https://ceodinner.substack.com/p/the-ai-wildfire-is-coming-its-going",
+    "source": "Hacker News",
+    "published": "2025-12-07T16:43:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183011\">Comments</a>"
+  },
+  {
+    "title": "Locks in PostgreSQL",
+    "link": "https://habr.com/en/companies/postgrespro/articles/504498/",
+    "source": "Hacker News",
+    "published": "2025-12-07T15:42:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182496\">Comments</a>"
+  },
+  {
+    "title": "Scala 3 slowed us down?",
+    "link": "https://kmaliszewski9.github.io/scala/2025/12/07/scala3-slowdown.html",
+    "source": "Hacker News",
+    "published": "2025-12-07T15:08:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182202\">Comments</a>"
+  },
+  {
     "title": "Goodbye, Microsoft: Schleswig-Holstein Relies on Open Source and Saves Millions",
     "link": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
     "source": "Hacker News",
@@ -48,28 +88,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181076\">Comments</a>"
   },
   {
-    "title": "Discovering the indieweb with calm tech",
-    "link": "https://alexsci.com/blog/calm-tech-discover/",
-    "source": "Hacker News",
-    "published": "2025-12-07T03:26:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46178892\">Comments</a>"
-  },
-  {
     "title": "Z2 \u2013 Lithographically fabricated IC in a garage fab",
     "link": "https://sam.zeloof.xyz/second-ic/",
     "source": "Hacker News",
     "published": "2025-12-07T03:03:09+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46178789\">Comments</a>"
-  },
-  {
-    "title": "Eurydice: a Rust to C compiler (yes)",
-    "link": "https://jonathan.protzenko.fr/2025/10/28/eurydice.html",
-    "source": "Hacker News",
-    "published": "2025-12-07T01:41:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46178442\">Comments</a>"
   },
   {
     "title": "Using LLMs at Oxide",
@@ -104,22 +128,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46176893\">Comments</a>"
   },
   {
-    "title": "Perl's decline was cultural",
-    "link": "https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical",
-    "source": "Hacker News",
-    "published": "2025-12-06T17:42:07+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46175112\">Comments</a>"
-  },
-  {
-    "title": "Tiny Core Linux: a 23 MB Linux distro with graphical desktop",
-    "link": "http://www.tinycorelinux.net/",
-    "source": "Hacker News",
-    "published": "2025-12-06T14:18:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46173547\">Comments</a>"
-  },
-  {
     "title": "GrapheneOS is the only Android OS providing full security patches",
     "link": "https://grapheneos.social/@GrapheneOS/115647408229616018",
     "source": "Hacker News",
@@ -128,35 +136,27 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46173407\">Comments</a>"
   },
   {
-    "title": "What even is \"literate programming\"? (2024)",
-    "link": "https://pqnelson.github.io/2024/05/29/literate-programming.html",
+    "title": "Building a Toast Component",
+    "link": "https://emilkowal.ski/ui/building-a-toast-component",
     "source": "Hacker News",
-    "published": "2025-12-02T19:56:09+00:00",
+    "published": "2025-12-03T14:51:54+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46125963\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46135145\">Comments</a>"
   },
   {
-    "title": "Duplication Isn't Always an Anti-Pattern",
-    "link": "https://medium.com/@HobokenDays/rethinking-duplication-c1f85f1c0102",
+    "title": "An Interactive Guide to the Fourier Transform",
+    "link": "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/",
     "source": "Hacker News",
-    "published": "2025-12-02T08:58:32+00:00",
+    "published": "2025-12-02T06:50:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46119117\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46118358\">Comments</a>"
   },
   {
-    "title": "Patching Pulse Oximeter Firmware",
-    "link": "https://stefan-gloor.ch/pulseoximeter-hack",
+    "title": "Vanity Activities",
+    "link": "https://quarter--mile.com/vanity-activities",
     "source": "Hacker News",
-    "published": "2025-12-01T14:34:51+00:00",
+    "published": "2025-12-01T18:57:21+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46107897\">Comments</a>"
-  },
-  {
-    "title": "Z-Image: Powerful and highly efficient image generation model with 6B parameters",
-    "link": "https://github.com/Tongyi-MAI/Z-Image",
-    "source": "Hacker News",
-    "published": "2025-11-30T11:36:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095817\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46111448\">Comments</a>"
   }
 ]

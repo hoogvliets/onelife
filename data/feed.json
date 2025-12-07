@@ -482,16 +482,5 @@
     "image": "https://substackcdn.com/image/fetch/$s_!L6E-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb17e981-edeb-4375-b383-205e36561468_512x512.png",
     "tags": [],
     "id": "https://www.decodingai.com/p/the-top-11-ways-to-easily-improve"
-  },
-  {
-    "title": "Python, Go, Rust, TypeScript and AI with Armin Ronacher",
-    "summary": "Flask creator and former Sentry engineer Armin Ronacher discusses how programming languages and AI are reshaping how developers build software.",
-    "link": "https://newsletter.pragmaticengineer.com/p/python-go-rust-typescript-and-ai",
-    "author": "Gergely Orosz",
-    "source": "The Pragmatic Engineer",
-    "published": "2025-10-08T15:34:25+00:00",
-    "image": null,
-    "tags": [],
-    "id": "https://newsletter.pragmaticengineer.com/p/python-go-rust-typescript-and-ai"
   }
 ]
