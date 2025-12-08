@@ -1,6 +1,30 @@
 [
   {
-    "title": "Quanta to Publish Popular Math and Physics Titles by Terence Tao and David Tong",
+    "title": "GitHub no longer uses Toasts",
+    "link": "https://primer.style/accessibility/toasts/",
+    "source": "Hacker News",
+    "published": "2025-12-08T19:58:41+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46196831\">Comments</a>"
+  },
+  {
+    "title": "Jepsen: NATS 2.12.1",
+    "link": "https://jepsen.io/analyses/nats-2.12.1",
+    "source": "Hacker News",
+    "published": "2025-12-08T18:51:03+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46196105\">Comments</a>"
+  },
+  {
+    "title": "Deep dive on Nvidia circular funding",
+    "link": "https://philippeoger.com/pages/deep-dive-into-nvidias-virtuous-cycle",
+    "source": "Hacker News",
+    "published": "2025-12-08T18:48:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46196076\">Comments</a>"
+  },
+  {
+    "title": "Quanta to publish popular math and physics books by Terence Tao and David Tong",
     "link": "https://www.simonsfoundation.org/2025/12/08/quanta-books-to-publish-popular-math-and-physics-titles-by-terence-tao-and-david-tong/",
     "source": "Hacker News",
     "published": "2025-12-08T17:39:55+00:00",
@@ -14,6 +38,14 @@
     "published": "2025-12-08T17:38:34+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46195198\">Comments</a>"
+  },
+  {
+    "title": "We collected 10k hours of neuro-language data in our basement",
+    "link": "https://condu.it/thought/10k-hours",
+    "source": "Hacker News",
+    "published": "2025-12-08T17:33:13+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46195109\">Comments</a>"
   },
   {
     "title": "Show HN: DuckDB for Kafka Stream Processing",
@@ -32,28 +64,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46194828\">Comments</a>"
   },
   {
-    "title": "RIP Tetsu Yamauchi (Former Free and Faces Bassist)",
-    "link": "https://www.loudersound.com/bands-artists/former-free-and-faces-bassist-tetsu-yamauchi-dead-at-79",
-    "source": "Hacker News",
-    "published": "2025-12-08T17:08:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194805\">Comments</a>"
-  },
-  {
     "title": "Legion Health (YC S21) is hiring a founding engineer (SF, in-person)",
     "link": "https://news.ycombinator.com/item?id=46194720",
     "source": "Hacker News",
     "published": "2025-12-08T17:01:11+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46194720\">Comments</a>"
-  },
-  {
-    "title": "Microsoft has a problem: nobody wants to buy or use its shoddy AI products",
-    "link": "https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai",
-    "source": "Hacker News",
-    "published": "2025-12-08T16:54:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194615\">Comments</a>"
   },
   {
     "title": "A series of tricks and techniques I learned doing tiny GLSL demos",
@@ -88,22 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46193931\">Comments</a>"
   },
   {
-    "title": "Berkshire Hathaway Announces Leadership Appointments [pdf]",
-    "link": "https://berkshirehathaway.com/news/dec0825.pdf",
-    "source": "Hacker News",
-    "published": "2025-12-08T15:12:28+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46193116\">Comments</a>"
-  },
-  {
-    "title": "Nova Programming Language",
-    "link": "https://nova-lang.net",
-    "source": "Hacker News",
-    "published": "2025-12-08T15:03:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192997\">Comments</a>"
-  },
-  {
     "title": "Strong earthquake hits northern Japan, tsunami warning issued",
     "link": "https://www3.nhk.or.jp/nhkworld/en/news/20251209_02/",
     "source": "Hacker News",
@@ -112,20 +112,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46192846\">Comments</a>"
   },
   {
-    "title": "IBM to Acquire Confluent",
+    "title": "Paramount launches hostile bid for Warner Bros",
+    "link": "https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html",
+    "source": "Hacker News",
+    "published": "2025-12-08T14:16:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192459\">Comments</a>"
+  },
+  {
+    "title": "Microsoft increases Office 365 and Microsoft 365 license prices",
+    "link": "https://office365itpros.com/2025/12/08/microsoft-365-pricing-increase/",
+    "source": "Hacker News",
+    "published": "2025-12-08T13:49:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192186\">Comments</a>"
+  },
+  {
+    "title": "IBM to acquire Confluent",
     "link": "https://www.confluent.io/blog/ibm-to-acquire-confluent/",
     "source": "Hacker News",
     "published": "2025-12-08T13:43:59+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46192130\">Comments</a>"
-  },
-  {
-    "title": "Colors of Growth",
-    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5804462",
-    "source": "Hacker News",
-    "published": "2025-12-08T13:13:12+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191814\">Comments</a>"
   },
   {
     "title": "Flow: Actor-based language for C++, used by FoundationDB",
@@ -136,27 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46191763\">Comments</a>"
   },
   {
-    "title": "Twelve Days of Shell",
-    "link": "https://12days.cmdchallenge.com",
+    "title": "Microsoft Download Center Archive",
+    "link": "https://legacyupdate.net/download-center/",
     "source": "Hacker News",
-    "published": "2025-12-08T10:13:07+00:00",
+    "published": "2025-12-05T19:33:28+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46190577\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46166178\">Comments</a>"
   },
   {
-    "title": "The \"confident idiot\" problem: Why AI needs hard rules, not vibe checks",
-    "link": "https://steerlabs.substack.com/p/confident-idiot-problem",
+    "title": "Word spacing",
+    "link": "https://en.wikipedia.org/wiki/Word_spacing",
     "source": "Hacker News",
-    "published": "2025-12-04T20:48:56+00:00",
+    "published": "2025-12-05T08:08:42+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46152838\">Comments</a>"
-  },
-  {
-    "title": "Turtletoy",
-    "link": "https://turtletoy.net/",
-    "source": "Hacker News",
-    "published": "2025-12-03T18:57:08+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46138459\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46157914\">Comments</a>"
   }
 ]
