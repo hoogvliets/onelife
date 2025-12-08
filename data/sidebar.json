@@ -1,11 +1,35 @@
 [
   {
-    "title": "Applets Are Officially Gone, but Java in the Browser Is Better",
-    "link": "https://frequal.com/java/AppletsGoneButJavaInTheBrowserBetterThanEver.html",
+    "title": "Nango (YC W23) is hiring back-end engineers and dev-rels (remote)",
+    "link": "https://jobs.ashbyhq.com/Nango",
     "source": "Hacker News",
-    "published": "2025-12-08T08:16:26+00:00",
+    "published": "2025-12-08T12:01:13+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46189704\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191269\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Web app that lets you send email time capsules",
+    "link": "https://resurf.me",
+    "source": "Hacker News",
+    "published": "2025-12-08T11:37:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191124\">Comments</a>"
+  },
+  {
+    "title": "12 Days of Shell",
+    "link": "https://12days.cmdchallenge.com",
+    "source": "Hacker News",
+    "published": "2025-12-08T10:13:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46190577\">Comments</a>"
+  },
+  {
+    "title": "The fuck off contact page",
+    "link": "https://www.nicchan.me/blog/the-f-off-contact-page/",
+    "source": "Hacker News",
+    "published": "2025-12-08T08:57:19+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46189994\">Comments</a>"
   },
   {
     "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
@@ -22,14 +46,6 @@
     "published": "2025-12-08T07:36:45+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46189480\">Comments</a>"
-  },
-  {
-    "title": "Truemetrics (YC S23) Is Hiring",
-    "link": "https://www.ycombinator.com/companies/truemetrics/jobs/1EHTSyT-python-software-engineer-analystics-and-algorithms",
-    "source": "Hacker News",
-    "published": "2025-12-08T07:00:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46189258\">Comments</a>"
   },
   {
     "title": "Damn Small Linux",
@@ -72,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46183294\">Comments</a>"
   },
   {
-    "title": "Scala 3 slowed us down?",
-    "link": "https://kmaliszewski9.github.io/scala/2025/12/07/scala3-slowdown.html",
-    "source": "Hacker News",
-    "published": "2025-12-07T15:08:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182202\">Comments</a>"
-  },
-  {
     "title": "Dollar-stores overcharge customers while promising low prices",
     "link": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
     "source": "Hacker News",
@@ -94,14 +102,6 @@
     "published": "2025-12-07T12:57:59+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181371\">Comments</a>"
-  },
-  {
-    "title": "The Anatomy of a macOS App",
-    "link": "https://eclecticlight.co/2025/12/04/the-anatomy-of-a-macos-app/",
-    "source": "Hacker News",
-    "published": "2025-12-07T12:31:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181268\">Comments</a>"
   },
   {
     "title": "Google Titans architecture, helping AI have long-term memory",
@@ -120,12 +120,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46161328\">Comments</a>"
   },
   {
-    "title": "Uninitialized garbage on ia64 can be deadly (2004)",
-    "link": "https://devblogs.microsoft.com/oldnewthing/20040119-00/?p=41003",
+    "title": "Jujutsu Worktrees Are Convenient",
+    "link": "https://shaddy.dev/notes/jj-worktrees/",
     "source": "Hacker News",
-    "published": "2025-12-04T13:11:33+00:00",
+    "published": "2025-12-03T23:26:51+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147285\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46141731\">Comments</a>"
   },
   {
     "title": "Turtletoy",
@@ -134,6 +134,14 @@
     "published": "2025-12-03T18:57:08+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46138459\">Comments</a>"
+  },
+  {
+    "title": "Client-side GPU load balancing with Redis and Lua",
+    "link": "https://galileo.ai/blog/how-we-boosted-gpu-utilization-by-40-with-redis-lua",
+    "source": "Hacker News",
+    "published": "2025-12-02T17:39:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46123948\">Comments</a>"
   },
   {
     "title": "An Interactive Guide to the Fourier Transform",
@@ -150,13 +158,5 @@
     "published": "2025-11-30T07:18:15+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46094552\">Comments</a>"
-  },
-  {
-    "title": "Solving Rush Hour, the Puzzle (2018)",
-    "link": "https://www.michaelfogleman.com/rush/",
-    "source": "Hacker News",
-    "published": "2025-11-29T12:45:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087115\">Comments</a>"
   }
 ]
