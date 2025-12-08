@@ -1,19 +1,35 @@
 [
   {
+    "title": "Socialist ends by market means: A history",
+    "link": "https://lucasvance.github.io/2100/history/",
+    "source": "Hacker News",
+    "published": "2025-12-08T02:29:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46187645\">Comments</a>"
+  },
+  {
+    "title": "Spinlocks vs. Mutexes: When to Spin and When to Sleep",
+    "link": "https://howtech.substack.com/p/spinlocks-vs-mutexes-when-to-spin",
+    "source": "Hacker News",
+    "published": "2025-12-08T00:38:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46186997\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Cdecl-dump - represent C declarations visually",
+    "link": "https://github.com/bbu/cdecl-dump",
+    "source": "Hacker News",
+    "published": "2025-12-08T00:26:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46186917\">Comments</a>"
+  },
+  {
     "title": "Bag of words, have mercy on us",
     "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
     "source": "Hacker News",
     "published": "2025-12-07T22:31:22+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46185957\">Comments</a>"
-  },
-  {
-    "title": "How I block all online ads",
-    "link": "https://troubled.engineer/posts/no-ads/",
-    "source": "Hacker News",
-    "published": "2025-12-07T22:18:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46185816\">Comments</a>"
   },
   {
     "title": "Mechanical power generation using Earth's ambient radiation",
@@ -24,20 +40,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46185576\">Comments</a>"
   },
   {
-    "title": "Proxmox delivers its software-defined datacenter contender and VMware escape",
-    "link": "https://www.theregister.com/2025/12/05/proxmox_datacenter_manager_1_stable/",
+    "title": "Millions of Americans mess up their taxes, but a new law will help",
+    "link": "https://www.wakeuptopolitics.com/p/millions-of-americans-mess-up-their",
     "source": "Hacker News",
-    "published": "2025-12-07T21:26:35+00:00",
+    "published": "2025-12-07T19:03:16+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46185317\">Comments</a>"
-  },
-  {
-    "title": "Evidence from the One Laptop per Child program in rural Peru",
-    "link": "https://www.nber.org/papers/w34495",
-    "source": "Hacker News",
-    "published": "2025-12-07T19:56:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46184575\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46184128\">Comments</a>"
   },
   {
     "title": "The C++ standard for the F-35 Fighter Jet [video]",
@@ -56,6 +64,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46183294\">Comments</a>"
   },
   {
+    "title": "What the heck is going on at Apple?",
+    "link": "https://www.cnn.com/2025/12/06/tech/apple-tim-cook-leadership-changes",
+    "source": "Hacker News",
+    "published": "2025-12-07T16:54:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183088\">Comments</a>"
+  },
+  {
     "title": "Scala 3 slowed us down?",
     "link": "https://kmaliszewski9.github.io/scala/2025/12/07/scala3-slowdown.html",
     "source": "Hacker News",
@@ -64,28 +80,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46182202\">Comments</a>"
   },
   {
-    "title": "Nested Learning: A new ML paradigm for continual learning",
-    "link": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
-    "source": "Hacker News",
-    "published": "2025-12-07T14:47:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182031\">Comments</a>"
-  },
-  {
-    "title": "Dollar-stores overcharge cash-strapped customers while promising low prices",
+    "title": "Dollar-stores overcharge customers while promising low prices",
     "link": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
     "source": "Hacker News",
     "published": "2025-12-07T14:37:21+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181962\">Comments</a>"
-  },
-  {
-    "title": "The state of Schleswig-Holstein is consistently relying on open source",
-    "link": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
-    "source": "Hacker News",
-    "published": "2025-12-07T13:21:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181491\">Comments</a>"
   },
   {
     "title": "The Anatomy of a macOS App",
@@ -104,14 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181231\">Comments</a>"
   },
   {
-    "title": "Java Hello World, LLVM Edition",
-    "link": "https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html",
-    "source": "Hacker News",
-    "published": "2025-12-07T11:51:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181076\">Comments</a>"
-  },
-  {
     "title": "A two-person method to simulate die rolls (2023)",
     "link": "https://blog.42yeah.is/algorithm/2023/08/05/two-person-die.html",
     "source": "Hacker News",
@@ -120,28 +112,36 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46166161\">Comments</a>"
   },
   {
+    "title": "Uninitialized garbage on ia64 can be deadly (2004)",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20040119-00/?p=41003",
+    "source": "Hacker News",
+    "published": "2025-12-04T13:11:33+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147285\">Comments</a>"
+  },
+  {
+    "title": "Turtletoy",
+    "link": "https://turtletoy.net/",
+    "source": "Hacker News",
+    "published": "2025-12-03T18:57:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46138459\">Comments</a>"
+  },
+  {
+    "title": "Vibe Coding: Empowering and Imprisoning",
+    "link": "https://www.anildash.com/2025/12/02/vibe-coding-empowering-and-imprisoning/",
+    "source": "Hacker News",
+    "published": "2025-12-02T23:50:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46128548\">Comments</a>"
+  },
+  {
     "title": "Work disincentives hit the near-poor hardest (2022)",
     "link": "https://www.niskanencenter.org/work-disincentives-hit-the-near-poor-hardest-why-and-what-to-do-about-it/",
     "source": "Hacker News",
     "published": "2025-12-02T21:53:27+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46127412\">Comments</a>"
-  },
-  {
-    "title": "Minimum Viable Arduino Project: Aeropress Timer",
-    "link": "https://netninja.com/2025/12/01/minimum-viable-arduino-project-aeropress-timer/",
-    "source": "Hacker News",
-    "published": "2025-12-02T18:48:13+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46124903\">Comments</a>"
-  },
-  {
-    "title": "Context Plumbing (Interconnected)",
-    "link": "https://interconnected.org/home/2025/11/28/plumbing",
-    "source": "Hacker News",
-    "published": "2025-12-02T15:39:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46122302\">Comments</a>"
   },
   {
     "title": "An Interactive Guide to the Fourier Transform",
