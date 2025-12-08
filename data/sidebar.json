@@ -1,5 +1,45 @@
 [
   {
+    "title": "Microsoft is quietly walking back its diversity efforts",
+    "link": "https://www.theverge.com/tech/838079/microsoft-diversity-and-inclusion-changes-notepad",
+    "source": "Hacker News",
+    "published": "2025-12-08T14:57:13+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192919\">Comments</a>"
+  },
+  {
+    "title": "IBM to Acquire Confluent",
+    "link": "https://www.confluent.io/blog/ibm-to-acquire-confluent/",
+    "source": "Hacker News",
+    "published": "2025-12-08T13:43:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192130\">Comments</a>"
+  },
+  {
+    "title": "Alignment Is Capability",
+    "link": "https://www.off-policy.com/alignment-is-capability/",
+    "source": "Hacker News",
+    "published": "2025-12-08T13:23:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191933\">Comments</a>"
+  },
+  {
+    "title": "Colors of Growth",
+    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5804462",
+    "source": "Hacker News",
+    "published": "2025-12-08T13:13:12+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191814\">Comments</a>"
+  },
+  {
+    "title": "Flow: Actor-based language for C++, used by FoundationDB",
+    "link": "https://github.com/apple/foundationdb/tree/main/flow",
+    "source": "Hacker News",
+    "published": "2025-12-08T13:08:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191763\">Comments</a>"
+  },
+  {
     "title": "Nango (YC W23) is hiring back-end engineers and dev-rels (remote)",
     "link": "https://jobs.ashbyhq.com/Nango",
     "source": "Hacker News",
@@ -16,7 +56,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46191124\">Comments</a>"
   },
   {
-    "title": "12 Days of Shell",
+    "title": "Twelve Days of Shell",
     "link": "https://12days.cmdchallenge.com",
     "source": "Hacker News",
     "published": "2025-12-08T10:13:07+00:00",
@@ -24,15 +64,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46190577\">Comments</a>"
   },
   {
-    "title": "The fuck off contact page",
-    "link": "https://www.nicchan.me/blog/the-f-off-contact-page/",
-    "source": "Hacker News",
-    "published": "2025-12-08T08:57:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46189994\">Comments</a>"
-  },
-  {
-    "title": "GitHub Actions Has a Package Manager, and It Might Be the Worst",
+    "title": "GitHub Actions has a package manager, and it might be the worst",
     "link": "https://nesbitt.io/2025/12/06/github-actions-package-manager.html",
     "source": "Hacker News",
     "published": "2025-12-08T08:15:32+00:00",
@@ -64,22 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46185957\">Comments</a>"
   },
   {
-    "title": "Mechanical power generation using Earth's ambient radiation",
-    "link": "https://www.science.org/doi/10.1126/sciadv.adw6833",
-    "source": "Hacker News",
-    "published": "2025-12-07T21:55:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46185576\">Comments</a>"
-  },
-  {
-    "title": "The C++ standard for the F-35 Fighter Jet [video]",
-    "link": "https://www.youtube.com/watch?v=Gv4sDL9Ljww",
-    "source": "Hacker News",
-    "published": "2025-12-07T18:07:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183657\">Comments</a>"
-  },
-  {
     "title": "I failed to recreate the 1996 Space Jam website with Claude",
     "link": "https://j0nah.com/i-failed-to-recreate-the-1996-space-jam-website-with-claude/",
     "source": "Hacker News",
@@ -96,22 +112,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181962\">Comments</a>"
   },
   {
-    "title": "I wasted years of my life in crypto",
-    "link": "https://twitter.com/kenchangh/status/1994854381267947640",
-    "source": "Hacker News",
-    "published": "2025-12-07T12:57:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181371\">Comments</a>"
-  },
-  {
-    "title": "Google Titans architecture, helping AI have long-term memory",
-    "link": "https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/",
-    "source": "Hacker News",
-    "published": "2025-12-07T12:23:45+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181231\">Comments</a>"
-  },
-  {
     "title": "Emacs is my new window manager",
     "link": "https://www.howardism.org/Technical/Emacs/new-window-manager.html",
     "source": "Hacker News",
@@ -120,12 +120,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46161328\">Comments</a>"
   },
   {
-    "title": "Jujutsu Worktrees Are Convenient",
-    "link": "https://shaddy.dev/notes/jj-worktrees/",
+    "title": "The \"confident idiot\" problem: Why AI needs hard rules, not vibe checks",
+    "link": "https://steerlabs.substack.com/p/confident-idiot-problem",
     "source": "Hacker News",
-    "published": "2025-12-03T23:26:51+00:00",
+    "published": "2025-12-04T20:48:56+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46141731\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46152838\">Comments</a>"
+  },
+  {
+    "title": "C++ Enum Class and Error Codes, Part 3",
+    "link": "https://mropert.github.io/2025/12/03/enum_class_error_codes_part3/",
+    "source": "Hacker News",
+    "published": "2025-12-04T12:43:52+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147021\">Comments</a>"
   },
   {
     "title": "Turtletoy",
@@ -136,27 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46138459\">Comments</a>"
   },
   {
+    "title": "Optimize for momentum",
+    "link": "http://muratbuffalo.blogspot.com/2025/12/optimize-for-momentum.html",
+    "source": "Hacker News",
+    "published": "2025-12-02T22:04:54+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46127575\">Comments</a>"
+  },
+  {
     "title": "Client-side GPU load balancing with Redis and Lua",
     "link": "https://galileo.ai/blog/how-we-boosted-gpu-utilization-by-40-with-redis-lua",
     "source": "Hacker News",
     "published": "2025-12-02T17:39:07+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46123948\">Comments</a>"
-  },
-  {
-    "title": "An Interactive Guide to the Fourier Transform",
-    "link": "https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/",
-    "source": "Hacker News",
-    "published": "2025-12-02T06:50:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46118358\">Comments</a>"
-  },
-  {
-    "title": "Show HN: ReadyKit \u2013 Superfast SaaS Starter with Multi-Tenant Workspaces",
-    "link": "https://readykit.dev/",
-    "source": "Hacker News",
-    "published": "2025-11-30T07:18:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46094552\">Comments</a>"
   }
 ]
