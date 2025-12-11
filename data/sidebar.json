@@ -1,11 +1,27 @@
 [
   {
-    "title": "Apple Services Experiencing Outage",
-    "link": "https://www.apple.com/support/systemstatus/",
+    "title": "When would you ever want bubblesort? (2023)",
+    "link": "https://buttondown.com/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
     "source": "Hacker News",
-    "published": "2025-12-10T20:47:15+00:00",
+    "published": "2025-12-10T21:45:11+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46223577\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46224311\">Comments</a>"
+  },
+  {
+    "title": "Getting a Gemini API key is an exercise in frustration",
+    "link": "https://ankursethi.com/blog/gemini-api-key-frustration/",
+    "source": "Hacker News",
+    "published": "2025-12-10T20:29:12+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46223311\">Comments</a>"
+  },
+  {
+    "title": "The future of Terraform CDK",
+    "link": "https://github.com/hashicorp/terraform-cdk",
+    "source": "Hacker News",
+    "published": "2025-12-10T19:14:03+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46222165\">Comments</a>"
   },
   {
     "title": "Super Mario 64 for the PS1",
@@ -24,20 +40,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46221594\">Comments</a>"
   },
   {
-    "title": "Show HN: A 2-row, 16-key keyboard designed for smartphones",
-    "link": "https://k-keyboard.com/Why-QWERTY-mini",
-    "source": "Hacker News",
-    "published": "2025-12-10T17:49:28+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220902\">Comments</a>"
-  },
-  {
     "title": "Show HN: Automated license plate reader coverage in the USA",
     "link": "https://alpranalysis.com",
     "source": "Hacker News",
     "published": "2025-12-10T17:42:30+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46220794\">Comments</a>"
+  },
+  {
+    "title": "Is it a bubble?",
+    "link": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble",
+    "source": "Hacker News",
+    "published": "2025-12-10T17:30:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220640\">Comments</a>"
   },
   {
     "title": "Auto-grading decade-old Hacker News discussions with hindsight",
@@ -54,22 +70,6 @@
     "published": "2025-12-10T17:20:06+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46220488\">Comments</a>"
-  },
-  {
-    "title": "9 Mothers (YC X26) Is Hiring",
-    "link": "https://app.dover.com/jobs/9mothers",
-    "source": "Hacker News",
-    "published": "2025-12-10T17:00:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220211\">Comments</a>"
-  },
-  {
-    "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
-    "link": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
-    "source": "Hacker News",
-    "published": "2025-12-10T16:34:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46219853\">Comments</a>"
   },
   {
     "title": "Qwen3-Omni-Flash-2025-12-01\uff1aa next-generation native multimodal large model",
@@ -96,20 +96,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46219346\">Comments</a>"
   },
   {
-    "title": "RoboCrop: Teaching robots how to pick tomatoes",
-    "link": "https://phys.org/news/2025-12-robocrop-robots-tomatoes.html",
+    "title": "Common Lisp, ASDF, and Quicklisp: packaging explained",
+    "link": "https://cdegroot.com/programming/commonlisp/2025/11/26/cl-ql-asdf.html",
     "source": "Hacker News",
-    "published": "2025-12-10T15:29:14+00:00",
+    "published": "2025-12-10T11:10:58+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218782\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46216446\">Comments</a>"
   },
   {
-    "title": "Factor 0.101 now available",
-    "link": "https://re.factorcode.org/2025/12/factor-0-101-now-available.html",
+    "title": "Rubio stages font coup: Times New Roman ousts Calibri",
+    "link": "https://www.reuters.com/world/us/rubio-stages-font-coup-times-new-roman-ousts-calibri-2025-12-09/",
     "source": "Hacker News",
-    "published": "2025-12-10T11:33:31+00:00",
+    "published": "2025-12-10T00:08:34+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46216583\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46212438\">Comments</a>"
   },
   {
     "title": "Australia begins enforcing world-first teen social media ban",
@@ -120,20 +120,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46208348\">Comments</a>"
   },
   {
-    "title": "Why the Sanitizer API is just `setHTML()`",
-    "link": "https://frederikbraun.de/why-sethtml.html",
+    "title": "How Google Maps allocates survival across London's restaurants",
+    "link": "https://laurenleek.substack.com/p/how-google-maps-quietly-allocates",
     "source": "Hacker News",
-    "published": "2025-12-08T22:37:28+00:00",
+    "published": "2025-12-09T10:20:02+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46198606\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46203343\">Comments</a>"
   },
   {
-    "title": "Typewriter Plotters (2022)",
-    "link": "https://biosrhythm.com/?p=2143",
+    "title": "Sharding to Contain the Blast Radius of Data Breaches",
+    "link": "https://www.mimirsec.com/2025/12/05/sharding-to-contain-the-blast-radius-of-data-breaches/",
     "source": "Hacker News",
-    "published": "2025-12-05T15:34:49+00:00",
+    "published": "2025-12-08T16:31:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46162643\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194294\">Comments</a>"
+  },
+  {
+    "title": "Largest EV manufacturer is coming to the Western market",
+    "link": "https://newatlas.com/motorcycles/yadea-comes-to-europe/",
+    "source": "Hacker News",
+    "published": "2025-12-06T04:57:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170847\">Comments</a>"
   },
   {
     "title": "Scientists create ultra fast memory using light",
@@ -142,14 +150,6 @@
     "published": "2025-12-04T18:11:21+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46150797\">Comments</a>"
-  },
-  {
-    "title": "Super-Flat ASTs",
-    "link": "https://jhwlr.io/super-flat-ast/",
-    "source": "Hacker News",
-    "published": "2025-12-04T18:01:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46150677\">Comments</a>"
   },
   {
     "title": "Gundam is just the same as Jane Austen but happens to include giant mech suits",
