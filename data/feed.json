@@ -1,5 +1,16 @@
 [
   {
+    "title": "The Pulse #156: Beware of global configuration changes in large systems",
+    "summary": "Also: inadequate capacity planning at AWS, how the engineering team at Oxide uses LLMs, Linux now supports Rust in the kernel, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-156",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-12-11T17:33:00+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/551155c7-a431-4519-9798-6543509ab210_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-156"
+  },
+  {
     "title": "Frictionless: why great developer experience can help teams win in the \u2018AI age\u2019",
     "summary": "Exclusive excerpts from the newly-released book &#8216;Frictionless&#8217;, by Nicole Forsgren and Abi Noda.",
     "link": "https://newsletter.pragmaticengineer.com/p/frictionless-why-great-developer",

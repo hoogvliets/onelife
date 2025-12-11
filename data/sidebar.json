@@ -1,5 +1,45 @@
 [
   {
+    "title": "Days since last GitHub incident",
+    "link": "https://github-incidents.pages.dev/",
+    "source": "Hacker News",
+    "published": "2025-12-11T16:52:37+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46233798\">Comments</a>"
+  },
+  {
+    "title": "Things I want to say to my boss",
+    "link": "https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss",
+    "source": "Hacker News",
+    "published": "2025-12-11T16:35:48+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46233570\">Comments</a>"
+  },
+  {
+    "title": "Show HN: GPULlama3.java Llama Compilied to PTX/OpenCL Now Integrated in Quarkus",
+    "link": "https://news.ycombinator.com/item?id=46233009",
+    "source": "Hacker News",
+    "published": "2025-12-11T15:59:33+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46233009\">Comments</a>"
+  },
+  {
+    "title": "Launch HN: BrowserBook (YC F24) \u2013 IDE for deterministic browser automation",
+    "link": "https://news.ycombinator.com/item?id=46232434",
+    "source": "Hacker News",
+    "published": "2025-12-11T15:18:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232434\">Comments</a>"
+  },
+  {
+    "title": "An Orbital House of Cards: Frequent Megaconstellation Close Conjunctions",
+    "link": "https://arxiv.org/abs/2512.09643",
+    "source": "Hacker News",
+    "published": "2025-12-11T15:01:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232220\">Comments</a>"
+  },
+  {
     "title": "Disney making $1B investment in OpenAI, will allow characters on Sora AI",
     "link": "https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html",
     "source": "Hacker News",
@@ -8,28 +48,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231585\">Comments</a>"
   },
   {
-    "title": "The Walt Disney Company and OpenAI Partner on Sora",
-    "link": "https://openai.com/index/disney-sora-agreement/",
-    "source": "Hacker News",
-    "published": "2025-12-11T14:05:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231493\">Comments</a>"
-  },
-  {
     "title": "Craft software that makes people feel something",
     "link": "https://rapha.land/craft-software-that-makes-people-feel-something/",
     "source": "Hacker News",
     "published": "2025-12-11T13:45:08+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231274\">Comments</a>"
-  },
-  {
-    "title": "French supermarket's Christmas advert is worldwide hit (without AI) [video]",
-    "link": "https://www.youtube.com/watch?v=Na9VmMNJvsA",
-    "source": "Hacker News",
-    "published": "2025-12-11T13:35:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231187\">Comments</a>"
   },
   {
     "title": "A \u201cfrozen\u201d dictionary for Python",
@@ -64,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46223311\">Comments</a>"
   },
   {
-    "title": "Auto-grading decade-old Hacker News discussions with hindsight",
-    "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
-    "source": "Hacker News",
-    "published": "2025-12-10T17:23:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220540\">Comments</a>"
-  },
-  {
     "title": "Size of Life",
     "link": "https://neal.fun/size-of-life/",
     "source": "Hacker News",
@@ -96,20 +112,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46206591\">Comments</a>"
   },
   {
-    "title": "Show HN: WhatHappened \u2013 HN summaries, heatmaps, and contrarian picks",
-    "link": "https://www.whathappened.tech/",
+    "title": "Show HN: I've asked Claude to improve codebase quality 200 times",
+    "link": "https://gricha.dev/blog/the-highest-quality-codebase",
     "source": "Hacker News",
-    "published": "2025-12-08T19:55:08+00:00",
+    "published": "2025-12-08T21:33:09+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46196796\">Comments</a>"
-  },
-  {
-    "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
-    "link": "https://blog.cloudflare.com/python-workers-advancements/",
-    "source": "Hacker News",
-    "published": "2025-12-08T14:42:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192748\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46197930\">Comments</a>"
   },
   {
     "title": "How the Brain Parses Language",
@@ -120,28 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46191597\">Comments</a>"
   },
   {
+    "title": "Kicking Robots",
+    "link": "https://harpers.org/archive/2025/12/kicking-robots-james-vincent-humanoids/",
+    "source": "Hacker News",
+    "published": "2025-12-06T21:38:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46176800\">Comments</a>"
+  },
+  {
     "title": "Oldest attestation of Austronesian language: \u0110\u00f4ng Y\u00ean Ch\u00e2u inscription",
     "link": "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_Y%C3%AAn_Ch%C3%A2u_inscription",
     "source": "Hacker News",
     "published": "2025-12-05T23:42:15+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46168902\">Comments</a>"
-  },
-  {
-    "title": "How can I read the standard output of an already-running process?",
-    "link": "https://devblogs.microsoft.com/oldnewthing/20251204-00/?p=111841",
-    "source": "Hacker News",
-    "published": "2025-12-05T22:24:54+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46168180\">Comments</a>"
-  },
-  {
-    "title": "Booting Linux in QEMU and Writing PID 1 in Go to Illustrate Kernel as Program",
-    "link": "https://serversfor.dev/linux-inside-out/the-linux-kernel-is-just-a-program/",
-    "source": "Hacker News",
-    "published": "2025-12-04T14:25:38+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147987\">Comments</a>"
   },
   {
     "title": "Helldivers 2 on-disk size 85% reduction",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46131518\">Comments</a>"
   },
   {
-    "title": "Show HN: oeis-tui \u2013 A TUI to search OEIS integer sequences in the terminal",
-    "link": "https://github.com/hako/oeis-tui",
+    "title": "Giant of the Attic: On the Majesty of Alan Moore",
+    "link": "https://www.metropolitanreview.org/p/giant-of-the-attic",
     "source": "Hacker News",
-    "published": "2025-11-29T13:20:01+00:00",
+    "published": "2025-11-28T22:05:16+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087339\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46083184\">Comments</a>"
   }
 ]
