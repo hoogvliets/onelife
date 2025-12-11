@@ -683,7 +683,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Logic & Helpers ---
 
     function applyFilters() {
-        state.filteredFeed = state.activeFeed.filter(item => {
+        // When showing favorites, combine ALL feeds (tech + news + ball)
+        let feedSource = state.activeFeed;
+
+        if (state.filters.favoritesOnly) {
+            // Combine all feeds for favorites view
+            feedSource = [...state.tech, ...state.news, ...state.ball];
+        }
+
+        state.filteredFeed = feedSource.filter(item => {
             const id = item.id || item.link;
 
             // Filter by Source
@@ -703,6 +711,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
             return true;
         });
+
+        // Sort chronologically when showing favorites (newest first)
+        if (state.filters.favoritesOnly) {
+            state.filteredFeed.sort((a, b) => {
+                const dateA = new Date(a.published || 0);
+                const dateB = new Date(b.published || 0);
+                return dateB - dateA;
+            });
+        }
 
         renderFeed(false);
     }
