@@ -119,10 +119,34 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggle.addEventListener('click', toggleTheme);
 
         // Navigation event listeners
-        navHome.addEventListener('click', () => switchView('home'));
-        navTech.addEventListener('click', () => switchView('tech'));
-        navNews.addEventListener('click', () => switchView('news'));
-        navBall.addEventListener('click', () => switchView('ball'));
+        // Navigation event listeners
+        if (navHome) {
+            navHome.addEventListener('click', () => {
+                console.log('Home clicked');
+                switchView('home');
+            });
+        } else console.error('navHome not found');
+
+        if (navTech) {
+            navTech.addEventListener('click', () => {
+                console.log('Tech clicked');
+                switchView('tech');
+            });
+        } else console.error('navTech not found');
+
+        if (navNews) {
+            navNews.addEventListener('click', () => {
+                console.log('News clicked');
+                switchView('news');
+            });
+        } else console.error('navNews not found');
+
+        if (navBall) {
+            navBall.addEventListener('click', () => {
+                console.log('Ball clicked');
+                switchView('ball');
+            });
+        } else console.error('navBall not found');
 
         // Global scroll listener for side scrolling
         window.addEventListener('wheel', (e) => {
@@ -174,6 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
     function switchView(viewName) {
+        console.log('switchView called:', viewName);
         state.currentView = viewName;
 
         // Update active navigation link
@@ -196,7 +221,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 state.filters.source = 'all';
                 sourceFilter.value = 'all';
                 populateSourceFilter();
-                applyFilters();
+                applyFilters(); // Re-render feed when switching views
             } else {
                 sourceFilter.style.display = 'none';
             }
@@ -205,53 +230,275 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Data Fetching ---
 
-    async function fetchData() {
+    // --- RSS Feed Loading Functions ---
+
+    /**
+     * Load feed URLs from YAML config file
+     */
+    async function loadFeedConfig(configPath) {
         try {
-            const [techRes, newsRes, ballRes, sidebarRes] = await Promise.allSettled([
-                fetch('data/feed.json'),
-                fetch('data/news.json'),
-                fetch('data/ball.json'),
-                fetch('data/sidebar.json')
+            const response = await fetch(configPath);
+            if (!response.ok) {
+                console.error(`Failed to load config ${configPath}: HTTP ${response.status}`);
+                return [];
+            }
+            const yamlText = await response.text();
+            const config = jsyaml.load(yamlText);
+            return config.feeds || [];
+        } catch (error) {
+            console.error(`Failed to load config ${configPath}:`, error);
+            return [];
+        }
+    }
+
+    /**
+     * Get cached feed data from LocalStorage
+     */
+    function getCachedFeed(cacheKey, ttl) {
+        try {
+            const cached = localStorage.getItem(cacheKey);
+            if (!cached) return null;
+
+            const { data, timestamp } = JSON.parse(cached);
+            const age = Date.now() - timestamp;
+
+            if (age < ttl) {
+                console.log(`Cache hit: ${cacheKey} (age: ${Math.round(age / 1000)}s)`);
+                return data;
+            }
+
+            // Expired - remove from cache
+            localStorage.removeItem(cacheKey);
+            return null;
+        } catch (error) {
+            console.error('Cache read error:', error);
+            return null;
+        }
+    }
+
+    /**
+     * Save feed data to LocalStorage cache
+     */
+    function cacheFeed(cacheKey, data) {
+        try {
+            const cacheEntry = {
+                data,
+                timestamp: Date.now()
+            };
+            localStorage.setItem(cacheKey, JSON.stringify(cacheEntry));
+        } catch (error) {
+            // LocalStorage full - clear old feed cache entries
+            console.warn('LocalStorage full, clearing feed cache');
+            clearFeedCache();
+
+            // Try again after clearing
+            try {
+                const cacheEntry = { data, timestamp: Date.now() };
+                localStorage.setItem(cacheKey, JSON.stringify(cacheEntry));
+            } catch (retryError) {
+                console.error('Failed to cache feed even after clearing:', retryError);
+            }
+        }
+    }
+
+    /**
+     * Clear all feed cache entries from LocalStorage
+     */
+    function clearFeedCache() {
+        const keys = Object.keys(localStorage);
+        keys.forEach(key => {
+            if (key.startsWith('feed_')) {
+                localStorage.removeItem(key);
+            }
+        });
+        console.log('Feed cache cleared');
+    }
+
+    /**
+     * Fetch a single RSS feed with caching
+     */
+    async function fetchSingleFeed(feedUrl, cacheTTL = 1800000) {
+        // Check cache first (30 min default TTL)
+        const cacheKey = `feed_${feedUrl}`;
+        const cached = getCachedFeed(cacheKey, cacheTTL);
+        if (cached) return cached;
+
+        // Use corsproxy.io CORS proxy to bypass CORS restrictions
+        const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(feedUrl)}`;
+
+        // Fetch with timeout
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 20000); // 20s timeout
+
+            const response = await fetch(proxyUrl, {
+                signal: controller.signal
+            });
+            clearTimeout(timeoutId);
+
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}`);
+            }
+
+            const xmlText = await response.text();
+
+            // Parse RSS XML using rss-parser.js
+            const posts = parseRSSFeed(xmlText, feedUrl);
+
+            // Cache result
+            cacheFeed(cacheKey, posts);
+
+            console.log(`Fetched ${posts.length} posts from ${feedUrl}`);
+            return posts;
+
+        } catch (error) {
+            // Handle different error types
+            if (error.name === 'AbortError') {
+                console.warn(`Timeout fetching ${feedUrl} (proxy may be slow)`);
+            } else {
+                console.error(`Failed to fetch ${feedUrl}:`, error);
+            }
+
+            return []; // Graceful degradation
+        }
+    }
+
+    /**
+     * Deduplicate posts by link
+     */
+    function deduplicatePosts(posts) {
+        const seen = new Set();
+        return posts.filter(post => {
+            if (seen.has(post.link)) return false;
+            seen.add(post.link);
+            return true;
+        });
+    }
+
+    /**
+     * Fetch all feeds for a category and process them
+     */
+    async function fetchAllFeeds(feedUrls, category) {
+        if (!feedUrls || feedUrls.length === 0) {
+            console.log(`No feeds configured for ${category}`);
+            return [];
+        }
+
+        console.log(`Fetching ${feedUrls.length} feeds for ${category}...`);
+
+        // Fetch all feeds in parallel (Promise.allSettled for resilience)
+        const results = await Promise.allSettled(
+            feedUrls.map(url => fetchSingleFeed(url))
+        );
+
+        // Flatten results, filter out failed feeds
+        const allPosts = results
+            .filter(r => r.status === 'fulfilled')
+            .flatMap(r => r.value);
+
+        // Deduplicate by link
+        const uniquePosts = deduplicatePosts(allPosts);
+
+        // Sort by date (newest first)
+        uniquePosts.sort((a, b) => {
+            const dateA = new Date(a.published || 0);
+            const dateB = new Date(b.published || 0);
+            return dateB - dateA;
+        });
+
+        // Apply 60-day retention
+        const cutoffDate = new Date();
+        cutoffDate.setDate(cutoffDate.getDate() - 60);
+
+        const filtered = uniquePosts.filter(post => {
+            const postDate = new Date(post.published);
+            return postDate >= cutoffDate;
+        });
+
+        console.log(`${category}: ${filtered.length} posts after deduplication and retention`);
+        return filtered;
+    }
+
+    /**
+     * Fetch Hacker News feed
+     */
+    async function fetchHackerNews() {
+        const url = 'https://news.ycombinator.com/rss';
+
+        try {
+            const posts = await fetchSingleFeed(url);
+
+            // Sort by date (newest first)
+            posts.sort((a, b) => {
+                const dateA = new Date(a.published || 0);
+                const dateB = new Date(b.published || 0);
+                return dateB - dateA;
+            });
+
+            // HN RSS returns full content, limit to 20
+            return posts.slice(0, 20).map(post => ({
+                ...post,
+                source: 'Hacker News',
+                author: 'Hacker News'
+            }));
+        } catch (error) {
+            console.error('Failed to fetch Hacker News:', error);
+            return [];
+        }
+    }
+
+    // --- End RSS Feed Loading Functions ---
+
+    async function fetchData() {
+        console.log('fetchData called - loading configs and RSS feeds');
+
+        try {
+            // Load YAML configs in parallel
+            const [techFeeds, newsFeeds, ballFeeds] = await Promise.all([
+                loadFeedConfig('config/tech-feed.yaml'),
+                loadFeedConfig('config/news-feed.yaml'),
+                loadFeedConfig('config/ball-feed.yaml')
             ]);
 
-            if (techRes.status === 'fulfilled' && techRes.value.ok) {
-                try {
-                    state.tech = await techRes.value.json();
-                } catch (e) {
-                    console.error('Error parsing tech feed:', e);
-                }
-            }
+            console.log('Config loaded:', {
+                tech: techFeeds.length,
+                news: newsFeeds.length,
+                ball: ballFeeds.length
+            });
 
-            if (newsRes.status === 'fulfilled' && newsRes.value.ok) {
-                try {
-                    state.news = await newsRes.value.json();
-                } catch (e) {
-                    console.error('Error parsing news feed:', e);
-                }
-            }
+            // Fetch and parse RSS feeds in parallel
+            const [techPosts, newsPosts, ballPosts, sidebarPosts] = await Promise.all([
+                fetchAllFeeds(techFeeds, 'tech'),
+                fetchAllFeeds(newsFeeds, 'news'),
+                fetchAllFeeds(ballFeeds, 'ball'),
+                fetchHackerNews()
+            ]);
 
-            if (ballRes.status === 'fulfilled' && ballRes.value.ok) {
-                try {
-                    state.ball = await ballRes.value.json();
-                } catch (e) {
-                    console.error('Error parsing ball feed:', e);
-                }
-            }
+            // Update state
+            state.tech = techPosts;
+            state.news = newsPosts;
+            state.ball = ballPosts;
+            state.sidebar = sidebarPosts;
+
+            console.log('Feeds loaded:', {
+                tech: state.tech.length,
+                news: state.news.length,
+                ball: state.ball.length,
+                sidebar: state.sidebar.length
+            });
 
             // Initial render if we are on a feed view (though init starts at home)
             if (state.currentView !== 'home') {
+                console.log('Initial render for view:', state.currentView);
                 applyFilters();
                 populateSourceFilter();
+            } else {
+                console.log('Initial view is home, skipping feed render');
             }
 
-            if (sidebarRes.status === 'fulfilled' && sidebarRes.value.ok) {
-                try {
-                    state.sidebar = await sidebarRes.value.json();
-                    renderSidebar();
-                } catch (e) {
-                    console.error('Error parsing sidebar:', e);
-                }
-            }
+            // Render sidebar
+            renderSidebar();
+
         } catch (error) {
             console.error('Critical error fetching data:', error);
         }
@@ -260,12 +507,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Rendering ---
 
     function renderFeed(append = false) {
+        console.log('renderFeed called', { view: state.currentView, append });
         let container;
         if (state.currentView === 'news') container = newsFeedContainer;
         else if (state.currentView === 'ball') container = ballFeedContainer;
         else container = feedContainer;
 
-        if (!container) return;
+        if (!container) {
+            console.error('Container not found for view:', state.currentView);
+            return;
+        }
 
         if (!append) {
             container.innerHTML = '';
@@ -276,6 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const start = (state.page - 1) * state.itemsPerPage;
         const end = start + state.itemsPerPage;
         const itemsToRender = state.filteredFeed.slice(start, end);
+        console.log('Items to render:', itemsToRender.length);
 
         if (itemsToRender.length === 0 && !append) {
             container.innerHTML = '<div class="loading-indicator">No posts found.</div>';
@@ -768,155 +1020,155 @@ document.addEventListener('DOMContentLoaded', () => {
             let template, clone, widgetEl;
 
             try {
-            if (widget.type === 'bookmarks') {
-                clone = bookmarksTemplate.content.cloneNode(true);
-                widgetEl = clone.querySelector('.widget');
-                widgetEl.dataset.widgetId = widget.id;
+                if (widget.type === 'bookmarks') {
+                    clone = bookmarksTemplate.content.cloneNode(true);
+                    widgetEl = clone.querySelector('.widget');
+                    widgetEl.dataset.widgetId = widget.id;
 
-                clone.querySelector('.widget-title').textContent = widget.title;
+                    clone.querySelector('.widget-title').textContent = widget.title;
 
-                // Render links
-                const linksList = clone.querySelector('.bookmarks-list');
-                if (widget.links && widget.links.length > 0) {
-                    widget.links.forEach(link => {
-                        const linkClone = bookmarkLinkTemplate.content.cloneNode(true);
-                        const linkEl = linkClone.querySelector('.bookmark-link');
-                        linkEl.dataset.linkId = link.id;
+                    // Render links
+                    const linksList = clone.querySelector('.bookmarks-list');
+                    if (widget.links && widget.links.length > 0) {
+                        widget.links.forEach(link => {
+                            const linkClone = bookmarkLinkTemplate.content.cloneNode(true);
+                            const linkEl = linkClone.querySelector('.bookmark-link');
+                            linkEl.dataset.linkId = link.id;
 
-                        const anchor = linkClone.querySelector('.bookmark-link-text');
-                        anchor.textContent = link.title;
-                        anchor.href = link.url;
+                            const anchor = linkClone.querySelector('.bookmark-link-text');
+                            anchor.textContent = link.title;
+                            anchor.href = link.url;
 
-                        // Add favicon
-                        const favicon = linkClone.querySelector('.bookmark-favicon');
-                        const faviconUrl = getFaviconUrl(link.url);
-                        favicon.src = faviconUrl;
-                        favicon.onerror = () => {
-                            // Fallback to a generic link icon if favicon fails to load
-                            favicon.style.display = 'none';
-                        };
+                            // Add favicon
+                            const favicon = linkClone.querySelector('.bookmark-favicon');
+                            const faviconUrl = getFaviconUrl(link.url);
+                            favicon.src = faviconUrl;
+                            favicon.onerror = () => {
+                                // Fallback to a generic link icon if favicon fails to load
+                                favicon.style.display = 'none';
+                            };
 
-                        const deleteBtn = linkClone.querySelector('.link-delete-btn');
-                        deleteBtn.onclick = () => deleteLink(widget.id, link.id);
+                            const deleteBtn = linkClone.querySelector('.link-delete-btn');
+                            deleteBtn.onclick = () => deleteLink(widget.id, link.id);
 
-                        linksList.appendChild(linkClone);
-                    });
-                } else {
-                    linksList.innerHTML = '<div class="empty-links">No links yet</div>';
-                }
+                            linksList.appendChild(linkClone);
+                        });
+                    } else {
+                        linksList.innerHTML = '<div class="empty-links">No links yet</div>';
+                    }
 
-                // Add link button
-                const addLinkBtn = clone.querySelector('.add-link-btn');
-                addLinkBtn.onclick = () => openLinkModal(widget.id);
+                    // Add link button
+                    const addLinkBtn = clone.querySelector('.add-link-btn');
+                    addLinkBtn.onclick = () => openLinkModal(widget.id);
 
-                // Edit title button
-                const editTitleBtn = clone.querySelector('.edit-title-btn');
-                editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+                    // Edit title button
+                    const editTitleBtn = clone.querySelector('.edit-title-btn');
+                    editTitleBtn.onclick = () => editWidgetTitle(widget.id);
 
-            } else if (widget.type === 'launchpad') {
-                clone = launchpadTemplate.content.cloneNode(true);
-                widgetEl = clone.querySelector('.widget');
-                widgetEl.dataset.widgetId = widget.id;
+                } else if (widget.type === 'launchpad') {
+                    clone = launchpadTemplate.content.cloneNode(true);
+                    widgetEl = clone.querySelector('.widget');
+                    widgetEl.dataset.widgetId = widget.id;
 
-                clone.querySelector('.widget-title').textContent = widget.title;
+                    clone.querySelector('.widget-title').textContent = widget.title;
 
-                // Render sites in 3x3 grid
-                const launchpadGrid = clone.querySelector('.launchpad-grid');
-                if (widget.sites && widget.sites.length > 0) {
-                    widget.sites.forEach(site => {
-                        const siteClone = launchpadItemTemplate.content.cloneNode(true);
-                        const siteEl = siteClone.querySelector('.launchpad-item');
+                    // Render sites in 3x3 grid
+                    const launchpadGrid = clone.querySelector('.launchpad-grid');
+                    if (widget.sites && widget.sites.length > 0) {
+                        widget.sites.forEach(site => {
+                            const siteClone = launchpadItemTemplate.content.cloneNode(true);
+                            const siteEl = siteClone.querySelector('.launchpad-item');
 
-                        siteEl.href = site.url;
+                            siteEl.href = site.url;
 
-                        // Add large favicon
-                        const favicon = siteClone.querySelector('.launchpad-favicon');
-                        const faviconUrl = getLargeFaviconUrl(site.url);
-                        favicon.src = faviconUrl;
-                        favicon.alt = site.title;
-                        favicon.onerror = () => {
-                            // Fallback to default icon
-                            favicon.style.display = 'none';
-                            const iconDiv = siteClone.querySelector('.launchpad-icon');
-                            iconDiv.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            // Add large favicon
+                            const favicon = siteClone.querySelector('.launchpad-favicon');
+                            const faviconUrl = getLargeFaviconUrl(site.url);
+                            favicon.src = faviconUrl;
+                            favicon.alt = site.title;
+                            favicon.onerror = () => {
+                                // Fallback to default icon
+                                favicon.style.display = 'none';
+                                const iconDiv = siteClone.querySelector('.launchpad-icon');
+                                iconDiv.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
                                 <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
                             </svg>`;
-                        };
+                            };
 
-                        const deleteBtn = siteClone.querySelector('.launchpad-delete-btn');
-                        deleteBtn.onclick = (e) => {
-                            e.preventDefault();
-                            deleteLink(widget.id, site.id);
-                        };
+                            const deleteBtn = siteClone.querySelector('.launchpad-delete-btn');
+                            deleteBtn.onclick = (e) => {
+                                e.preventDefault();
+                                deleteLink(widget.id, site.id);
+                            };
 
-                        launchpadGrid.appendChild(siteClone);
+                            launchpadGrid.appendChild(siteClone);
+                        });
+                    } else {
+                        launchpadGrid.innerHTML = '<div class="empty-launchpad">No sites yet</div>';
+                    }
+
+                    // Add site button
+                    const addSiteBtn = clone.querySelector('.add-site-btn');
+                    addSiteBtn.onclick = () => openLinkModal(widget.id);
+
+                    // Edit title button
+                    const editTitleBtn2 = clone.querySelector('.edit-title-btn');
+                    editTitleBtn2.onclick = () => editWidgetTitle(widget.id);
+
+                } else if (widget.type === 'notes') {
+                    clone = notesTemplate.content.cloneNode(true);
+                    widgetEl = clone.querySelector('.widget');
+                    widgetEl.dataset.widgetId = widget.id;
+
+                    clone.querySelector('.widget-title').textContent = widget.title;
+
+                    const textarea = clone.querySelector('.notes-textarea');
+                    textarea.value = widget.notes || '';
+
+                    // Auto-resize textarea after it's added to DOM
+                    textarea.addEventListener('input', (e) => {
+                        updateNotes(widget.id, e.target.value);
+                        autoResizeTextarea(e.target);
                     });
-                } else {
-                    launchpadGrid.innerHTML = '<div class="empty-launchpad">No sites yet</div>';
-                }
 
-                // Add site button
-                const addSiteBtn = clone.querySelector('.add-site-btn');
-                addSiteBtn.onclick = () => openLinkModal(widget.id);
+                    // Edit title button
+                    const editTitleBtn = clone.querySelector('.edit-title-btn');
+                    editTitleBtn.onclick = () => editWidgetTitle(widget.id);
 
-                // Edit title button
-                const editTitleBtn2 = clone.querySelector('.edit-title-btn');
-                editTitleBtn2.onclick = () => editWidgetTitle(widget.id);
+                } else if (widget.type === 'weather') {
+                    clone = weatherTemplate.content.cloneNode(true);
+                    widgetEl = clone.querySelector('.widget');
+                    widgetEl.dataset.widgetId = widget.id;
 
-            } else if (widget.type === 'notes') {
-                clone = notesTemplate.content.cloneNode(true);
-                widgetEl = clone.querySelector('.widget');
-                widgetEl.dataset.widgetId = widget.id;
+                    clone.querySelector('.widget-title').textContent = widget.title;
 
-                clone.querySelector('.widget-title').textContent = widget.title;
+                    const locationEl = clone.querySelector('.weather-location');
+                    const currentTempEl = clone.querySelector('.weather-current-temp');
+                    const descriptionEl = clone.querySelector('.weather-description');
+                    const highLowEl = clone.querySelector('.weather-high-low');
+                    const hourlyForecast = clone.querySelector('.hourly-forecast');
 
-                const textarea = clone.querySelector('.notes-textarea');
-                textarea.value = widget.notes || '';
+                    if (widget.weather) {
+                        locationEl.textContent = widget.location;
+                        currentTempEl.textContent = `${Math.round(widget.weather.current.temp)}°`;
+                        descriptionEl.textContent = widget.weather.current.description || 'Clear';
+                        highLowEl.textContent = `H:${Math.round(widget.weather.daily.high)}° L:${Math.round(widget.weather.daily.low)}°`;
 
-                // Auto-resize textarea after it's added to DOM
-                textarea.addEventListener('input', (e) => {
-                    updateNotes(widget.id, e.target.value);
-                    autoResizeTextarea(e.target);
-                });
+                        // Render hourly forecast
+                        widget.weather.hourly.forEach(hour => {
+                            const hourClone = weatherHourlyTemplate.content.cloneNode(true);
+                            hourClone.querySelector('.hourly-time').textContent = hour.time;
+                            hourClone.querySelector('.hourly-temp').textContent = `${Math.round(hour.temp)}°`;
 
-                // Edit title button
-                const editTitleBtn = clone.querySelector('.edit-title-btn');
-                editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+                            // Weather icon based on weather code
+                            const iconEl = hourClone.querySelector('.hourly-icon');
+                            const code = hour.weathercode;
 
-            } else if (widget.type === 'weather') {
-                clone = weatherTemplate.content.cloneNode(true);
-                widgetEl = clone.querySelector('.widget');
-                widgetEl.dataset.widgetId = widget.id;
-
-                clone.querySelector('.widget-title').textContent = widget.title;
-
-                const locationEl = clone.querySelector('.weather-location');
-                const currentTempEl = clone.querySelector('.weather-current-temp');
-                const descriptionEl = clone.querySelector('.weather-description');
-                const highLowEl = clone.querySelector('.weather-high-low');
-                const hourlyForecast = clone.querySelector('.hourly-forecast');
-
-                if (widget.weather) {
-                    locationEl.textContent = widget.location;
-                    currentTempEl.textContent = `${Math.round(widget.weather.current.temp)}°`;
-                    descriptionEl.textContent = widget.weather.current.description || 'Clear';
-                    highLowEl.textContent = `H:${Math.round(widget.weather.daily.high)}° L:${Math.round(widget.weather.daily.low)}°`;
-
-                    // Render hourly forecast
-                    widget.weather.hourly.forEach(hour => {
-                        const hourClone = weatherHourlyTemplate.content.cloneNode(true);
-                        hourClone.querySelector('.hourly-time').textContent = hour.time;
-                        hourClone.querySelector('.hourly-temp').textContent = `${Math.round(hour.temp)}°`;
-
-                        // Weather icon based on weather code
-                        const iconEl = hourClone.querySelector('.hourly-icon');
-                        const code = hour.weathercode;
-
-                        // WMO Weather interpretation codes
-                        if (code === 0) {
-                            // Clear sky
-                            iconEl.innerHTML = `
+                            // WMO Weather interpretation codes
+                            if (code === 0) {
+                                // Clear sky
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <circle cx="12" cy="12" r="5"></circle>
                                     <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -929,28 +1181,28 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', 'Clear');
-                        } else if (code >= 1 && code <= 3) {
-                            // Partly cloudy / Cloudy
-                            iconEl.innerHTML = `
+                                iconEl.setAttribute('title', 'Clear');
+                            } else if (code >= 1 && code <= 3) {
+                                // Partly cloudy / Cloudy
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', code === 3 ? 'Overcast' : 'Partly Cloudy');
-                        } else if (code >= 45 && code <= 48) {
-                            // Fog
-                            iconEl.innerHTML = `
+                                iconEl.setAttribute('title', code === 3 ? 'Overcast' : 'Partly Cloudy');
+                            } else if (code >= 45 && code <= 48) {
+                                // Fog
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M9 19h6"></path>
                                     <path d="M9 15h10"></path>
                                     <path d="M5 11h14"></path>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', 'Foggy');
-                        } else if ((code >= 51 && code <= 67) || (code >= 80 && code <= 82)) {
-                            // Rain
-                            iconEl.innerHTML = `
+                                iconEl.setAttribute('title', 'Foggy');
+                            } else if ((code >= 51 && code <= 67) || (code >= 80 && code <= 82)) {
+                                // Rain
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="8" y1="19" x2="8" y2="21"></line>
                                     <line x1="8" y1="13" x2="8" y2="15"></line>
@@ -961,10 +1213,10 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"></path>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', `Rain ${hour.precipitation > 0 ? `(${hour.precipitation}mm)` : ''}`);
-                        } else if ((code >= 71 && code <= 77) || (code >= 85 && code <= 86)) {
-                            // Snow
-                            iconEl.innerHTML = `
+                                iconEl.setAttribute('title', `Rain ${hour.precipitation > 0 ? `(${hour.precipitation}mm)` : ''}`);
+                            } else if ((code >= 71 && code <= 77) || (code >= 85 && code <= 86)) {
+                                // Snow
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25"></path>
                                     <line x1="8" y1="16" x2="8" y2="16"></line>
@@ -975,94 +1227,94 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <line x1="16" y1="20" x2="16" y2="20"></line>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', 'Snow');
-                        } else if (code >= 95) {
-                            // Thunderstorm (95, 96, 99)
-                            iconEl.innerHTML = `
+                                iconEl.setAttribute('title', 'Snow');
+                            } else if (code >= 95) {
+                                // Thunderstorm (95, 96, 99)
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"></path>
                                     <polyline points="13 11 9 17 15 17 11 23"></polyline>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', 'Thunderstorm');
-                        } else {
-                            // Default to cloudy for any unhandled codes
-                            iconEl.innerHTML = `
+                                iconEl.setAttribute('title', 'Thunderstorm');
+                            } else {
+                                // Default to cloudy for any unhandled codes
+                                iconEl.innerHTML = `
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
                                 </svg>
                             `;
-                            iconEl.setAttribute('title', 'Cloudy');
-                        }
+                                iconEl.setAttribute('title', 'Cloudy');
+                            }
 
-                        hourlyForecast.appendChild(hourClone);
-                    });
-                } else {
-                    locationEl.textContent = widget.location || 'Loading...';
-                    currentTempEl.textContent = '--°';
-                    descriptionEl.textContent = 'Loading...';
-                    highLowEl.textContent = 'H:-- L:--';
+                            hourlyForecast.appendChild(hourClone);
+                        });
+                    } else {
+                        locationEl.textContent = widget.location || 'Loading...';
+                        currentTempEl.textContent = '--°';
+                        descriptionEl.textContent = 'Loading...';
+                        highLowEl.textContent = 'H:-- L:--';
+                    }
+
+                    // Edit location button
+                    const editLocationBtn = clone.querySelector('.edit-location-btn');
+                    editLocationBtn.onclick = () => editWeatherLocation(widget.id);
+
+                    // Edit title button
+                    const editTitleBtn = clone.querySelector('.edit-title-btn');
+                    editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+                } else if (widget.type === 'todo') {
+                    clone = todoTemplate.content.cloneNode(true);
+                    widgetEl = clone.querySelector('.widget');
+                    widgetEl.dataset.widgetId = widget.id;
+
+                    clone.querySelector('.widget-title').textContent = widget.title;
+
+                    const todoList = clone.querySelector('.todo-list');
+                    if (widget.todos && widget.todos.length > 0) {
+                        widget.todos.forEach(todo => {
+                            const todoClone = todoItemTemplate.content.cloneNode(true);
+
+                            const checkbox = todoClone.querySelector('.todo-checkbox');
+                            checkbox.checked = todo.completed;
+                            checkbox.onchange = () => toggleTodo(widget.id, todo.id);
+
+                            const text = todoClone.querySelector('.todo-text');
+                            text.textContent = todo.text;
+                            if (todo.completed) {
+                                text.style.textDecoration = 'line-through';
+                                text.style.opacity = '0.6';
+                            }
+
+                            const deleteBtn = todoClone.querySelector('.todo-delete-btn');
+                            deleteBtn.onclick = () => deleteTodo(widget.id, todo.id);
+
+                            todoList.appendChild(todoClone);
+                        });
+                    } else {
+                        todoList.innerHTML = '<div class="empty-todos">No tasks yet</div>';
+                    }
+
+                    const addTodoBtn = clone.querySelector('.add-todo-btn');
+                    addTodoBtn.onclick = () => addTodo(widget.id);
+
+                    const editTitleBtn3 = clone.querySelector('.edit-title-btn');
+                    editTitleBtn3.onclick = () => editWidgetTitle(widget.id);
                 }
 
-                // Edit location button
-                const editLocationBtn = clone.querySelector('.edit-location-btn');
-                editLocationBtn.onclick = () => editWeatherLocation(widget.id);
+                // Delete widget button
+                const deleteBtn = clone.querySelector('.delete-widget-btn');
+                deleteBtn.onclick = () => deleteWidget(widget.id);
 
-                // Edit title button
-                const editTitleBtn = clone.querySelector('.edit-title-btn');
-                editTitleBtn.onclick = () => editWidgetTitle(widget.id);
-            } else if (widget.type === 'todo') {
-                clone = todoTemplate.content.cloneNode(true);
-                widgetEl = clone.querySelector('.widget');
-                widgetEl.dataset.widgetId = widget.id;
-
-                clone.querySelector('.widget-title').textContent = widget.title;
-
-                const todoList = clone.querySelector('.todo-list');
-                if (widget.todos && widget.todos.length > 0) {
-                    widget.todos.forEach(todo => {
-                        const todoClone = todoItemTemplate.content.cloneNode(true);
-
-                        const checkbox = todoClone.querySelector('.todo-checkbox');
-                        checkbox.checked = todo.completed;
-                        checkbox.onchange = () => toggleTodo(widget.id, todo.id);
-
-                        const text = todoClone.querySelector('.todo-text');
-                        text.textContent = todo.text;
-                        if (todo.completed) {
-                            text.style.textDecoration = 'line-through';
-                            text.style.opacity = '0.6';
-                        }
-
-                        const deleteBtn = todoClone.querySelector('.todo-delete-btn');
-                        deleteBtn.onclick = () => deleteTodo(widget.id, todo.id);
-
-                        todoList.appendChild(todoClone);
-                    });
-                } else {
-                    todoList.innerHTML = '<div class="empty-todos">No tasks yet</div>';
+                // Drag and drop
+                if (widgetEl) {
+                    widgetEl.addEventListener('dragstart', handleDragStart);
+                    widgetEl.addEventListener('dragend', handleDragEnd);
+                    widgetEl.addEventListener('dragover', handleDragOver);
+                    widgetEl.addEventListener('drop', handleDrop);
                 }
 
-                const addTodoBtn = clone.querySelector('.add-todo-btn');
-                addTodoBtn.onclick = () => addTodo(widget.id);
-
-                const editTitleBtn3 = clone.querySelector('.edit-title-btn');
-                editTitleBtn3.onclick = () => editWidgetTitle(widget.id);
-            }
-
-            // Delete widget button
-            const deleteBtn = clone.querySelector('.delete-widget-btn');
-            deleteBtn.onclick = () => deleteWidget(widget.id);
-
-            // Drag and drop
-            if (widgetEl) {
-                widgetEl.addEventListener('dragstart', handleDragStart);
-                widgetEl.addEventListener('dragend', handleDragEnd);
-                widgetEl.addEventListener('dragover', handleDragOver);
-                widgetEl.addEventListener('drop', handleDrop);
-            }
-
-            widgetsGrid.appendChild(clone);
+                widgetsGrid.appendChild(clone);
             } catch (error) {
                 console.error('Error rendering widget:', widget.type, error);
             }
@@ -1580,26 +1832,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // Reset input so same file can be selected again
             e.target.value = '';
         });
-    }
-
-    // Navigation helper to switch to config view
-    function switchView(viewName) {
-        const views = document.querySelectorAll('.view-section');
-        views.forEach(v => v.classList.add('hidden'));
-
-        const targetView = document.getElementById(`view-${viewName}`);
-        if (targetView) {
-            targetView.classList.remove('hidden');
-        }
-
-        // Update nav buttons
-        const navButtons = document.querySelectorAll('.nav-item');
-        navButtons.forEach(btn => btn.classList.remove('active'));
-
-        const navBtn = document.getElementById(`nav-${viewName}`);
-        if (navBtn) {
-            navBtn.classList.add('active');
-        }
     }
 
 
