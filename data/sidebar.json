@@ -1,27 +1,83 @@
 [
   {
-    "title": "Days since last GitHub incident",
-    "link": "https://github-incidents.pages.dev/",
+    "title": "Almond (YC X25) Is Hiring SWEs and MechEs",
+    "link": "https://www.ycombinator.com/companies/almond-2/jobs",
     "source": "Hacker News",
-    "published": "2025-12-11T16:52:37+00:00",
+    "published": "2025-12-11T21:00:10+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46233798\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46237081\">Comments</a>"
   },
   {
-    "title": "Things I want to say to my boss",
-    "link": "https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss",
+    "title": "Denial of service and source code exposure in React Server Components",
+    "link": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
     "source": "Hacker News",
-    "published": "2025-12-11T16:35:48+00:00",
+    "published": "2025-12-11T20:46:46+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46233570\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236924\">Comments</a>"
   },
   {
-    "title": "Show HN: GPULlama3.java Llama Compilied to PTX/OpenCL Now Integrated in Quarkus",
-    "link": "https://news.ycombinator.com/item?id=46233009",
+    "title": "My productivity app is a never-ending .txt file (2022)",
+    "link": "https://jeffhuang.com/productivity_text_file/",
     "source": "Hacker News",
-    "published": "2025-12-11T15:59:33+00:00",
+    "published": "2025-12-11T19:30:58+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46233009\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236037\">Comments</a>"
+  },
+  {
+    "title": "An SVG is all you need",
+    "link": "https://jon.recoil.org/blog/2025/12/an-svg-is-all-you-need.html",
+    "source": "Hacker News",
+    "published": "2025-12-11T19:25:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46235959\">Comments</a>"
+  },
+  {
+    "title": "Going Through Snowden Documents, Part 1",
+    "link": "https://libroot.org/posts/going-through-snowden-documents-part-1/",
+    "source": "Hacker News",
+    "published": "2025-12-11T18:52:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46235412\">Comments</a>"
+  },
+  {
+    "title": "GPT-5.2",
+    "link": "https://openai.com/index/introducing-gpt-5-2/",
+    "source": "Hacker News",
+    "published": "2025-12-11T18:04:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46234788\">Comments</a>"
+  },
+  {
+    "title": "Litestream VFS",
+    "link": "https://fly.io/blog/litestream-vfs/",
+    "source": "Hacker News",
+    "published": "2025-12-11T17:59:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46234710\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Sim \u2013 Apache-2.0 n8n alternative",
+    "link": "https://github.com/simstudioai/sim",
+    "source": "Hacker News",
+    "published": "2025-12-11T17:20:11+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46234186\">Comments</a>"
+  },
+  {
+    "title": "Deprecate like you mean it",
+    "link": "https://entropicthoughts.com/deprecate-like-you-mean-it",
+    "source": "Hacker News",
+    "published": "2025-12-11T15:52:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232898\">Comments</a>"
+  },
+  {
+    "title": "iPhone Typos? It's Not Just You \u2013 The iOS Keyboard Is Broken [video]",
+    "link": "https://www.youtube.com/watch?v=hksVvXONrIo",
+    "source": "Hacker News",
+    "published": "2025-12-11T15:25:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232528\">Comments</a>"
   },
   {
     "title": "Launch HN: BrowserBook (YC F24) \u2013 IDE for deterministic browser automation",
@@ -40,12 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46232220\">Comments</a>"
   },
   {
-    "title": "Disney making $1B investment in OpenAI, will allow characters on Sora AI",
-    "link": "https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html",
+    "title": "The architecture of \"not bad\": Decoding the Chinese source code of the void",
+    "link": "https://suggger.substack.com/p/the-architecture-of-not-bad-decoding",
     "source": "Hacker News",
-    "published": "2025-12-11T14:12:14+00:00",
+    "published": "2025-12-11T14:21:14+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231585\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231709\">Comments</a>"
   },
   {
     "title": "Craft software that makes people feel something",
@@ -56,30 +112,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231274\">Comments</a>"
   },
   {
-    "title": "A \u201cfrozen\u201d dictionary for Python",
-    "link": "https://lwn.net/SubscriberLink/1047238/25c270b077849dc0/",
-    "source": "Hacker News",
-    "published": "2025-12-11T09:51:47+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46229467\">Comments</a>"
-  },
-  {
-    "title": "The Cost of a Closure in C",
-    "link": "https://thephd.dev/the-cost-of-a-closure-in-c-c2y",
-    "source": "Hacker News",
-    "published": "2025-12-11T07:21:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46228597\">Comments</a>"
-  },
-  {
-    "title": "Patterns.dev",
-    "link": "https://www.patterns.dev/",
-    "source": "Hacker News",
-    "published": "2025-12-11T01:18:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46226483\">Comments</a>"
-  },
-  {
     "title": "Getting a Gemini API key is an exercise in frustration",
     "link": "https://ankursethi.com/blog/gemini-api-key-frustration/",
     "source": "Hacker News",
@@ -88,20 +120,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46223311\">Comments</a>"
   },
   {
-    "title": "Size of Life",
-    "link": "https://neal.fun/size-of-life/",
+    "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+    "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
     "source": "Hacker News",
-    "published": "2025-12-10T16:02:57+00:00",
+    "published": "2025-12-10T17:23:53+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46219346\">Comments</a>"
-  },
-  {
-    "title": "Australia begins enforcing world-first teen social media ban",
-    "link": "https://www.reuters.com/legal/litigation/australia-social-media-ban-takes-effect-world-first-2025-12-09/",
-    "source": "Hacker News",
-    "published": "2025-12-09T18:12:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46208348\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220540\">Comments</a>"
   },
   {
     "title": "Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them",
@@ -112,7 +136,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46206591\">Comments</a>"
   },
   {
-    "title": "Show HN: I've asked Claude to improve codebase quality 200 times",
+    "title": "The highest quality codebase",
     "link": "https://gricha.dev/blog/the-highest-quality-codebase",
     "source": "Hacker News",
     "published": "2025-12-08T21:33:09+00:00",
@@ -120,43 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46197930\">Comments</a>"
   },
   {
-    "title": "How the Brain Parses Language",
-    "link": "https://www.quantamagazine.org/the-polyglot-neuroscientist-resolving-how-the-brain-parses-language-20251205/",
+    "title": "Golang optimizations for high\u2011volume services",
+    "link": "https://packagemain.tech/p/golang-optimizations-for-highvolume",
     "source": "Hacker News",
-    "published": "2025-12-08T12:46:50+00:00",
+    "published": "2025-12-08T11:49:40+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191597\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191207\">Comments</a>"
   },
   {
-    "title": "Kicking Robots",
-    "link": "https://harpers.org/archive/2025/12/kicking-robots-james-vincent-humanoids/",
+    "title": "Prove It All Night: With no fame or fortune, what keeps a band onstage? (1999)",
+    "link": "https://chicagoreader.com/news/prove-it-all-night/",
     "source": "Hacker News",
-    "published": "2025-12-06T21:38:43+00:00",
+    "published": "2025-12-02T21:36:22+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46176800\">Comments</a>"
-  },
-  {
-    "title": "Oldest attestation of Austronesian language: \u0110\u00f4ng Y\u00ean Ch\u00e2u inscription",
-    "link": "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_Y%C3%AAn_Ch%C3%A2u_inscription",
-    "source": "Hacker News",
-    "published": "2025-12-05T23:42:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46168902\">Comments</a>"
-  },
-  {
-    "title": "Helldivers 2 on-disk size 85% reduction",
-    "link": "https://store.steampowered.com/news/app/553850/view/491583942944621371",
-    "source": "Hacker News",
-    "published": "2025-12-03T08:08:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46131518\">Comments</a>"
-  },
-  {
-    "title": "Giant of the Attic: On the Majesty of Alan Moore",
-    "link": "https://www.metropolitanreview.org/p/giant-of-the-attic",
-    "source": "Hacker News",
-    "published": "2025-11-28T22:05:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46083184\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46127191\">Comments</a>"
   }
 ]
