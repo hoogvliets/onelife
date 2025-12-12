@@ -1,5 +1,29 @@
 [
   {
+    "title": "Nokia N900 Necromancy \u2013 giving a new life to a classic Linux smartphone",
+    "link": "https://yaky.dev/2025-12-11-nokia-n900-necromancy/",
+    "source": "Hacker News",
+    "published": "2025-12-12T00:04:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46239177\">Comments</a>"
+  },
+  {
+    "title": "Powder and stone, or, why medieval rulers loved castles",
+    "link": "https://1517.substack.com/p/powder-and-stone-or-why-medieval",
+    "source": "Hacker News",
+    "published": "2025-12-11T21:35:52+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46237501\">Comments</a>"
+  },
+  {
+    "title": "RFC 6677 DNS Transport over TCP \u2013 Implementation Requirements (2016)",
+    "link": "https://www.ietf.org/rfc/rfc7766.txt",
+    "source": "Hacker News",
+    "published": "2025-12-11T21:18:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46237304\">Comments</a>"
+  },
+  {
     "title": "Almond (YC X25) Is Hiring SWEs and MechEs",
     "link": "https://www.ycombinator.com/companies/almond-2/jobs",
     "source": "Hacker News",
@@ -16,7 +40,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46236924\">Comments</a>"
   },
   {
-    "title": "My productivity app is a never-ending .txt file (2022)",
+    "title": "UK House of Lords attempting to ban use of VPNs by anyone under 16",
+    "link": "https://alecmuffett.com/article/134925",
+    "source": "Hacker News",
+    "published": "2025-12-11T20:32:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236738\">Comments</a>"
+  },
+  {
+    "title": "My productivity app is a never-ending .txt file (2020)",
     "link": "https://jeffhuang.com/productivity_text_file/",
     "source": "Hacker News",
     "published": "2025-12-11T19:30:58+00:00",
@@ -32,12 +64,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46235959\">Comments</a>"
   },
   {
-    "title": "Going Through Snowden Documents, Part 1",
-    "link": "https://libroot.org/posts/going-through-snowden-documents-part-1/",
+    "title": "Rivian Unveils Custom Silicon, R2 Lidar Roadmap, and Universal Hands Free",
+    "link": "https://riviantrackr.com/news/rivian-unveils-custom-silicon-r2-lidar-roadmap-universal-hands-free-and-its-next-gen-autonomy-platform/",
     "source": "Hacker News",
-    "published": "2025-12-11T18:52:08+00:00",
+    "published": "2025-12-11T18:17:19+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46235412\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46234920\">Comments</a>"
+  },
+  {
+    "title": "Programmers and software developers lost the plot on naming their tools",
+    "link": "https://larr.net/p/namings.html",
+    "source": "Hacker News",
+    "published": "2025-12-11T18:06:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46234806\">Comments</a>"
   },
   {
     "title": "GPT-5.2",
@@ -64,44 +104,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46234186\">Comments</a>"
   },
   {
-    "title": "Deprecate like you mean it",
-    "link": "https://entropicthoughts.com/deprecate-like-you-mean-it",
-    "source": "Hacker News",
-    "published": "2025-12-11T15:52:30+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232898\">Comments</a>"
-  },
-  {
-    "title": "iPhone Typos? It's Not Just You \u2013 The iOS Keyboard Is Broken [video]",
-    "link": "https://www.youtube.com/watch?v=hksVvXONrIo",
-    "source": "Hacker News",
-    "published": "2025-12-11T15:25:43+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232528\">Comments</a>"
-  },
-  {
-    "title": "Launch HN: BrowserBook (YC F24) \u2013 IDE for deterministic browser automation",
-    "link": "https://news.ycombinator.com/item?id=46232434",
-    "source": "Hacker News",
-    "published": "2025-12-11T15:18:51+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232434\">Comments</a>"
-  },
-  {
-    "title": "An Orbital House of Cards: Frequent Megaconstellation Close Conjunctions",
-    "link": "https://arxiv.org/abs/2512.09643",
-    "source": "Hacker News",
-    "published": "2025-12-11T15:01:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46232220\">Comments</a>"
-  },
-  {
-    "title": "The architecture of \"not bad\": Decoding the Chinese source code of the void",
+    "title": "The architecture of \u201cnot bad\u201d: Decoding the Chinese source code of the void",
     "link": "https://suggger.substack.com/p/the-architecture-of-not-bad-decoding",
     "source": "Hacker News",
     "published": "2025-12-11T14:21:14+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231709\">Comments</a>"
+  },
+  {
+    "title": "The Walt Disney Company and OpenAI Partner on Sora",
+    "link": "https://openai.com/index/disney-sora-agreement/",
+    "source": "Hacker News",
+    "published": "2025-12-11T14:05:16+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231493\">Comments</a>"
   },
   {
     "title": "Craft software that makes people feel something",
@@ -112,12 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231274\">Comments</a>"
   },
   {
-    "title": "Getting a Gemini API key is an exercise in frustration",
-    "link": "https://ankursethi.com/blog/gemini-api-key-frustration/",
+    "title": "French supermarket's Christmas advert is worldwide hit (without AI) [video]",
+    "link": "https://www.youtube.com/watch?v=Na9VmMNJvsA",
     "source": "Hacker News",
-    "published": "2025-12-10T20:29:12+00:00",
+    "published": "2025-12-11T13:35:55+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46223311\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231187\">Comments</a>"
   },
   {
     "title": "Auto-grading decade-old Hacker News discussions with hindsight",
@@ -128,28 +144,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46220540\">Comments</a>"
   },
   {
-    "title": "Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them",
-    "link": "https://github.com/privacyshield-ai/privacy-firewall",
-    "source": "Hacker News",
-    "published": "2025-12-09T16:10:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46206591\">Comments</a>"
-  },
-  {
     "title": "The highest quality codebase",
     "link": "https://gricha.dev/blog/the-highest-quality-codebase",
     "source": "Hacker News",
     "published": "2025-12-08T21:33:09+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46197930\">Comments</a>"
-  },
-  {
-    "title": "Golang optimizations for high\u2011volume services",
-    "link": "https://packagemain.tech/p/golang-optimizations-for-highvolume",
-    "source": "Hacker News",
-    "published": "2025-12-08T11:49:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191207\">Comments</a>"
   },
   {
     "title": "Prove It All Night: With no fame or fortune, what keeps a band onstage? (1999)",
