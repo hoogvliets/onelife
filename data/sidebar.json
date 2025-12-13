@@ -1,5 +1,45 @@
 [
   {
+    "title": "Doxers Posing as Cops Are Tricking Big Tech Firms into Sharing People's Data",
+    "link": "https://www.wired.com/story/doxers-posing-as-cops-are-tricking-big-tech-firms-into-sharing-peoples-private-data/",
+    "source": "Hacker News",
+    "published": "2025-12-13T05:06:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46252171\">Comments</a>"
+  },
+  {
+    "title": "Apple has locked my Apple ID, and I have no recourse. A plea for help",
+    "link": "https://hey.paris/posts/appleid/",
+    "source": "Hacker News",
+    "published": "2025-12-13T04:55:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46252114\">Comments</a>"
+  },
+  {
+    "title": "Poor Johnny still won't encrypt",
+    "link": "https://bfswa.substack.com/p/poor-johnny-still-wont-encrypt",
+    "source": "Hacker News",
+    "published": "2025-12-13T04:21:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46251952\">Comments</a>"
+  },
+  {
+    "title": "1300 Still Images from the Animated Films of Hayao Miyazaki's Studio Ghibli (2023)",
+    "link": "https://www.ghibli.jp/info/013772/",
+    "source": "Hacker News",
+    "published": "2025-12-13T02:56:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46251582\">Comments</a>"
+  },
+  {
+    "title": "The Checkerboard",
+    "link": "https://99percentinvisible.org/episode/650-the-checkerboard/",
+    "source": "Hacker News",
+    "published": "2025-12-13T00:50:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46250862\">Comments</a>"
+  },
+  {
     "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
     "link": "https://simonwillison.net/2025/Dec/12/openai-skills/",
     "source": "Hacker News",
@@ -32,14 +72,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46249337\">Comments</a>"
   },
   {
-    "title": "Motion (YC W20) Is Hiring Senior Staff Front End Engineers",
-    "link": "https://jobs.ashbyhq.com/motion/715d9646-27d4-44f6-9229-61eb0380ae39",
-    "source": "Hacker News",
-    "published": "2025-12-12T21:00:54+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248892\">Comments</a>"
-  },
-  {
     "title": "GNU Unifont",
     "link": "https://unifoundry.com/unifont/index.html",
     "source": "Hacker News",
@@ -56,44 +88,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46248644\">Comments</a>"
   },
   {
-    "title": "Security issues with electronic invoices",
-    "link": "https://invoice.secvuln.info/",
-    "source": "Hacker News",
-    "published": "2025-12-12T20:28:41+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248470\">Comments</a>"
-  },
-  {
     "title": "Rats Play DOOM",
     "link": "https://ratsplaydoom.com/",
     "source": "Hacker News",
     "published": "2025-12-12T20:15:58+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46248323\">Comments</a>"
-  },
-  {
-    "title": "String theory inspires a brilliant, baffling new math proof",
-    "link": "https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/",
-    "source": "Hacker News",
-    "published": "2025-12-12T16:23:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46245622\">Comments</a>"
-  },
-  {
-    "title": "CM0 \u2013 A new Raspberry Pi you can't buy",
-    "link": "https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy",
-    "source": "Hacker News",
-    "published": "2025-12-12T15:19:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46244922\">Comments</a>"
-  },
-  {
-    "title": "SQLite JSON at full index speed using generated columns",
-    "link": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
-    "source": "Hacker News",
-    "published": "2025-12-12T13:25:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46243904\">Comments</a>"
   },
   {
     "title": "Sick of smart TVs? Here are your best options",
@@ -128,12 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46234734\">Comments</a>"
   },
   {
-    "title": "Pg_ClickHouse: A Postgres extension for querying ClickHouse",
-    "link": "https://clickhouse.com/blog/introducing-pg_clickhouse",
+    "title": "Gild Just One Lily",
+    "link": "https://www.smashingmagazine.com/2025/04/gild-just-one-lily/",
     "source": "Hacker News",
-    "published": "2025-12-10T17:14:39+00:00",
+    "published": "2025-12-08T13:51:30+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220411\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192212\">Comments</a>"
+  },
+  {
+    "title": "Slax: Live Pocket Linux",
+    "link": "https://www.slax.org/",
+    "source": "Hacker News",
+    "published": "2025-12-08T12:24:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191449\">Comments</a>"
   },
   {
     "title": "So What Should We Call This \u2013 A Grue Jay?",
@@ -142,14 +150,6 @@
     "published": "2025-12-07T18:11:25+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46183688\">Comments</a>"
-  },
-  {
-    "title": "Go is portable, until it isn't",
-    "link": "https://simpleobservability.com/blog/go-portable-until-isnt",
-    "source": "Hacker News",
-    "published": "2025-12-07T11:17:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46180911\">Comments</a>"
   },
   {
     "title": "Ferrari's Formula 1 Handovers: Handovers from Surgery to Intensive Care 2008;pdf",
