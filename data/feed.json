@@ -482,16 +482,5 @@
     "image": null,
     "tags": [],
     "id": "https://newsletter.pragmaticengineer.com/p/googles-engineering-culture"
-  },
-  {
-    "title": "The Pragmatic Engineer 2025 Survey: What\u2019s in your tech stack? Part 3",
-    "summary": "Which tools do software engineers use for observability, oncall tooling, feature flags, frontend & mobile work, and for developer tooling? Results from our survey, based on 3,000+ responses by readers",
-    "link": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-2025-survey-part-3",
-    "author": "Gergely Orosz",
-    "source": "The Pragmatic Engineer",
-    "published": "2025-10-14T14:59:35+00:00",
-    "image": "https://substack-post-media.s3.amazonaws.com/public/images/56adeefe-5dfe-4244-992e-c5f99fbf1a45_1464x1000.png",
-    "tags": [],
-    "id": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-2025-survey-part-3"
   }
 ]

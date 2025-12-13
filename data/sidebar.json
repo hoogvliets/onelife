@@ -1,11 +1,19 @@
 [
   {
-    "title": "Bookmark for CAD/2d/3D Useful links",
-    "link": "https://github.com/yogananda-muthaiah/SAP-CPQ/tree/main/Integrations/CAD-2d-3d",
+    "title": "AI is bringing old nuclear plants out of retirement",
+    "link": "https://www.wbur.org/hereandnow/2025/12/09/nuclear-power-ai",
     "source": "Hacker News",
-    "published": "2025-12-13T11:16:45+00:00",
+    "published": "2025-12-13T13:08:36+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46253763\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46254276\">Comments</a>"
+  },
+  {
+    "title": "We built another object storage",
+    "link": "https://fractalbits.com/blog/why-we-built-another-object-storage/",
+    "source": "Hacker News",
+    "published": "2025-12-13T12:29:19+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46254087\">Comments</a>"
   },
   {
     "title": "Computer Animator and Amiga fanatic Dick Van Dyke turns 100",
@@ -16,12 +24,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46252993\">Comments</a>"
   },
   {
-    "title": "1300 Still Images from the Animated Films of Hayao Miyazaki's Studio Ghibli (2023)",
-    "link": "https://www.ghibli.jp/info/013772/",
+    "title": "Apple has locked my Apple ID, and I have no recourse. A plea for help",
+    "link": "https://hey.paris/posts/appleid/",
     "source": "Hacker News",
-    "published": "2025-12-13T02:56:49+00:00",
+    "published": "2025-12-13T04:55:59+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46251582\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46252114\">Comments</a>"
   },
   {
     "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
@@ -30,14 +38,6 @@
     "published": "2025-12-12T23:30:19+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46250332\">Comments</a>"
-  },
-  {
-    "title": "50 years of proof assistants",
-    "link": "https://lawrencecpaulson.github.io//2025/12/05/History_of_Proof_Assistants.html",
-    "source": "Hacker News",
-    "published": "2025-12-12T23:26:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46250309\">Comments</a>"
   },
   {
     "title": "Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig",
@@ -88,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46241368\">Comments</a>"
   },
   {
-    "title": "Ensuring a National Policy Framework for Artificial Intelligence",
-    "link": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
-    "source": "Hacker News",
-    "published": "2025-12-11T23:56:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46239076\">Comments</a>"
-  },
-  {
     "title": "Show HN: I made a spreadsheet where formulas also update backwards",
     "link": "https://victorpoughon.github.io/bidicalc/",
     "source": "Hacker News",
@@ -112,20 +104,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46210044\">Comments</a>"
   },
   {
-    "title": "Optical Context Compression Is Just (Bad) Autoencoding",
-    "link": "https://arxiv.org/abs/2512.03643",
+    "title": "Obscuring P2P Nodes with Dandelion",
+    "link": "https://www.johndcook.com/blog/2025/12/08/dandelion/",
     "source": "Hacker News",
-    "published": "2025-12-09T07:33:17+00:00",
+    "published": "2025-12-08T16:27:29+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46202254\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194245\">Comments</a>"
   },
   {
-    "title": "Gild Just One Lily",
-    "link": "https://www.smashingmagazine.com/2025/04/gild-just-one-lily/",
+    "title": "How exchanges turn order books into distributed logs",
+    "link": "https://quant.engineering/exchange-order-book-distributed-logs.html",
     "source": "Hacker News",
-    "published": "2025-12-08T13:51:30+00:00",
+    "published": "2025-12-08T13:48:51+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192212\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192181\">Comments</a>"
   },
   {
     "title": "A 'toaster with a lens': The story behind the first handheld digital camera",
@@ -136,15 +128,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46191734\">Comments</a>"
   },
   {
-    "title": "Go is portable, until it isn't",
-    "link": "https://simpleobservability.com/blog/go-portable-until-isnt",
+    "title": "Java FFM zero-copy transport using io_uring",
+    "link": "https://www.mvp.express/",
     "source": "Hacker News",
-    "published": "2025-12-07T11:17:42+00:00",
+    "published": "2025-12-07T15:19:25+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46180911\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182307\">Comments</a>"
   },
   {
-    "title": "Photographer Built a Medium-Format Rangefinder, and So Can You",
+    "title": "Photographer built a medium-format rangefinder, and so can you",
     "link": "https://petapixel.com/2025/12/06/this-photographer-built-an-awesome-medium-format-rangefinder-and-so-can-you/",
     "source": "Hacker News",
     "published": "2025-12-06T22:29:29+00:00",
@@ -152,7 +144,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46177160\">Comments</a>"
   },
   {
-    "title": "Ferrari's Formula 1 Handovers: Handovers from Surgery to Intensive Care 2008;pdf",
+    "title": "Will West Coast Jazz Get Some Respect?",
+    "link": "https://www.honest-broker.com/p/will-west-coast-jazz-finally-get",
+    "source": "Hacker News",
+    "published": "2025-12-06T21:06:46+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46176592\">Comments</a>"
+  },
+  {
+    "title": "Formula One Handovers and Handovers From Surgery to Intensive Care (2008) [pdf]",
     "link": "https://gwern.net/doc/technology/2008-sower.pdf",
     "source": "Hacker News",
     "published": "2025-12-06T19:21:50+00:00",
