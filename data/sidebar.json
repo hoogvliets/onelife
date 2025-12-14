@@ -1,5 +1,45 @@
 [
   {
+    "title": "Closures as Win32 Window Procedures",
+    "link": "https://nullprogram.com/blog/2025/12/12/",
+    "source": "Hacker News",
+    "published": "2025-12-13T23:39:48+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46259334\">Comments</a>"
+  },
+  {
+    "title": "Linux Sandboxes and Fil-C",
+    "link": "https://fil-c.org/seccomp",
+    "source": "Hacker News",
+    "published": "2025-12-13T22:58:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46259064\">Comments</a>"
+  },
+  {
+    "title": "Flat-pack washing machine spins a fairer future",
+    "link": "https://www.positive.news/society/flat-pack-washing-machine-spins-a-fairer-future/",
+    "source": "Hacker News",
+    "published": "2025-12-13T22:38:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46258906\">Comments</a>"
+  },
+  {
+    "title": "Some surprising things about DuckDuckGo",
+    "link": "https://gabrielweinberg.com/p/some-surprising-things-about-duckduckgo",
+    "source": "Hacker News",
+    "published": "2025-12-13T21:57:28+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46258529\">Comments</a>"
+  },
+  {
+    "title": "Recovering Anthony Bourdain's (really) lost Li.st's",
+    "link": "https://sandyuraz.com/blogs/bourdain/",
+    "source": "Hacker News",
+    "published": "2025-12-13T21:18:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46258163\">Comments</a>"
+  },
+  {
     "title": "Want to sway an election? Here\u2019s how much fake online accounts cost",
     "link": "https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost",
     "source": "Hacker News",
@@ -8,7 +48,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46257871\">Comments</a>"
   },
   {
-    "title": "I Fed 24 Years of My Blog Posts to a Markov Model",
+    "title": "Why Twilio Segment moved from microservices back to a monolith",
+    "link": "https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices",
+    "source": "Hacker News",
+    "published": "2025-12-13T20:30:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46257714\">Comments</a>"
+  },
+  {
+    "title": "I fed 24 years of my blog posts to a Markov model",
     "link": "https://susam.net/fed-24-years-of-posts-to-markov-model.html",
     "source": "Hacker News",
     "published": "2025-12-13T20:19:53+00:00",
@@ -16,28 +64,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46257607\">Comments</a>"
   },
   {
-    "title": "Ask HN: How do you handle release notes for multiple audiences?",
-    "link": "https://news.ycombinator.com/item?id=46257486",
+    "title": "The Rise of Computer Games, Part I: Adventure",
+    "link": "https://technicshistory.com/2025/12/13/the-rise-of-computer-games-part-i-adventure/",
     "source": "Hacker News",
-    "published": "2025-12-13T20:04:26+00:00",
+    "published": "2025-12-13T20:19:10+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46257486\">Comments</a>"
-  },
-  {
-    "title": "What is a build system, anyway?",
-    "link": "https://jyn.dev/what-is-a-build-system-anyway/",
-    "source": "Hacker News",
-    "published": "2025-12-13T19:58:32+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46257442\">Comments</a>"
-  },
-  {
-    "title": "We Lost Something: 1970s REPLs Were Better Than Modern Development Environments",
-    "link": "https://programmingsimplicity.substack.com/p/we-lost-something-1970s-repls-were",
-    "source": "Hacker News",
-    "published": "2025-12-13T19:54:51+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46257410\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46257599\">Comments</a>"
   },
   {
     "title": "VPN location claims don't match real traffic exits",
@@ -48,28 +80,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46257339\">Comments</a>"
   },
   {
-    "title": "Dick Van Dyke turns 100",
-    "link": "https://www.theguardian.com/film/2025/dec/13/dick-van-dyke-centenarian-100-mary-poppins-chitty-chitty-bang-bang",
-    "source": "Hacker News",
-    "published": "2025-12-13T18:58:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46256954\">Comments</a>"
-  },
-  {
-    "title": "Former Apple, Google designer: \"Are we stuck with the same Desktop UX forever?\" [video]",
+    "title": "Are we stuck with the same Desktop UX forever? [video]",
     "link": "https://www.youtube.com/watch?v=1fZTOjd_bOQ",
     "source": "Hacker News",
     "published": "2025-12-13T18:39:53+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46256834\">Comments</a>"
-  },
-  {
-    "title": "Analysis finds anytime electricity from solar available as battery costs plummet",
-    "link": "https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/",
-    "source": "Hacker News",
-    "published": "2025-12-13T17:32:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46256249\">Comments</a>"
   },
   {
     "title": "EasyPost (YC S13) Is Hiring",
@@ -96,22 +112,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46255285\">Comments</a>"
   },
   {
-    "title": "A Lisp Interpreter Implemented in Conway's Game of Life (2021)",
-    "link": "https://woodrush.github.io/blog/posts/2022-01-12-lisp-in-life.html",
-    "source": "Hacker News",
-    "published": "2025-12-13T03:06:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46251620\">Comments</a>"
-  },
-  {
-    "title": "What is the nicest thing a stranger has ever done for you?",
-    "link": "https://louplummer.lol/nice-stranger/",
-    "source": "Hacker News",
-    "published": "2025-12-11T19:28:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236001\">Comments</a>"
-  },
-  {
     "title": "Useful patterns for building HTML tools",
     "link": "https://simonwillison.net/2025/Dec/10/html-tools/",
     "source": "Hacker News",
@@ -120,12 +120,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46223882\">Comments</a>"
   },
   {
-    "title": "Researchers seeking better measures of cognitive fatigue",
-    "link": "https://www.nature.com/articles/d41586-025-03974-w",
+    "title": "Cat Gap",
+    "link": "https://en.wikipedia.org/wiki/Cat_gap",
     "source": "Hacker News",
-    "published": "2025-12-10T19:13:49+00:00",
+    "published": "2025-12-10T04:09:04+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46222162\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46213985\">Comments</a>"
   },
   {
     "title": "Go Proposal: Secret Mode",
@@ -136,20 +136,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46210705\">Comments</a>"
   },
   {
-    "title": "Java FFM zero-copy transport using io_uring",
-    "link": "https://www.mvp.express/",
+    "title": "From Azure Functions to FreeBSD",
+    "link": "https://jmmv.dev/2025/12/from-azure-functions-to-freebsd.html",
     "source": "Hacker News",
-    "published": "2025-12-07T15:19:25+00:00",
+    "published": "2025-12-08T08:02:08+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182307\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46189616\">Comments</a>"
   },
   {
-    "title": "Photographer built a medium-format rangefinder",
-    "link": "https://petapixel.com/2025/12/06/this-photographer-built-an-awesome-medium-format-rangefinder-and-so-can-you/",
+    "title": "TigerBeetle as a File Storage",
+    "link": "https://aivarsk.com/2025/12/07/tigerbeetle-blob-storage/",
     "source": "Hacker News",
-    "published": "2025-12-06T22:29:29+00:00",
+    "published": "2025-12-07T18:51:20+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46177160\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46184030\">Comments</a>"
   },
   {
     "title": "Cryptids",
